@@ -3,8 +3,8 @@
 body {
 	background-color: #e8e1da;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 0.8125em;
-	line-height: 1.3846em;
+	font-size: 13px;
+	line-height: 18px;
 	color: #333333;
 	
 }
@@ -20,22 +20,30 @@ a:hover {
 }
 
 p {
-	line-height: 1.4615em;
-	margin-bottom: 1.4615em;
+	margin-bottom: 20px;
 }
 
-h1 {
+h1, h1 a {
 	color: #272625;
-	font: 300 2em 'Open Sans Condensed', sans-serif;
-	
+	font: 300 26px 'Open Sans Condensed', sans-serif;	
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color: #61605f;
 }
 
 .media-block h1 {
 	color: #C00;
-	font: 300 2em/1.2em 'Open Sans Condensed', sans-serif;
+	font: 300 26px/16px 'Open Sans Condensed', sans-serif;
 	border-bottom: 1px solid #888;
 	width: 100%;
 	margin-bottom: 10px;
+}
+
+.media-block h1 a {
+	text-decoration: none;
+	color: #C00;
 }
 
 h2 {
@@ -45,7 +53,7 @@ h2 {
 
 em {
 	font-style: italic;
-	font-size: 0.8462em;
+	font-size: 11px;
 	color: #7F7F7F;
 }
 
@@ -453,7 +461,7 @@ textarea {
 	max-height: 150px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
-	line-height: 1.3846em;
+	line-height: 18px;
 	color: #333333;
 }
 
@@ -996,7 +1004,7 @@ form span{
             width: 940px;
         }
         .col {
-            border-left-width:12px;
+            border-left-width:18px;
 /*        	padding:0 10px;*/
         }
         
