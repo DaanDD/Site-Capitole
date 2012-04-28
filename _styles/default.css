@@ -241,7 +241,11 @@ header {
 	width:  100%;
 }
 
-
+#newsfeed > div {
+	background: #FFF;
+	padding: 10px 20px;
+	border-top: 5px solid #C00;
+}
 
 #newsfeed p {
 	float: left;
