@@ -1,7 +1,7 @@
 /* @group Standard Styles */
 
 body {
-	background-color: #e8e1da;
+	background: #e8e1da url('_assets/_images/bg.png');
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -36,7 +36,7 @@ h1 a:hover {
 
 .media-block h1 {
 	color: #C00;
-	font: 300 26px/16px 'Open Sans Condensed', sans-serif;
+	font: 300 26px/28px 'Open Sans Condensed', sans-serif;
 	border-bottom: 1px solid #888;
 	width: 100%;
 	margin-bottom: 10px;
@@ -48,8 +48,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 700 18px/18px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
-	margin-bottom: -2px;
+	font: 700 18px/17px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
 }
 
 em {
