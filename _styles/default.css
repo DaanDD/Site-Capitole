@@ -42,7 +42,11 @@ h1 a:hover {
 	margin-bottom: 10px;
 }
 
-.media-block h1 a {
+#newsfeed h1 a {
+	color: #C00;
+}
+
+.media-block h1 a{
 	text-decoration: none;
 	color: #C00;
 }
@@ -132,8 +136,8 @@ header {
 
 .icon-what {
 	position: relative;
-	width: 146px;
-	height: 146px;
+	width: 120px;
+	height: 120px;
 	display: block;
 	margin: 0 auto;	
 	z-index: 2;
@@ -149,12 +153,12 @@ header {
 }
 
 .icon-what .inner {
-	width: 126px;
-	height: 126px;
+	width: 90px;
+	height: 90px;
 	top: 50%;
 	left: 50%;
-	margin-left: -63px;
-	margin-top: -63px;
+	margin-left: -45px;
+	margin-top: -45px;
 	position: absolute;
 	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
@@ -163,21 +167,21 @@ header {
 
 .icon-what .outer {
 	background: #aea9a1;
-	width: 146px;
-	height: 146px;
+	width: 110px;
+	height: 110px;
 	top: 50%;
 	left: 50%;
-	margin-left: -73px;
-	margin-top: -73px;
+	margin-left: -55px;
+	margin-top: -55px;
 	position: absolute;
 }
 
 .vraagteken .inner {
-	background: #FFF url('_assets/_images/vraagteken.png') no-repeat 44px center;
+	background: #FFF url('_assets/_images/vraagteken.png') no-repeat 32px center;
 }
 
 .afspeelteken .inner {
-	background: #FFF url('_assets/_images/afspeelteken.png') no-repeat 38px center;
+	background: #FFF url('_assets/_images/afspeelteken.png') no-repeat 28px center;
 }
 
 .kaart .inner {
@@ -186,12 +190,10 @@ header {
 
 .kaart .overflow {
 	background: url('_assets/_images/kaart.png') no-repeat center center;
-	width: 126px;
-	height: 176px;
-	top: 22px;
-	left: 73px;
-	margin-left: -63px;
-	margin-top: -63px;
+	width: 90px;
+	height: 126px;
+	top: -22px;
+	left: 15px;
 	position: absolute;
 	
 }
@@ -204,7 +206,7 @@ header {
 
 .home-circles h1 {
 	text-align: center;
-	margin-top: 12px;
+	margin-top: 6px;
 }
 
 
