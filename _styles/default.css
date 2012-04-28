@@ -1,7 +1,7 @@
 /* @group Standard Styles */
 
 body {
-	background-color: #DBD3CB;
+	background-color: #e8e1da;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 0.8125em;
 	line-height: 1.3846em;
@@ -104,7 +104,7 @@ header {
 }
 
 #capitole-header {
-	height: 433px;
+	height: 398px;
 	background: url('_assets/_images/header940.jpg') no-repeat center center;
 	margin-top: -42px;
 	position: relative;
@@ -113,10 +113,10 @@ header {
 
 #headerafter {
 	display: block;
-	height: 55px;
+	height: 30px;
 	width: 100%;
-	background: #DBD3CB url('_assets/_images/headerafter.png') repeat-x top center;
-	margin-top: -52px;
+	background: #e8e1da url('_assets/_images/headerafter.png') repeat-x top center;
+	margin-top: -72px;
 	margin-bottom: 16px;
 	position: relative;
 	z-index: 1;
@@ -202,6 +202,12 @@ header {
 	background: url('../content/images/intro.jpg') no-repeat center center;
 	width: 442px;
 	height: 251px;
+}
+
+.header-row {
+	padding-top: 20px;
+	border: 1px solid #EEE;
+	background: #DBD3CB;
 }
 
 
