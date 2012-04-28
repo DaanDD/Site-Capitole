@@ -25,7 +25,8 @@ p {
 
 h1, h1 a {
 	color: #272625;
-	font: 300 26px 'Open Sans Condensed', sans-serif;	
+	font: 300 26px 'Open Sans Condensed', sans-serif;
+	line-height: 32px;
 }
 
 h1 a:hover {
@@ -47,7 +48,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 700 20px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	font: 700 18px/18px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
 	margin-bottom: -2px;
 }
 
@@ -216,8 +217,11 @@ header {
 
 .header-row {
 	padding-top: 20px;
-	border: 1px solid #EEE;
-	background: #DBD3CB;
+	border-top: 1px solid #EEE;
+	background: #DBD3CB url('_assets/_images/bg-dark.png');
+	-moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -228,6 +232,10 @@ header {
 	width: 250px;
 	height: 82px;
 	overflow: hidden;
+}
+
+#newsfeed h1 {
+	margin-bottom: 5px;
 }
 
 #newsfeed #img-news{
@@ -265,6 +273,10 @@ header {
 	content: "";
     display: table;
     clear: both;
+}
+
+#gallery {
+	margin-top: 15px;
 }
 
 .blueberry { 
