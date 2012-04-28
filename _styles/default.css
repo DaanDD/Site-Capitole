@@ -1,0 +1,1257 @@
+/* @group Standard Styles */
+
+body {
+	background-color: #DBD3CB;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 0.8125em;
+	line-height: 1.3846em;
+	color: #333333;
+	
+}
+
+a {
+	color: #C00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #B00;
+	text-decoration: underline;
+}
+
+p {
+	line-height: 1.4615em;
+	margin-bottom: 1.4615em;
+}
+
+h1 {
+	color: #424140;
+	font: 300 2em 'Open Sans Condensed', sans-serif;
+	
+}
+
+.media-block h1 {
+	color: #C00;
+	font: 300 2em/1.2em 'Open Sans Condensed', sans-serif;
+	border-bottom: 1px solid #888;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font: 700 20px 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+	margin-bottom: -2px;
+}
+
+em {
+	font-style: italic;
+	font-size: 0.8462em;
+	color: #7F7F7F;
+}
+
+.row:before, .row:after, .media-block:before, .media-block:after {
+    content: "";
+    display: table;
+}
+.row:after, .media-block:after {
+    clear: both;
+}
+
+.media-block {
+	background: #FFF;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+	padding: 10px 20px;
+}
+
+.row > [class*="col"]:first-child,
+.media-block > [class*="col"]:first-of-type {
+	border-left: 0 none;
+}
+
+.img {
+	background-color: #FFF;
+	border: 1px solid #888;
+	padding: 3px;
+	-moz-box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.15);
+}
+
+#footer {
+	background: #333;
+	color: #777;
+	text-align: center;
+	padding: 7px 0 10px 0;
+	-moz-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.7);
+	-webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+#footer a {
+	color: #CCC;
+}
+
+/* @end */
+
+/* @group Home Page */
+
+header {
+	background: #333 url('_assets/_images/headerbg.png') center top;
+}
+
+#capitole-header {
+	height: 433px;
+	background: url('_assets/_images/header940.jpg') no-repeat center center;
+	margin-top: -42px;
+	position: relative;
+	z-index: 2;
+}
+
+#headerafter {
+	display: block;
+	height: 55px;
+	width: 100%;
+	background: #DBD3CB url('_assets/_images/headerafter.png') repeat-x top center;
+	margin-top: -52px;
+	margin-bottom: 16px;
+	position: relative;
+	z-index: 1;
+}
+
+.icon-what {
+	position: relative;
+	width: 146px;
+	height: 146px;
+	display: block;
+	margin: 0 auto;	
+}
+
+.icon-what span {
+	border-radius: 999px;
+	-moz-border-radius: 999px;
+	-webkit-border-radius: 999px;
+	display: block;
+	text-indent: -9999px;	
+	
+}
+
+.icon-what .inner {
+	width: 126px;
+	height: 126px;
+	top: 50%;
+	left: 50%;
+	margin-left: -63px;
+	margin-top: -63px;
+	position: absolute;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.icon-what .outer {
+	background: #aea9a1;
+	width: 146px;
+	height: 146px;
+	top: 50%;
+	left: 50%;
+	margin-left: -73px;
+	margin-top: -73px;
+	position: absolute;
+}
+
+.vraagteken .inner {
+	background: #FFF url('_assets/_images/vraagteken.png') no-repeat 44px center;
+}
+
+.afspeelteken .inner {
+	background: #FFF url('_assets/_images/afspeelteken.png') no-repeat 38px center;
+}
+
+.kaart .inner {
+	background: #FFF url('_assets/_images/kaart.png') no-repeat center center;
+}
+
+.kaart .overflow {
+	background: url('_assets/_images/kaart.png') no-repeat center center;
+	width: 116px;
+	height: 162px;
+	top: 50%;
+	left: 50%;
+	margin-left: -63px;
+	margin-top: -63px;
+	position: absolute;
+	
+}
+
+.home-circles {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.home-circles h1 {
+	text-align: center;
+	margin-top: 12px;
+}
+
+
+#img-intro {
+	background: url('../content/images/intro.jpg') no-repeat center center;
+	width: 442px;
+	height: 251px;
+}
+
+
+
+#newsfeed #img-news, #newsfeed #img-news2{
+	float: left;
+	margin-top: 5px;
+	width: 250px;
+	height: 82px;
+	overflow: hidden;
+}
+
+#newsfeed #img-news{
+	background: url('../content/images/urbanus-480.jpg') no-repeat center center;
+	display:  block;
+	width: 100%;
+}
+
+#newsfeed #img-news2{
+	background: url('../content/images/henk-480.jpg') no-repeat center center;
+	width:  100%;
+}
+
+
+
+#newsfeed p {
+	float: left;
+	width: 100%;
+}
+
+#newsfeed #bloglink {
+	display: none;
+	padding: 2px 6px;
+	background: #C00;
+	border-radius: 4px;
+	float: right;
+	color: #FFF;
+}
+
+.newsitem:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.blueberry { 
+	margin: 0 auto; 
+}
+
+.blueberry .slides {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+
+.blueberry .slides li {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.blueberry .slides li img {
+	display: block;
+	width: 100%;
+	max-width: none;
+}
+
+.blueberry .slides li.active {
+	display: block; position: relative;
+}
+
+.blueberry .crop li img {
+	width: auto;
+}
+
+.blueberry .pager {
+	height: 40px;
+	text-align: center;
+}
+
+.blueberry .pager li { display: inline-block; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+
+.blueberry .pager li a {
+	padding: 18px 8px;
+	-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.blueberry .pager li a span {
+	overflow: hidden;
+	background: #c0c0c0;
+	text-indent: -9999px;
+	-webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.blueberry .pager li.active a span { 
+	background: #404040;
+}
+
+/* @end */
+
+/* @group Other Pages */
+
+#pageheaderafter {
+	display: block;
+	height: 55px;
+	width: 100%;
+	background: #DBD3CB url('_assets/_images/headerafter.png') repeat-x top center;
+	margin-top: -15px;
+	margin-bottom: 16px;
+	position: relative;
+	z-index: 1;
+}
+
+/* @end */
+
+/* @group News Page */
+
+#tickets {
+	padding: 4px 8px;
+	background: #777;
+	border-radius: 4px;
+	color: #FFF;
+}
+
+.newsfeed-newsitem {
+	margin-bottom: 35px;
+}
+
+#newsitem1-img {
+	background: url('../content/images/urbanus1.jpg') no-repeat center center;
+	width: 892px;
+	height: 292px;
+	display: block;
+	overflow: hidden;
+}
+
+#newsitem2-img {
+	background: url('../content/images/henk1.jpg') no-repeat center center;
+	width: 892px;
+	height: 292px;
+	display: block;
+	overflow: hidden;
+}
+
+/* @end */
+
+/* @group Gebouw */
+
+#building-img {
+	background: #FFF url('../content/images/gebouw-header.jpg') no-repeat center center;
+	width: 892px;
+	height: 304px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#gebouw-img {
+	background: #FFF url('../content/images/gebouw1-1.jpg') no-repeat center center;
+	width: 438px;
+	height: 200px;
+	display: block;
+	float:  right;
+	margin-top: 30px;
+}
+
+#gebouw-img2 {
+	background: #FFF url('../content/images/gebouw2-1.jpg') no-repeat center center;
+	width: 438px;
+	height: 657px;
+	display: block;
+	float:  right;
+	margin-top: 30px;
+}
+
+/* @end */
+
+/* @group Praktisch */
+
+#praktisch-img {
+	background: #FFF url('../content/images/praktisch.jpg') no-repeat center center;
+	width: 438px;
+	height: 285px;
+	display: block;
+}
+
+#map {
+	height: 270px;
+}
+
+/* @end */
+
+/* @group Contact */
+
+input, textarea, select, option {
+	font-size: 100%;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	color: #000;
+	padding:  3px 4px 4px 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #646464;
+	background-color: #FFF;
+}
+
+option{
+	margin: 0 !important;
+	border: none !important;
+}
+
+input:focus, select:focus {
+		outline:none;
+	   	border-color: #1e6094;
+	   	box-shadow: 0 0 4px #2e8cd7;
+	   	background-color: #ece8e4;
+}
+
+select:focus{
+	border: none !important;
+	background-color: #FFF;
+}
+
+textarea {
+	min-width: 350px;
+	min-height: 150px;
+	max-width: 350px;
+	max-height: 150px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.3846em;
+	color: #333333;
+}
+
+#button {
+	background-color: #a5b8da;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));
+	/* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #C2C2C2, #A2A2A2);
+	background-image: -moz-linear-gradient(top, #C2C2C2, #A2A2A2);
+	background-image: -ms-linear-gradient(top, #C2C2C2, #A2A2A2);
+	background-image: -o-linear-gradient(top, #C2C2C2, #A2A2A2);
+	background-image: linear-gradient(top, #C2C2C2, #A2A2A2);
+	border-top: 1px solid #757575;
+	border-right: 1px solid #6c6C6C;
+	border-bottom: 1px solid #5c5C5C;
+	border-left: 1px solid #6c6C6C;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	color: #fff;
+	font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	padding: 8px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 1px #777777;
+	text-transform: uppercase;
+}
+
+#button:hover {
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#b2b2b2), to(#d8d8d8));
+	background-image: -moz-linear-gradient(90deg, #b2b2b2 0%, #d8d8d8 100%);
+	border: 1px solid #777;
+	text-shadow: 0 -1px 1px #AAA;
+}
+
+#button:active {
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#c0c0c0), to(#9e9e9e));
+	background-image: -moz-linear-gradient(90deg, #c0c0c0 0%, #9e9e9e 100%);
+	border: 1px solid #555;
+	text-shadow: 0 1px 1px #555;
+	padding: 9px 20px 7px 20px;
+}
+
+form{
+	width: 50%;
+}
+
+form span{
+	font-size: 100%;
+}
+
+#artevelde{
+	background: #FFF url('../content/images/authors.png') no-repeat center center;
+		width: 200px;
+		height: 130px;
+		display: block;
+		float: left;
+		margin-top: 25px;
+		margin-left:  20px;
+	}
+#about{
+	float: left;
+}
+
+
+/* @end */
+
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+  
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+.clearLeft {
+	clear: left;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+.left{
+	float: left;
+}
+
+
+
+    /* 1. 6 Column Grid 0px - 299px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.6666666667%
+    Span 2:    33.3333333333%
+    Span 3:    50.0%
+    Span 4:    66.6666666667%
+    Span 5:    83.3333333333%
+    Span 6:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (max-width: 479px) {
+        
+        .row {
+            width: 300px;
+        }
+        .col {
+            border-left-width:6px;
+/*        	padding:0 6px;*/
+        }
+        
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+        
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+        */
+        
+        .span_1 {
+            width:16.6666666667%;
+        }
+        .span_2 {
+            width:33.3333333333%;
+        }
+        .span_3 {
+            width:50.0%;
+        }
+        .span_4 {
+            width:66.6666666667%;
+        }
+        .span_5 {
+            width:83.3333333333%;
+        }
+        .span_6,
+        #nav-inner,
+        #capitole-header,
+        #newsfeed,
+        #gallery,
+        .full {
+            margin-left:0;
+            width:100%;
+        }
+        
+        #capitole-header {
+        	background-image: url('_assets/_images/header320.jpg');
+        	height: 142px;
+        }
+        
+        #headerafter {
+        	margin-top: -38px;
+        }
+        
+        #img-intro {
+        	width: 252px;
+        	height: 160px;
+        	background-image: url('../content/images/intro-320.jpg');
+        	
+        }
+       
+        #newsfeed p {
+        	width: 100%;
+        }
+        
+        #gallery {
+        	border-left-width: 0;
+        }
+        
+        #newsitem1-img {
+        	background: url('../content/images/urbanus-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 82px;
+        }
+        
+        #newsitem2-img {
+        	background: url('../content/images/henk-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 82px;
+        }
+        
+        #building-img {
+        	background: #FFF url('../content/images/gebouw-header-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 86px;
+        }
+        
+        #gebouw-img {
+        	background: #FFF url('../content/images/gebouw1-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 82px;
+        	margin-top: 0 !important;
+        	margin-bottom:  10px;
+        }
+        
+        #gebouw-img2 {
+        	background: #FFF url('../content/images/gebouw2-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 250px;
+        	margin-top: 0 !important;
+        	margin-bottom:  10px;
+        }
+        
+        
+        #praktisch-img {
+        	background: #FFF url('../content/images/praktisch-320.jpg') no-repeat center center;
+        	width: 252px;
+        	height: 86px;
+        }
+        
+        textarea{
+        	min-width: 90%;
+        	max-width: 90%;
+        }
+        
+    }
+
+    /* 2. 6 Column Grid 300px - 459px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.6666666667%
+    Span 2:    33.3333333333%
+    Span 3:    50.0%
+    Span 4:    66.6666666667%
+    Span 5:    83.3333333333%
+    Span 6:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 480px) and (max-width: 639px) {
+        
+        .row {
+            width: 460px;
+        }
+        .col {
+            border-left-width:6px;
+/*        	padding:0 6px;*/
+        }
+
+        .span_1 {
+            width:16.6666666667%;
+        }
+        .span_2 {
+            width:33.3333333333%;
+        }
+        .span_3 {
+            width:50.0%;
+        }
+        .span_4 {
+            width:66.6666666667%;
+        }
+        .span_5 {
+            width:83.3333333333%;
+        }
+        .span_6,
+        #nav-inner,
+        #capitole-header,
+        #newsfeed,
+        #gallery,
+        .full {
+            margin-left:0;
+            width:100%;
+        }
+        
+        #capitole-header {
+        	background-image: url('_assets/_images/header480.jpg');
+        	height: 216px;
+        }
+        
+        #headerafter {
+        	margin-top: -42px;
+        }
+        
+        #img-intro {
+        	width: 412px;
+        	height: 234px;
+        	background-image: url('../content/images/intro-480.jpg');
+        	
+        }
+        
+        #newsfeed #img-news{
+        	background: url('../content/images/urbanus-480.jpg') no-repeat center center;
+        }
+        
+        #newsfeed #img-news2{
+        	background: url('../content/images/henk-480.jpg') no-repeat center center;
+        }
+        
+        
+        #newsfeed p {
+        	width: 100%;
+        }
+        
+        #gallery {
+        	border-left-width: 0;
+        }
+        
+        #newsitem1-img {
+        	background: url('../content/images/urbanus-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 135px;
+        }
+        
+        #newsitem2-img {
+        	background: url('../content/images/henk-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 135px;
+        }
+        
+        #building-img {
+        	background: #FFF url('../content/images/gebouw-header-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 140px;
+        }
+        
+        #gebouw-img {
+        	background: #FFF url('../content/images/gebouw1-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 140px;
+        	margin-top: 0 !important;
+        	margin-bottom:  10px;
+        }
+        
+        #gebouw-img2 {
+        	background: #FFF url('../content/images/gebouw2-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 300px;
+        	margin-top: 0 !important;
+        	margin-bottom:  10px;
+        }
+        
+        #praktisch-img {
+        	background: #FFF url('../content/images/praktisch-480.jpg') no-repeat center center;
+        	width: 412px;
+        	height: 140px;
+        }
+    }
+
+    /* 3. 12 Column Grid 460px - 619px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 640px) and (max-width: 960px) {
+        
+        .row {
+            width: 620px;
+        }
+        .col {
+            border-left-width:10px;
+/*        	padding:0 8px;*/
+        }
+
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4,
+        #newsfeed {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6,
+        #col-img-intro {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8,
+        #gallery {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12,
+        #nav-inner,
+        #capitole-header,
+        #col-text-intro,
+        .full {
+            margin-left:0;
+            width:100%;
+        }
+        
+        #capitole-header {
+        	background-image: url('_assets/_images/header640.jpg');
+        	height: 287px;
+        	margin-top: -36px;
+        }
+        
+        #headerafter {
+        	margin-top: -44px;
+        }
+        
+        #img-intro {
+        	width: 572px;
+        	background-image: url('../content/images/intro-640.jpg');
+        }
+        
+        #col-text-intro {
+        	margin-top: 14px;
+        	border-left-width: 0;
+        }
+        
+        #newsfeed em {
+        	display: none;
+        }
+        
+        #newsfeed img {
+        	margin-right: 3px;
+        }
+        
+        #newsfeed #img-news{
+        	background: url('../content/images/urbanus-480.jpg') no-repeat -50px -10px;
+        	display:  block;
+        	width: 100%;
+        }        
+        
+        #newsfeed p {
+        	width: auto;
+        	margin-left: 0;
+        	float: none;
+        }
+        
+        #newsfeed div > div > div:last-child {
+        	display: none;
+        }
+        #img-news{
+        	width: 165px !important;
+        	overflow: hidden;
+        }
+        
+        #newsfeed #bloglink {
+        	display: block;
+        }
+        
+        #newsitem1-img {
+        	background: url('../content/images/urbanus-640.jpg') no-repeat center center;
+        	width: 572px;
+        	height: 187px;
+        }
+        
+        #newsitem2-img {
+        	background: url('../content/images/henk-640.jpg') no-repeat center center;
+        	width: 572px;
+        	height: 187px;
+        }
+        
+        #building-img {
+        	background: #FFF url('../content/images/gebouw-header-640.jpg') no-repeat center center;
+        	width: 572px;
+        	height: 195px;
+        }
+        
+        #gebouw-img {
+        	background: #FFF url('../content/images/gebouw1-640.jpg') no-repeat center center;
+        	width: 265px;
+        	height: 177px;
+        }
+        
+        #gebouw-img2 {
+        	background: #FFF url('../content/images/gebouw2-640.jpg') no-repeat center center;
+        	width: 265px;
+        	height: 398px;
+        }
+        
+        #praktisch-img {
+        	background: #FFF url('../content/images/praktisch-640.jpg') no-repeat center center;
+        	width: 265px;
+        	height: 310px;
+        }
+        textarea{
+        	max-width: 250px;
+        	min-width: 250px;       
+         }
+    }
+
+    /* 4. 12 Column Grid 620px - 939px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 960px) {
+        
+        .row {
+            width: 940px;
+        }
+        .col {
+            border-left-width:12px;
+/*        	padding:0 10px;*/
+        }
+        
+        
+        
+        
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4,
+        #newsfeed {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6,
+        #col-img-intro,
+        #col-text-intro {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8,
+        #gallery {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12,
+        #nav-inner,
+        #capitole-header,
+        #pageheader,
+        .full {
+            margin-left:0;
+            width:100%;
+        }
+        
+        #col-text-intro {
+        	border-left-width: 30px;
+        }
+       
+ 
+    }
+    
+ @media screen and (min-width: 640px) {
+ 
+ /** DESKTOP NAVIGATION **/
+ 
+ #nav {
+ 	background: #101010 url('_assets/_images/menudark.png') repeat-x left top;
+ 	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	height: 40px;
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	font-size: 1.53846em;
+ 	position: relative;
+ 	z-index: 3;
+ }
+ 
+ #nav-inner a {
+ 	color: #999;
+ 	text-decoration: none;
+ }
+ 
+ #nav-inner a:hover {
+ 	color: #FFF;
+ }
+ 
+ #logo {
+ 	width: 75px;
+ 	height: 19px;
+ 	background: url('_assets/_images/logo.png') no-repeat left top;	
+ 	text-indent: -9999px;
+ 	float: left;
+ 	margin: 10px 0 0 0;
+ }
+ 
+ #nav-inner ul.pull-right {
+ 	float: right;
+ }
+ 
+ #nav-inner ul.pull-right li {
+ 	display: block;
+ 	float: left;
+ }
+ 
+ ul.pull-right li a {
+ 	display: block;
+ 	margin: 11px 10px 11px 10px;
+ 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ #nav-inner li#active a {
+ 	background: url('_assets/_images/menuind.png') no-repeat left top;
+ 	width: 87px;
+ 	height: 64px;
+ 	padding: 12px 0 0 0;
+ 	display: block;
+ 	text-align: center;
+ 	margin: 0 5px;
+ 	color: #FFF;
+ }
+ 
+ #nav-inner h3 {
+ 	display: none;
+ }
+ 
+ #toggle {
+ 	display: none;
+ }
+ 
+ }
+    
+ @media screen and (max-width: 639px) {
+ 
+ /** MOBILE NAVIGATION **/
+ 
+ #capitole-header {
+ 	margin-top: 0;
+ }
+ 
+ #logo {
+ 	display: block;
+ 	width: 75px;
+ 	height: 19px;
+ 	background: url('_assets/_images/logo.png') no-repeat left top;	
+ 	text-indent: -9999px;
+ 	margin: 9px 0 0 0;
+ 	float: left;
+ }
+ 
+ #nav {
+ 	background: #101010 url('_assets/_images/menudark.png') repeat-x left top;
+ 	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+ 	font-family: 'Open Sans Condensed', sans-serif;
+ 	font-size: 1.53846em;
+ 	position: relative;
+ 	z-index: 3;
+ 	height: 40px;
+ }
+ 
+ #nav-inner {
+ 	height: 40px;
+ }
+ 
+ #nav-inner a {
+ 	margin-left: 10px;
+ 	color: #999;
+ 	text-decoration: none;
+ }
+ 
+ #nav-inner a:hover {
+ 	color: #FFF;
+ }
+ 
+#nav-inner h3 {
+ 	float: right;
+ 	margin: 9px 0 0 0;
+ 	
+ }
+ 
+ #mobilenav-toggle {
+ 	float: right;
+ 	margin-top: 6px;
+ }
+ 
+ .pull-right {
+	margin-bottom: 10px;
+	margin-top: 6px;
+	background: #090909;
+	float: left;
+	width: 100%;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+	display: none;
+}
+ 
+ .pull-right li {
+ 	margin: 5px 0;
+ 	padding: 5px 0;
+ }
+ 
+ .pull-right #active {
+ 	background: #222;
+ }
+ 
+#active a {
+ 	color: #FFF;
+ 	
+ }
+ 
+.btn-navbar {
+  float: right;
+  padding: 4px 6px 5px 6px;
+  background-color: #2c2c2c;
+  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-image: -ms-linear-gradient(top, #333333, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
+  background-image: -webkit-linear-gradient(top, #333333, #222222);
+  background-image: -o-linear-gradient(top, #333333, #222222);
+  background-image: linear-gradient(top, #333333, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  border-color: #222222 #222222 #000000;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.btn-navbar:hover,
+.btn-navbar:active,
+.btn-navbar#active,
+.btn-navbar.disabled,
+.btn-navbar[disabled] {
+  background-color: #222222;
+}
+
+.btn-navbar:active, .btn-navbar#active {
+  background-color: #080808;
+}
+
+.btn-navbar .icon-bar {
+  display: block;
+  width: 16px;
+  height: 2px;
+  background-color: #f5f5f5;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.icon-bar {
+  margin-top: 3px;
+}
+
+}

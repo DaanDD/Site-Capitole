@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<title>Inhoud site Capitol - Stenen van Gent</title>
+	<description>In deze xml file staat de gehele tekst voor de website (NL-FR-EN). Deze website was in opdracht van de Artevelde hogeschool, voor het project in samenwerking met de vormgevers.
+	</description>
+	<pubDate>22 maart 2012</pubDate>
+	<author>Stefaan Christiaens</author>
+	<nav>
+		<link id="beschrijving">
+			<languages>
+				<language id="nederlands">
+					Home
+				</language>
+				<language id="engels">
+					Home
+				</language>
+				<language id="frans">
+					Home
+				</language>
+			</languages>
+		</link>
+		<link id="foto">
+			<languages>
+				<language id="nederlands">
+					In beeld
+				</language>
+				<language id="engels">
+					Media
+				</language>
+				<language id="frans">
+					Média
+				</language>
+			</languages>
+		</link>
+		<link id="gebouw">
+			<languages>
+				<language id="nederlands">
+					Gebouw
+				</language>
+				<language id="engels">
+					Building
+				</language>
+				<language id="frans">
+					Bâtiment
+				</language>
+			</languages>
+		</link>
+		<link id="nieuws">
+			<languages>
+				<language id="nederlands">
+					Nieuws
+				</language>
+				<language id="engels">
+					News
+				</language>
+				<language id="frans">
+					Nouvelles
+				</language>
+			</languages>
+		</link>
+		<link id="praktisch">
+			<languages>
+				<language id="nederlands">
+					Praktisch
+				</language>
+				<language id="engels">
+					Practical
+				</language>
+				<language id="frans">
+					Pratique
+				</language>
+			</languages>
+		</link>
+	</nav>
+	<pages>
+	  <page id="beschrijving">
+	  	<languages>
+			<language id='nederlands'>
+				<title>
+					Welkom!
+				</title>
+				<title2>
+					<![CDATA[<a href='nieuws.html' title="nieuwspagina">Nieuwsfeed</a>]]>
+				</title2>
+				<title3>
+					<![CDATA[<a href='media.html' title="mediapagina">In beeld</a>]]>
+				</title3>
+		 		<description>
+			  <![CDATA[
+				  <p>De Capitole, één van de meest gekende cultuurspots, is een gerenommeerd theater in Gent, België. Het is een prachtig gebouw in de art deco stijl dat zich bevindt op het Zuid. Op deze site kan je alles terugvinden over de geschiedenis van het gebouw, de evenementen en kan je zoeken hoe je er geraakt.</p>
+  
+				  <p>In deze dagen van crisis let iedereen op zijn uitgaven en kan er zelfs geen enkele euro apart gezet worden voor een spektakel van de hoogste plank. Daarom willen we met deze site mensen aanmoedigen zich niet schuldig te voelen om te genieten van onze rijke cultuur. Blijf genieten van de prachtige voorstellingen en van het leven!</p>
+				  <a href='gebouw.html' title="De Capitole">Meer over de Capitole &raquo; </a>
+			  ]]>
+			  </description>
+			  <news>
+			  <![CDATA[
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2>Urbanus zelf!</h2>
+			  			<em>13 &mdash; 19 april </em>
+			  		</div>
+			  		<div id="img-news"></div>
+			  		<p>
+			  			Het wordt een feest van herkenning: de komiek uit Tollembeek eindelijk terug in de theaters na 11 jaar afwezigheid! ...<br />
+			  			<a href="nieuws.html">Lees verder &raquo;</a>
+			  		</p>
+			  	</div>
+			  	
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2>Henk Rijckaert &mdash; Het Experiment</h2>
+			  			<em>19 april</em>
+			  		</div>
+			  		<div id="img-news2"></div>
+			  		<p>
+			  			Henk sleept in "Het Experiment" zoals steeds zijn toeschouwers met zich mee in zijn hoogstpersoonlijke wereld...<br />
+			  			<a href="nieuws.html">Lees verder &raquo;</a>
+			  		</p>	
+			  	</div>	
+			  	]]>			
+		  		</news>
+		   	</language>
+			<language id='engels'>
+				<title>
+					Welcome!
+				</title>
+				<title2>
+					<![CDATA[<a href='nieuws.html' title="newspage">Newsfeed</a>]]>
+				</title2>
+				<title3>
+					<![CDATA[<a href='media.html' title="mediapage">Media</a>]]>
+				</title3>
+				<description>
+			  <![CDATA[
+				  <p>The Capitole, one of the best-known cultural destinations, is a renowned theatre in Ghent, Belgium. It’s a beautiful building in the Art Deco style, located in Ghent South. On this site you can find everything about the history of the building, the events and how to get there.</p>
+
+					<p>In these days of crisis everyone watches its expenses and every cent is hard to put aside for a spectacle of the highest shelf. That’s why we want to encourage people to enjoy our rich culture. Keep experiencing our wonderful performances and enjoy life!</p>
+					<a href='gebouw.html' title="Het Capitole">More about the Capitole &raquo;</a>
+
+			  ]]>
+		  </description>
+		  <news>
+		  <![CDATA[
+		  	<div class="newsitem">
+		  		<div class="newsfeed-subtitles">
+		  			<h2>Urbanus zelf!</h2>
+		  			<em>13 &mdash; 19 april </em>
+		  		</div>
+		  		<div id="img-news"></div>
+		  		<p>
+		  			It will be a party of recognition: the comedian from Tollembeek finally back in theaters after eleven years of absence! ...<br />
+		  			<a href="nieuws.html">Read more &raquo;</a>
+		  		</p>
+		  			</div>
+		  	
+		  	<div class="newsitem">
+		  		<div class="newsfeed-subtitles">
+		  			<h2>Henk Rijckaert &mdash; The Experiment</h2>
+		  			<em>19 april</em>
+		  		</div>
+		  		<div id="img-news2"></div>
+		  		<p>
+		  			Henk picks up his audience and carries them along the show, as usual in his own personal world...<br />
+		  			<a href="nieuws.html">Read more &raquo;</a>
+		  		</p>	
+		  	</div>	
+		  	]]>			
+		  	</news>
+		   </language>
+			<language id='frans'>
+				<title>
+					Bienvenue!
+				</title>
+				<title2>
+					<![CDATA[<a href='nieuws.html' title="Page Nouvelles">Nouvelles</a>]]>
+				</title2>
+				<title3>
+					<![CDATA[<a href='media.html' title="médiapage">Média</a>]]>
+				</title3>
+				<description>
+			  <![CDATA[
+				  <p>Le Capitole, un ‘hotspot’ culturel très connu, est un théâtre renommé situé à Gand, Belgique. C’est un bâtiment merveilleux dans le style art déco qui ce trouve sur le Zuid. Sur notre site web vous trouvez toute l’information de l’histoire du bâtiment, les événements et comment vous pouvez y aller.</p>
+
+				<p>Dans ces jours de crise tout le monde est un peu avare, et ne peut même pas mettre quelques euros de côté pour un spectacle de haute qualité. C’est pourquoi nous voulons persuader les gens afin qu’ils ne se sentent pas coupables de jouir de notre patrimoine culturelle. Reste profiter des performances superbes et de la vie!</p>
+					<a href='gebouw.html' title="Het Capitole">Lisez plus du Capitole &raquo; </a>
+			  ]]>
+		  </description>
+		  <news>
+		  <![CDATA[
+		  	<div class="newsitem">
+		  		<div class="newsfeed-subtitles">
+		  			<h2>Urbanus zelf!</h2>
+		  			<em>13 &mdash; 19 april </em>
+		  		</div>
+		  		<div id="img-news"></div>
+		  		<p>
+		  			C'est une fête de reconnaissance: l'humoriste de Tollembeek est enfin de retour dans les salles après 11 ans d'absence! ...<br />
+		  			<a href="nieuws.html">Lisez plus &raquo;</a>
+		  		</p>
+		  			</div>
+		  	
+		  	<div class="newsitem">
+		  		<div class="newsfeed-subtitles">
+		  			<h2>Henk Rijckaert &mdash; L'Expériment</h2>
+		  			<em>19 april</em>
+		  		</div>
+		  		<div id="img-news2"></div>
+		  		<p>
+		  			Henk tire dans "L'Expériment", comme toujours son auditoire avec lui dans son monde très personnel...<br />
+		  			<a href="nieuws.html">Lisez plus &raquo;</a>
+		  		</p>	
+		  	</div>	
+		  	]]>			
+		  	</news>
+		  </language>
+		</languages>
+	  </page>
+	  <page id="gebouw">
+	  	<languages>
+			<language id='nederlands'>
+				<title>
+					Capitole
+				</title>
+		 		<description>
+			  <![CDATA[
+				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van de Capitole. De mooie neoklassieke gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord CAPITOLE erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in De Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op.  De Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen, … .</p>
+				  
+			  ]]>
+		  </description>
+		  <content>
+		  	<titel id="gebouw">Het gebouw</titel>
+		  	<gebouw>
+		  	<![CDATA[
+				<p>De Capitole heeft nu een groot podium met daaronder een backstage, VIP ruimtes, verschillende bars, een theatertoren en een akoestische orkestbak onder het podium voor 64 personen. <br />Maar de Capitole is niet enkel en alleen voor voorstellingen en theaterstukken, het gebouw herbergt ook een auditorium met 1600 stoelen, een groot podium, een paar grote break out kamers, bars en een volledig afgewerkte zolderruimte die ideaal is voor bijeenkomsten of seminaries.</p>
+				]]>
+			</gebouw>
+			<titel id="history1">Metamorfose</titel>
+			<historiek id="1">
+				<![CDATA[
+					  <p>Doorheen de jaren is de Capitole te Gent een heuse metamorfose ondergaan. Het begon allemaal in 1850, wanneer het pand voor de eerste keer gebouwd werd. Na de Belgische onafhankelijkheid werd de wijk 'Het Zuid' opgetrokken rond het eerste treinstation met later de zoo en het park. <br />Daarna, in 1932 werd de gevel met zijn driehoekig fronton en de neoklassieke zuilengalerij behouden en bouwde Geo Hendrickx een bioscoopzaal achter deze oude façade. Deze cinema ‘Le Capitole’ was een architecturaal hoogtepunt van Hendrickx door de perfecte akoestiek en een optimaal zicht voor de toeschouwers. </p>
+					  
+				]]>
+			</historiek>
+			<titel id="history2">Polyvalent</titel>
+			<historiek id="2">
+				<![CDATA[
+							<p>Lang was deze bioscoopzaal de grootste en meest prestigieuze van België want naast de filmvertoningen konden er ook voorstellingen en optredens worden gehouden. De zaal werd gebouwd met een groot podium, een goede verlichting en een elf meter hoge toneeltoren. Er was zelfs genoeg plaats voor een honderdkoppig orkest op het podium.<br />
+				Het voorprogramma was meestal voor beginners en kleine attracties. Na de pauze was het tijd voor de grote sterren, zoals Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Maar ook The Ramblers, Leo Martin en zijn orkest, Les Compagnons de la Chanson, Anton Karas, de organiste Ethel Smith en vele anderen waren te bewonderen in de Capitole.</p>
+				
+					]]>
+				
+			</historiek>
+			<titel id="history3">Heropleving</titel>
+			<historiek id="3">
+			<![CDATA[
+				<p>Rond 1980 begon de crisis in de bioscoopsector, wat zorgde voor een verlies voor de Capitole. Hierdoor waren ze genoodzaakt om het cinemalicht definitief te doven in 1986. De zaal bleef veertien jaar lang leeg staan tot Music Hall Group de zaal kocht. De gevels en bedaking werd, net als de andere oostelijke gevels van het plein, in 1988 als monument beschermd.<br />
+				De prestigieuze bioscoopzaal heropende op 28 oktober 2001 met de première van de musical Camelot en herwon zijn vergane glorie door zijn nog steeds unieke theaterzaal en charme.  De bedoeling van de Capitole was toen om de eigen musicals en voorstellingen van de Music Hall Group te vertonen, maar ook andere voorstellingen bands en evenementen passeerden de revue. </p>
+				
+				<p>Onder leiding van de nieuwe eigenaar kwam er een groter podium en een backstage onder het podium. De jaren nadien kwamen er extra VIP ruimtes en bars bij. In 2008 werd er een theatertoren gebouwd met 48 computergestuurde trekken en kwamen er extra repetitielokalen bij. In 2009 werd het podium vernieuwd en werd er een akoestische orkestbak onder het podium geïnstalleerd voor een orkest tot 64 personen.<br />
+				De Capitole is een zeer groot succes gebleven dankzij Music Hall Group, die ook nog Vorst Nationaal in Brussel, de Stadsschouwburg in Antwerpen en producties in Nederland beheert.</p>
+				
+							<p>Ook dit jaar wordt er weer een rijk gevuld programma aangeboden van klassiek tot pop en rock, theater, cabaret, dans en film. Voor elk wat wils!</p>
+				]]>
+				
+			</historiek>
+		  </content>
+		   		  	</language>
+			<language id='engels'>
+				<title>
+					The Capitole
+				</title>
+				<description>
+			  <![CDATA[
+				  <p>If you walk along the ‘South’ in Ghent, you might immediately notice the beautiful façade of the Capitole. Its beautiful neoclassical façade with its pediment and colonnade catch the eye straightaway. Because of the pillars with the info of the performances along the entrance and the word CAPITOLE above, it creates the feeling of an old cinema at the time of Marilyn Monroe. <br />Once inside the Capitole you immediately notice the glamorous style of the building with some classical details. The Capitole stands for culture, talent, glamour, ambiance, entertainment, bringing people together, …</p>
+				 ]]>
+		  </description>
+		  <content>
+		  	<titel id="gebouw">The building</titel>
+		  	<gebouw>
+		  	<![CDATA[
+				<p>The Capitole now has a large stage with a backstage underneath, VIP rooms, several bars, a theatre tower and an acoustic orchestra pit for 64 people. <br />But the Capitole is not only for the shows and plays, the building also hosts an auditorium with 1600 seats, a large stage, a few large breakout rooms, bars and a fully finished attic space that is ideal for meetings or seminars.</p>
+			]]>
+			</gebouw>
+			<titel id="history1">Metamorphosis</titel>
+			<historiek id="1">
+				<![CDATA[
+					<p>Throughout the years, the Capitole has undergone a complete metamorphosis. It all started in 1850, when the building was built. After the Belgian independence, district ‘South’ was created around the first train station in Ghent with later the zoo and the park. <br />After that, in 1932, the façade with the triangular fronton and its neoclassical colonnade were kept and Geo Hendrickx built a cinema behind this old façade. This cinema, ‘Le Capitole’, was an architectural peak for Hendrickx because of the perfect acoustics and the optimal view for the spectators.</p>
+						
+				]]>
+			</historiek>
+			<titel id="history2">Multipurpose</titel>
+			<historiek id="2">
+				<![CDATA[
+					<p>This cinema was the biggest and most prestigious for a long time, because next to film screenings, recitals and performances were held. The room consisted of a big stage, great lighting and a fly tower of at least eleven meters high. There was enough room for a hundred-piece orchestra.<br />
+					The opening programme was mostly for beginners and small attractions. After the break it was time for the big stars, like Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. But The Ramblers, Leo Martin and his orchestra, Les Compagnons de la Chanson, Anton Karas, Ethel Smith and many others could also be admired in the Capitole.</p>
+				
+				]]>
+			</historiek>
+			<titel id="history3">Revival</titel>
+			<historiek id="3">
+				<![CDATA[
+					<p>Around 1980, the crisis hit the cinema sector, which meant a loss for the Capitole. Because of this, they were forced to close their doors in 1986. The building stayed closed for 14 years until the Music Hall Group bought it. The facades and roofing became a protected monument in 1988.<br />
+					The prestigious cinema hall reopened on the 28th of October 2001 with the premiere of the musical Camelot. The Capitole regained its faded glory because of its unique theatre hall and charm. The intention of the Capitole was to screen the musicals and performances of the Music Hall Group, but other events passed the revue as well.<br />
+					Under the leadership of the new owner came a bigger stage with a backstage underneath it. In the years that followed, VIP rooms and bars were added.<br />
+					The Capitole remained a big success thanks to the Music Hall Group, which also manages Vorst Nationaal in Brussels, the Stadsschouwburg in Antwerp and many productions in Holland.</p>
+					
+					<p>Up until this year a rich program is being offered, from classical to pop and rock, theatre, cabaret, dance and film. Something for everyone!</p>
+				]]>
+			</historiek>
+		  </content>
+		   			</language>
+			<language id='frans'>
+				<title>
+					Le Capitole
+				</title>
+				<description>
+			  <![CDATA[
+				  <p>Quand vous promenez dans le Zuid à Gand, la belle façade du Capitole saute directement aux yeux. Cette façade néo-classique et sa colonnade sont très connues parmi les Belges. Les colonnes aves les affiches des performances au travers de l’entrée et le mot CAPITOLE au-dessus nous donnent l’air d’un cinéma vieux au moment de Marilyn Monroe. <br />Quand nous sommes entrés dans le Capitole on remarque directement le style glamour du bâtiment et des détails classiques. Le Capitole représente culture, talent, glamour, ambiance, détente, réunissant des personnes, …</p>
+			  ]]>
+		  </description>
+		  <content>
+		  	<titel id="gebouw">Le bâtiment</titel>
+		  	<gebouw>
+		  	<![CDATA[
+				<p>Le Capitole a maintenant une scène très grande et au-dessous des coulisses, des chambres VIP, plusieurs bars, un tour de théâtre et une fosse d'orchestre acoustique au-dessous de la scène pour environs 64 personnes. <br />Mais le Capitole n’est pas seulement pour des performances et des théâtres. Le bâtiment abrite également un auditorium pour 1600 personnes, quelques grandes chambres pour se relaxer, des bars et un grenier entièrement aménagé idéal pour des réunions ou séminaires.</p>
+			]]>
+			</gebouw>
+			<titel id="history1">Métamorphose</titel>
+			<historiek id="1">
+				<![CDATA[
+					<p>Au cours des années le Capitole à Gand a subi une vraie métamorphose. Tout a commencé en 1850, quand le bâtiment était construit. Après l’indépendance de la Belgique on a bâti le quartier ‘Zuid’ autour de la gare. <br />Après, en 1932 la façade avec le fronton triangulaire et la colonnade néo-classique était réservée par Geo Hendrickx. Il a construit un cinéma derrière cette façade. Ce cinéma ‘Le Capitole’ était un joyau architectural de Hendrickx grâce à son acoustique parfaite et la vue optimale pour les spectateurs. </p>
+				]]>
+			</historiek>
+			<titel id="history2">Polyvalent</titel>
+			<historiek id="2">
+				<![CDATA[
+					<p>Pendant une longue période ce cinéma était le meilleur et le plus prestigieux en Belgique parce que c‘était aussi possible d’y garder des théâtres et spectacles. La salle était construite avec une grande scène, un bon éclairage et une tour de théâtre qui mesurait onze mètres. Il y avait même assez de place pour un orchestre de cent personnes sur la scène. Avant la pause on avaient les débutants et les petites performances, et après la pause les célébrités comme Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Aussi The Ramblers, Leo Martin et son orchestre, Les Compagnons de la Chanson, Anton Karas, l’organiste Ethel Smith et encore beaucoup des autres ont performés dan le Capitol.</p>
+				
+				]]>
+			</historiek>
+			<titel id="history3">Renaissance</titel>
+			<historiek id="3">
+				<![CDATA[
+					<p>En environ 1980 la crise dans le secteur cinéma a commencé, ce qui a causé une perte pour le Capitole. C’est ainsi qu’ils ont été forcés de fermer le Capitole en 1986. Le bâtiment restait vide pour quatorze années jusqu’à Music Hall Group l’a acheté. En 1988, les façades et le toit, comme tout les autres façades dans le quartier ont été protégées comme monuments. <br />
+					Le 28 octobre 2001, le cinéma prestigieux est rouvert avec la première du musical Camelot et regagnerait son charme avec son théâtre et charme unique. L’intention du Capitole était de performer les pièces de Music Hall Group, mais aussi des bandes et performances indépendant y passaient la revue.<br />
+					Dirigé par le nouveau propriétaire, le Capitole a reçu une scène plus grande qu’en avant et des coulisses sous la scène. Les années après on a construit des chambres VIP extras, des bars, une tour de théâtre et des salles de répétitions extras. En 2009 la scène a été renouvelée et en dessous on a installé une fosse d'orchestre acoustique pour un orchestre de 64 personnes.<br />
+					Le Capitole a resté un énorme succès grâce à Music Hall Group, qui dirige aussi des productions en Bruxelles (Forest National), en Anvers (Stadsschouwburg) et en Pays-Bas. <br />
+					Aussi cet année nous vous offrons un programme très complet de classique au pop et rock, théâtre, cabaret, dance et filme. Donc quelque chose pour tout le monde!</p>
+				
+				]]>
+			</historiek>
+		  </content>
+		  </language>
+		</languages>
+	  </page>
+	  <page id="praktisch">
+	  	<languages>
+			<language id='nederlands'>
+				<title1>
+					De Capitole, hoe geraak ik er?
+				</title1>
+				<title2>
+					Kaart
+				</title2>
+				<title3>
+					Met de auto
+				</title3>
+		 		<description>
+			  <![CDATA[
+				  <p>Het adres van Capitole Gent is:<br />
+  Graaf Van Vlaanderenplein 5<br />
+  9000 Gent<br />
+  De Capitole in Gent ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan dus zeker de auto wat verder parkeren en met het openbaar vervoer komen. Bekijk de site van DeLijn om de exacte informatie te raadplegen. Als je liever niet met de auto wilt komen is er ook de mogelijkheid om met de trein te komen. Je kan dan afstappen in Gent Dampoort en daar de bus naar het Zuid nemen. <br />Meer informatie over de trein kan je vinden op de site van NMBS.</p>
+  
+				  
+			  ]]>
+		  </description>
+		  <content>
+		  	<![CDATA[
+				<p>Voor de mensen die liever met de auto komen zijn er veel parkeermogelijkheden.<br /> Vlak voor Capitole Gent, onder het Woodrow Wilsonplein is er een ruime ondergrondse betaalparking. Deze is geopend tot 1u en op vrijdag en zaterdag tot 3u. <br />U kan ook nog parkeren in de Interparking onder de Kouter (open tot 2u, zaterdag tot 4u) en de Interparking Center aan de Korte Meer(open tot 21u, gesloten op zondag). <br />Voor meer informatie kan je terecht op de site van Interparking.</p>
+			]]>
+		  </content>
+		   	</language>
+			<language id='engels'>
+				<title1>
+					The Capitole, how do i get there?
+				</title1>
+				<title2>
+					Map
+				</title2>
+				<title3>
+					By car
+				</title3>
+				<description>
+			  <![CDATA[
+				  <p>The address of Capitole Ghent:<br />
+Graaf van Vlaanderenplein 5<br />
+9000 Ghent<br />
+The Capitole in Ghent is situated at the South, where many buses and trams stop. You can certainly park the car a little further and travel with the public transport.
+View the site of DeLijn to consult the exact information.
+If you rather not want to come by car, there’s also the possibility to come by train. You can get out at Ghent Dampoort and take the bus to the South there.<br />
+More information about coming by train can be found on the site of the NMBS.</p>
+
+
+			  ]]>
+		  </description>
+		  <content>
+		  	<![CDATA[
+				<p>For those who prefer to come by car, there are many parking possibilities.<br />
+In front of the Capitole Ghent, underneath the Woodrow Wilson Square is a large underground paid parking. It is open until 1 am on Fridays and Saturdays until 3 am.<br />
+You can also park in the Interparking underneath the Kouter (open until 2 am, Saturday until 4 am) and the Interparking Center at the Korte Meer (open until 21 pm, closed on Sundays). <br />For more information you can visit the website of Interparking.</p>
+			]]>
+		  </content>
+		   	</language>
+			<language id='frans'>
+				<title1>
+					Le Capitole, comment puis-je y arriver?
+				</title1>
+				<title2>
+					Carte
+				</title2>
+				<title3>
+					Avec la voiture
+				</title3>
+				<description>
+			  <![CDATA[
+				  <p>L’adresse du Capitole:<br />
+Graaf van Vlaanderenplein 5<br />
+9000 Gand<br />
+
+Le Capitole est situé dan le quartier du Zuid où beaucoup de busses et trams arrêtent. Alors, vous pouvez facilement venir en voiture, stationner un peu plus loin et venir en transport public. Visitez le site de DeLijn pour l’information exact.<br />
+Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de venir en train. Vous descendez à la gare de Gand Dampoort en prenez le bus vers le Zuid. <br />Plus d’information trouverez-vous sur le site de NMBS.</p>
+			  ]]>
+		  </description>
+		  <content>
+		  	<![CDATA[
+				<p>Il y a beaucoup de parkings près du Capitole pour les gens qui préfèrent de venir en voiture. En face du Capitole il y un parking payant au-dessous de la place Woodrow Wilson. Ce parking est ouvert jusqu’à 01.00h et le vendredi et le samedi jusqu’à 03.00h. <br />Vous pouvez aussi vous stationner dans le Interparking au-dessous de la place de Kouter(ouvert jusqu’à 02.00h, le samedi 04.00h) et le Interparking Center au Korte Meer(ouvert jusqu’à 21.00h, fermé le dimanche).
+<br />Pour plus d’information vous pouvez visiter le site web de Interparking.</p>
+			]]>
+		  </content>
+		  </language>
+		</languages>
+	  </page>
+	  <page id="contact">
+	  	  	<languages>
+	  			<language id='nederlands'>
+	  			<content>
+	  			<![CDATA[
+	  				<input type="text" id="naam" name="naam" placeholder="Naam" /> <span id="naamSpan">*</span><br />
+	  				<input type="text" id="email" name="email" placeholder="E-mail" /> <span id="emailSpan">*</span><br />
+	  				<input type="text" id="bday" name="bday" placeholder="Geboortedatum" /> <span id="bdaySpan">*</span><br />
+	  				<input type="radio" name="sex" value="Man" checked="true" />Man
+	  				<input type="radio" name="sex" value="Vrouw" />Vrouw<br />
+	  				<select id="ddl">
+	  					<option value="opmerking">Opmerking</option>
+	  					  <option value="vraag">Vraag</option>
+	  				</select><br />
+	  				<textarea placeholder="Bericht" id="bericht"></textarea><br />
+	  				<input type="submit" id="button" onClick="send()" value="Verstuur" />
+	  				]]>
+	  				</content>
+	  		  	</language>
+	  			<language id='engels'>
+	  			<content>
+	  				<![CDATA[
+	  					<input type="text" id="naam" name="naam" placeholder="Name" /> <span id="naamSpan">*</span><br />
+	  					<input type="text" id="email" name="email" placeholder="E-mail" /> <span id="emailSpan">*</span><br />
+	  					<input type="text" id="bday" name="bday" placeholder="Date of birth" /> <span id="bdaySpan">*</span><br />
+	  					<input type="radio" name="sex" value="Man" checked="true" />Man
+	  					<input type="radio" name="sex" value="Vrouw" />Woman<br />
+	  					<select id="ddl">
+	  						<option value="opmerking">Remark</option>
+	  						  <option value="vraag">Question</option>
+	  					</select><br />
+	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<input type="submit" id="button" onClick="send()" value="Send" />
+	  					]]>
+	  					</content>
+	  			</language>
+	  			<language id='frans'>
+	  				<content>
+	  				<![CDATA[
+	  					<input type="text" id="naam" name="naam" placeholder="Nom" /> <span id="naamSpan">*</span><br />
+	  					<input type="text" id="email" name="email" placeholder="E-mail" /> <span id="emailSpan">*</span><br />
+	  					<input type="text" id="bday" name="bday" placeholder="Date de naissance" /> <span id="bdaySpan">*</span><br />
+	  					<input type="radio" name="sex" value="Man" checked="true" />Homme
+	  					<input type="radio" name="sex" value="Vrouw" />Femme<br />
+	  					<select id="ddl">
+	  						<option value="opmerking">Remarque</option>
+	  						  <option value="vraag">Question</option>
+	  					</select><br />
+	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<input type="submit" id="button" onClick="send()" value="Envoyer" />
+	  					]]>
+	  					</content>
+	  			</language>
+	  		</languages>
+	  	  </page>
+	  	<page id="nieuws">
+	  		  	<languages>
+	  				<language id='nederlands'>
+	  					<title>
+	  						Nieuws
+	  					</title>
+	  					<content>
+	  					<![CDATA[
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Urbanus zelf!</h2>
+	  						<em>13 - 19 april </em>
+	  						<div id="newsitem1-img" class="img"></div>
+	  						<p>
+	  							Zanger en komiek URBANUS speelde eind vorig jaar 4 avonden voor een uitverkocht Sportpaleis. Dat betekende maar liefst 52.855 verkochte kaarten. De recensies waren lovend, het publiek zeer enthousiast. Dit ongelooflijke succesverhaal vroeg om een vervolg, daarom zal Urbanus nu met zijn spektakel langs enkele Vlaamse zalen touren. In april zal hij in Capitole Gent staan en in juni brengt hij zijn comedyshow in de Stadsschouwburg van Antwerpen.
+	  						</p>
+	  						<p>
+	  							De show is een best off met hits als “Hittentit”, “Madammen Met Een Bontjas”, “Quand Les Zosiaux Chantent Dans Le Bois”, “Bakske Vol Met Stro”, “1-2-3 Rikke Tikke Tik”, “Poesje Stoei” en een viertal nieuwe nummers.
+	  							De liedjes worden afgewisseld met nieuwe sketches, oneliners, twoliners en visuele onnozelheden, ook zijn typische gitaar zal hij zeker meebrengen. Het wordt een feest van herkenning: de komiek uit Tollembeek eindelijk terug in de theaters na 11 jaar afwezigheid!<br />
+	  							Voor de voorstellingen in april zijn er enkel nog dinnerseats beschikbaar. Een ticket + een heerlijk diner!	
+	  						</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/urbanus-zelf">Bestel tickets!</a>
+	  						</p>
+	  					</div>
+	  					
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Henk Rijckaert &mdash; Het Experiment</h2>
+	  						<em>19 april</em>
+	  						<div id="newsitem2-img" class="img"></div>
+	  						<p>
+	  							Een echte man kent vele passies, maar vroeg of laat gaat hij terug naar de basis. In zijn 3de avondvullende voorstelling, ‘Het Experiment', keert Henk Rijckaert dan ook terug naar zijn eerste liefde: de wetenschap. Hij ontmaskert leugens, verklaart het verband tussen homeopathie en natuurrampen en bouwt zijn eigen waarheden op, geheel volgens de regels van de leugenaars. En hij experimenteert. Helemaal wetenschappelijk verantwoord -- mocht u daar nog aan twijfelen.
+	  						</p>
+	  						<p>
+	  							Henk sleept in "Het Experiment" zoals steeds zijn toeschouwers met zich mee in zijn hoogstpersoonlijke wereld, waar het overigens aangenaam toeven is: als zeer begenadigd verteller en opmerkzame observator laat hij u een werkelijkheid zien die u misschien nooit eerder had opgemerkt. Hij maakt gedachtesprongen die enkel hij kan bedenken en sleurt u gewild of ongewild mee in zijn eigen realiteit. Een puur wetenschappelijke realiteit deze keer, dat is evident.<br />
+	  							Henk Rijckaert presenteerde samen Bert Gabriëls het zeer succesvolle ‘Zonde van de zendtijd'.				        	</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/cabaretten-lente-2012-henk-rijckaert">Bestel tickets!</a>
+	  						</p>
+	  					</div>
+	  					]]>
+	  					</content>
+	  			  	</language>
+	  				<language id='engels'>
+	  					<title>
+	  						News
+	  					</title>
+	  					<content>
+	  					<![CDATA[
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Urbanus zelf!</h2>
+	  						<em>13 - 19 April </em>
+	  						<div id="newsitem1-img" class="img"></div>
+	  						<p>
+	  							Singer and comedian URBANUS performed last year four nights before a completely sold out Sportpaleis. This meant no less then 52.855 tickets. The reviews were full of praise, and the audience enthousiastic. This incredible success implied a sequel, so Urbanus now is touring with his spectacle in some Flemish venues. In April, Urbanus will perform in the Capitole, Ghent and in June in Stadsschouwburg, Antwerp.   
+	  						</p>
+	  						<p>
+	  							The show is the best off with hits like "Hittentit", "Madammen Met Een Bontjas", "Quand Les Zosiaux Chantent Dans Le Bois", "Bakske Vol Met Stro", “1-2-3 Rikke Tikke Tik”, “Poesje Stoei” and around four new songs.
+	  							The songs are being alternated with new sketches, oneliners, twoliners and visual stupidness. But don't worry, he will bring his guitar with him. It will be a party of recognition: the comedian from Tollembeek finally back in theaters after eleven years of absence!<br />
+	  							Only dinnerseats are available for the performance of April. A ticket + a wonderful dinner!
+	  						</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/urbanus-zelf">Order tickets!</a>
+	  						</p>
+	  					</div>
+	  					
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Henk Rijckaert &mdash; The Experiment</h2>
+	  						<em>19 April</em>
+	  						<div id="newsitem2-img" class="img"></div>
+	  						<p>
+	  							A real man has many passions, but eventually will go back to basics.In his 3th late-night show, 'The Experiment', Henk Rijckaert goes back in time to his first love: science. He uncovers lies, explains the connection between homeopathy and natural disasters, and builds up his own truth, completely by the rules of liars. And he experiments. Completely scientifically sound -- in case you still were in doubt. 
+	  						</p>
+	  						<p>
+	  							Henk picks up his audience and carries them along the show as usual in his own personal world, where life is very pleasant: as the gifted narrator and the perceptive observer he is, he shows you a reality you couldn't even imagine. He jumps from thought to thought, like only Henk does en drags you into -willingly or unwillingly- his own reality. A pure scientific reality this time, of course!<br />
+	  							Henk Rijckaert presented together with Bert Gabriels the very popular 'Zonde van de Zendtijd'.			        	</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/cabaretten-lente-2012-henk-rijckaert">Order tickets!</a>
+	  						</p>
+	  					</div>
+	  					]]>
+	  					</content>
+	  				</language>
+	  				<language id='frans'>
+	  					<title>
+	  						Nouvelles
+	  					</title>
+	  					<content>
+	  					<![CDATA[
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Urbanus zelf!</h2>
+	  						<em>13 - 19 Avril </em>
+	  						<div id="newsitem1-img" class="img"></div>
+	  						<p>
+	  							Urbanus, chanteur et comédien, a joué l'année passée 4 nuits devant un Sportpaleis épuisé. Cela signifie pas moins de 52 855 billets vendus. Les commentaires étaient très élogieuses, le public enthousiaste. Ce succès incroyable demande une suite, et c'est pourquoi Urbanus est en tournée avec son spectacle dans quelques théâtres flamandes. En Avril, il viendra au Capitole, à Gand et en Juin, il apporte sa comédie au Stadsschouwburg, Anvers.
+	   						</p>
+	  						<p>
+	  							Le spectacle est mieux loti avec des tubes comme "Hittentit", “Madammen Met Een Bontjas”, “Quand Les Zosiaux Chantent Dans Le Bois”, “Bakske Vol Met Stro”, “1-2-3 Rikke Tikke Tik”, “Poesje Stoei” et quatre nouvelles chansons. Les chansons sont entrecoupées avec des sketches, de nouveaux one-liners, twoliners, et visuels idiot, mais aussi sa guitare typique, qu'il va certainement apporter. C'est une fête de reconnaissance: l'humoriste de Tollembeek est enfin de retour dans les salles après 11 ans d'absence. <br />
+	  								Pour les performances en Avril, seulement des places dîner sont disponibles. Un billet + un dîner délicieux!
+	  						</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/urbanus-zelf">Commander vos billets!</a>
+	  						</p>
+	  					</div>
+	  					
+	  					<div class="newsfeed-newsitem">
+	  						<h2>Henk Rijckaert &mdash; L'Expériment</h2>
+	  						<em>19 Avril</em>
+	  						<div id="newsitem2-img" class="img"></div>
+	  						<p>
+	  							Un homme vrai a beaucoup de passions, mais retournera finalement vers l'essence. Dans son troisième spectacle, 'L'Expériment',  Henk Rijckaert remonte dans le temps à son premier amour: la science. Il découvre des mensonges, explique le lien entre l'homéopathie et les catastrophes naturelles, et construit son propre vérité, complètement par les règles de menteurs. Et il expérimente. Complètement scientifiquement valable - au cas où vous étaient encore dans le doute.
+	  						</p>
+	  						<p>
+	  							Henk tire dans "L'Expériment", comme toujours son auditoire avec lui dans son monde très personnel, où c'est très agréable d'être: comme un conteur très doué et observateur perspicace, il vous montre une réalité que peut-être vous n'avez jamais remarqué auparavant. Il fait des bonds que seulement lui en peut penser et vous entraîne-volontairement ou involontairement-dans sa propre réalité. Une réalité purement scientifique cette fois.<br />
+	  							Henk Rijckaert présente ensemble avec Bert Gabriels le très réussi 'Zonde van de Zendtijd'.			   
+	  						</p>
+	  						<p>
+	  							<a id="tickets" href="http://www.capitolegent.be/nl/kalender/alle-genres/p/detail/cabaretten-lente-2012-henk-rijckaert">Commander vos billets!</a>
+	  						</p>
+	  					</div>
+	  					]]>
+	  					</content>
+	  				</language>
+	  			</languages>
+	  	</page>
+	</pages>
+</content>

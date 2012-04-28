@@ -1,0 +1,346 @@
+/*!
+ * Gridpak Beta CSS
+ *
+ * Generator - http://gridpak.com/
+ * Created by @erskinedesign
+ */
+ 
+ 
+
+/* Reusable column setup */
+.col {
+    border:0px solid rgba(0,0,0,0);
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    -moz-background-clip:padding-box !important;
+    -webkit-background-clip:padding-box !important;
+    background-clip:padding-box !important;
+}
+
+.row {
+	margin: 0 auto;
+}
+
+
+
+    /* 1. 6 Column Grid 0px - 299px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.6666666667%
+    Span 2:    33.3333333333%
+    Span 3:    50.0%
+    Span 4:    66.6666666667%
+    Span 5:    83.3333333333%
+    Span 6:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 320px) and (max-width: 479px) {
+        
+        .row {
+            width: 300px;
+            margin-left: -6px;
+        }
+        .col {
+            border-left-width:6px;
+        	padding:0 6px;
+        }
+        
+        
+        
+        /*
+        Add your semantic classnames in alongside their corresponding spans here. e.g.
+        
+        .span_3,
+        .my_semantic_class_name {
+            ...
+        }
+        */
+        
+        .span_1 {
+            width:16.6666666667%;
+        }
+        .span_2 {
+            width:33.3333333333%;
+        }
+        .span_3 {
+            width:50.0%;
+        }
+        .span_4 {
+            width:66.6666666667%;
+        }
+        .span_5 {
+            width:83.3333333333%;
+        }
+        .span_6,
+        .nav,
+        .header {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 2. 6 Column Grid 300px - 459px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    16.6666666667%
+    Span 2:    33.3333333333%
+    Span 3:    50.0%
+    Span 4:    66.6666666667%
+    Span 5:    83.3333333333%
+    Span 6:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 480px) and (max-width: 639px) {
+        
+        .row {
+            width: 460px;
+            margin-left: -6px;
+        }
+        .col {
+            border-left-width:6px;
+        	padding:0 6px;
+        }
+        
+        
+        
+        
+        .span_1 {
+            width:16.6666666667%;
+        }
+        .span_2 {
+            width:33.3333333333%;
+        }
+        .span_3 {
+            width:50.0%;
+        }
+        .span_4 {
+            width:66.6666666667%;
+        }
+        .span_5 {
+            width:83.3333333333%;
+        }
+        .span_6,
+        .nav,
+        .header {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 3. 12 Column Grid 460px - 619px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 640px) and (max-width: 960px) {
+        
+        .row {
+            width: 620px;
+            margin-left: -10px;
+        }
+        .col {
+            border-left-width:10px;
+        	padding:0 8px;
+        }
+
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4 {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6 {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8 {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12,
+        .nav,
+        .header {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 4. 12 Column Grid 620px - 939px 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 960px) {
+        
+        .row {
+            width: 940px;
+            margin-left: -12px;
+        }
+        .col {
+            border-left-width:12px;
+        	padding:0 10px;
+        }
+        
+        
+        
+        
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4 {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6 {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8 {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12,
+        .nav,
+        .header {
+            margin-left:0;
+            width:100%;
+        }
+    }
+
+    /* 5. 12 Column Grid 940px - Infinity 
+    ----------------------------------------------------------------------------- 
+    
+    Span 1:    8.33333333333%
+    Span 2:    16.6666666667%
+    Span 3:    25.0%
+    Span 4:    33.3333333333%
+    Span 5:    41.6666666667%
+    Span 6:    50.0%
+    Span 7:    58.3333333333%
+    Span 8:    66.6666666667%
+    Span 9:    75.0%
+    Span 10:    83.3333333333%
+    Span 11:    91.6666666667%
+    Span 12:    100%
+    
+    ----------------------------------------------------------------------------- */
+
+    @media screen and (min-width: 940px) {
+        
+        .row {
+        	width: 940px;
+        	margin-left: -12px;
+        }
+        .col {
+            border-left-width:12px;
+        	padding:0 10px;
+        }
+       
+        .span_1 {
+            width:8.33333333333%;
+        }
+        .span_2 {
+            width:16.6666666667%;
+        }
+        .span_3 {
+            width:25.0%;
+        }
+        .span_4 {
+            width:33.3333333333%;
+        }
+        .span_5 {
+            width:41.6666666667%;
+        }
+        .span_6 {
+            width:50.0%;
+        }
+        .span_7 {
+            width:58.3333333333%;
+        }
+        .span_8 {
+            width:66.6666666667%;
+        }
+        .span_9 {
+            width:75.0%;
+        }
+        .span_10 {
+            width:83.3333333333%;
+        }
+        .span_11 {
+            width:91.6666666667%;
+        }
+        .span_12, 
+        .nav,
+        .header {
+            margin-left:0;
+            width:100%;
+        }
+    }
+

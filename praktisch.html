@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- ENCODING UTF-8 -->
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>De Stenen van Gent - Praktisch</title>    
+		<meta name="description" content="" /> 
+		<meta name="keywords" content="photoshop, illustrator, design, webdesign, print, color, c#, asp.net, JavaScript, php, flash, html5 canvas" /> 
+		<meta name="robot" content="index,follow" /> 
+		<meta name="author" content="Daan De Deckere, Laurent Beuten, Flore Hofman, Thibo Christiaens, Stefaan Christiaens" /> 
+		<meta name="language" content="nl-be" /> 
+		<meta name="revisit-after" content="1" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css' />
+		<script src="_scripts/_libs/modernizr.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="_styles/reset.css" />
+        <link rel="stylesheet" type="text/css" href="_styles/default.css" />
+        <link rel="shortcut icon" href="_styles/_assets/_images/favicon.ico">
+	</head>
+	<body id="home">
+		<header>
+			<nav id="nav">
+			    <div class="row">
+			        <div class="col" id="nav-inner">
+			        	<ul>
+			        		<li>
+			        			<a href="#" id="logo">Home</a>
+			        		</li>
+			        	</ul>
+			        	<ul id="mobilenav-toggle">
+			        		<li>
+			        			<a href="#" id="toggle" class="btn-navbar">
+			        				<span class="icon-bar"></span>
+			        				<span class="icon-bar"></span>
+			        				<span class="icon-bar"></span>
+			        			</a>
+			        		</li>
+			        	</ul>
+			        	<ul class="pull-right">
+			        		<li>
+			        			<a href="index.html" class="link_home">Home</a>
+			        		</li>
+			        		<li>
+			        			<a href="nieuws.html" class="link_nieuws">Nieuws</a>
+			        		</li>
+			        		<li>
+			        			<a href="gebouw.html" class="link_gebouw">Gebouw</a>
+			        		</li>
+			        		<li>
+			        			<a href="media.html" class="link_foto">Media</a>
+			        		</li>
+			        		<li id="active">
+			        			<a href="praktisch.html" class="link_praktisch">Praktisch</a>
+			        		</li>
+			        	</ul>
+			        </div>
+			        </div>
+			    </nav>
+	    	<div id="pageheaderafter">
+	    	</div>
+	    </header>
+	    <div class="row">
+        		<div class="col full">
+        			<div class="media-block">			        	
+        		       	<div class="span_6 col">
+				        	<div id="praktisch-img" class="img"></div>
+				        </div>
+				        <div class="span_6 col">
+				        	<h1 id="title">Hoe geraak ik er?</h1>
+				        	<div id="beschrijving"></div>
+				        </div>
+		        	</div>
+	        	</div>
+        	</div>
+	    <div class="row">
+	    		<div class="col span_6">
+	    			<div class="media-block">			        	
+						<h1 id="title2">Kaart</h1>
+						<div id="map" class="img"></div>
+	            	</div>
+	        	</div>
+	        	<div class="col span_6">
+	        		<div class="media-block">			        	
+	        			<h1 id="title3">Met de auto</h1>
+	        			<div id="content"></div>
+	        		</div>
+	        	</div>
+	    	</div>
+	    <footer id="footer">
+	    <div class="row">
+	    	<div class="span_12 col">
+	    		&copy; Arteveldehogeschool.&nbsp;&nbsp;&nbsp;<a class="link_home" href="index.html">Home</a> / <a class="link_nieuws" href="nieuws.html">Nieuws</a> / <a class="link_gebouw" href="gebouw.html">Gebouw</a> / <a class="link_foto" href="media.html">In beeld</a> / <a class="link_praktisch" href="praktisch.html">Praktisch</a> / <a href="contact.html">Contact</a> / <a href="#"  onClick="setLanguageFromLink(this); return false;" rel="nl">NL</a> - <a href="#" onClick='setLanguageFromLink(this); return false;' rel="en">EN</a> - <a href="#" onClick='setLanguageFromLink(this); return false;' rel="fr">FR</a>
+	    	</div>
+	    	</div>
+	    </footer>
+	    <!-- BOTTOM SCRIPTS -->
+	        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	        <script>window.jQuery || document.write('<script src="./_scripts/libs/jquery-1.7.1.min.js"><\/script>')</script>
+	        <!-- MY OWN SCRIPTS -->
+	           	<script type="text/javascript" src="_scripts/_libs/jquery.cookie.js"></script> 
+	    		<script type="text/javascript" src="_scripts/content.js"></script>
+	        	<script src="http://www.google.com/jsapi?" type="text/javascript"></script>
+	        	<script type="text/javascript"
+	        	  src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDqsjbo0JTyqexEzIBOYcolZlo5SBUGrHc&amp;sensor=false">
+	        	</script>
+	        	<script language="JavaScript" src="http://j.maxmind.com/app/geoip.js"></script>
+	        	<script type="text/javascript">google.load("search", "1");</script>
+	        	<script src="_scripts/geolocation.js"></script>
+	        	<script src="_scripts/_libs/jquery.blueberry.js" type="text/javascript"></script>
+	        	
+	        <!-- PNGFIX WITH BELATEDPNG -->
+	        <!--[if lt IE 7 ]>
+	            <script src="./_scripts/libs/dd_belatedpng.js"></script>
+	            <script>DD_belatedPNG.fix("img, .png_bg");</script>
+	        <![endif]-->
+		<script type="text/javascript">
+		/* Calculates scrollbar width in pixels */
+		function scrollbar_width() {
+		    if( jQuery('body').height() > jQuery(window).height()) { 
+		        var calculation_content = jQuery('<div style="width:50px;height:50px;overflow:hidden;position:absolute;top:-200px;left:-200px;"><div style="height:100px;"></div>');
+		        jQuery('body').append( calculation_content );
+		        var width_one = jQuery('div', calculation_content).innerWidth();
+		        calculation_content.css('overflow-y', 'scroll');
+		        var width_two = jQuery('div', calculation_content).innerWidth();
+		        jQuery(calculation_content).remove();
+		        return ( width_one - width_two );
+		    }
+		    return 0;
+		}
+		
+		$(document).ready(function () {
+			$("#toggle").click(function () {
+				$(".pull-right").slideToggle(300);
+			});
+		});
+		$(window).resize(function () {
+			if ($(window).width()+scrollbar_width() >= 640 && $(".pull-right").css("display") === "none") {
+				$(".pull-right").css("display","block");
+			}
+			if ($(window).width()+scrollbar_width() < 640 && $(".pull-right").css("display") === "block") {
+				$(".pull-right").css("display","none");
+			}
+		});
+		
+		$(window).load(function() {
+			$('.blueberry').blueberry();
+		});
+		</script>
+	</body>
+</html>
