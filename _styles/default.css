@@ -277,7 +277,11 @@ header {
 }
 
 #gallery {
-	margin-top: 15px;
+	margin-top: 10px;
+}
+
+#gallery h1 {
+	margin-bottom: 5px;
 }
 
 .blueberry { 
@@ -312,7 +316,7 @@ header {
 }
 
 .blueberry .pager {
-	height: 40px;
+	height: 37px;
 	text-align: center;
 }
 
@@ -633,7 +637,8 @@ form span{
         #capitole-header,
         #newsfeed,
         #gallery,
-        .full {
+        .full,
+        .home-circles {
             margin-left:0;
             width:100%;
         }
@@ -752,7 +757,8 @@ form span{
         #capitole-header,
         #newsfeed,
         #gallery,
-        .full {
+        .full,
+        .home-circles {
             margin-left:0;
             width:100%;
         }
@@ -869,7 +875,7 @@ form span{
             width:25.0%;
         }
         .span_4,
-        #newsfeed {
+        .home-circles {
             width:33.3333333333%;
         }
         .span_5 {
@@ -882,8 +888,7 @@ form span{
         .span_7 {
             width:58.3333333333%;
         }
-        .span_8,
-        #gallery {
+        .span_8 {
             width:66.6666666667%;
         }
         .span_9 {
@@ -899,7 +904,9 @@ form span{
         #nav-inner,
         #capitole-header,
         #col-text-intro,
-        .full {
+        .full,
+        #newsfeed,
+        #gallery {
             margin-left:0;
             width:100%;
         }
@@ -933,23 +940,25 @@ form span{
         }
         
         #newsfeed #img-news{
-        	background: url('../content/images/urbanus-480.jpg') no-repeat -50px -10px;
+        	background: url('../content/images/urbanus-480.jpg');
         	display:  block;
         	width: 100%;
+        	float: none;
+        } 
+        
+        #newsfeed #img-news2 {
+        	background: url('../content/images/henk-480.jpg');
+        	display:  block;
+        	width: 100%;
+        	float: none;
         }        
         
         #newsfeed p {
         	width: auto;
         	margin-left: 0;
-        	float: none;
         }
-        
-        #newsfeed div > div > div:last-child {
-        	display: none;
-        }
+
         #img-news{
-        	width: 165px !important;
-        	overflow: hidden;
         }
         
         #newsfeed #bloglink {
@@ -966,6 +975,10 @@ form span{
         	background: url('../content/images/henk-640.jpg') no-repeat center center;
         	width: 572px;
         	height: 187px;
+        }
+        
+        #gallery {
+        	border-left: none;
         }
         
         #building-img {
@@ -1038,7 +1051,8 @@ form span{
             width:25.0%;
         }
         .span_4,
-        #newsfeed {
+        #newsfeed,
+        .home-circles {
             width:33.3333333333%;
         }
         .span_5 {
