@@ -37,8 +37,6 @@ h1 a:hover {
 .media-block h1 {
 	color: #C00;
 	font: 300 26px/28px 'Open Sans Condensed', sans-serif;
-	border-bottom: 1px solid #888;
-	width: 100%;
 	margin-bottom: 10px;
 }
 
@@ -70,13 +68,9 @@ em {
 }
 
 .media-block {
-	background: #FFF;
-	border-radius: 6px;
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-	margin-bottom: 20px;
-	padding: 10px 20px;
+background: #FFF;
+padding: 10px 20px;
+border-top: 5px solid #C00;
 }
 
 .row > [class*="col"]:first-child,
@@ -240,13 +234,13 @@ header {
 }
 
 #newsfeed #img-news{
-	background: url('../content/images/urbanus-480.jpg') no-repeat center center;
+	background: url('../content/images/urbanus-desktop.jpg') no-repeat center center;
 	display:  block;
 	width: 100%;
 }
 
 #newsfeed #img-news2{
-	background: url('../content/images/henk-480.jpg') no-repeat center center;
+	background: url('../content/images/henk-desktop.jpg') no-repeat center center;
 	width:  100%;
 }
 
@@ -384,6 +378,7 @@ header {
 	height: 292px;
 	display: block;
 	overflow: hidden;
+	margin-bottom: 8px;
 }
 
 #newsitem2-img {
@@ -392,6 +387,7 @@ header {
 	height: 292px;
 	display: block;
 	overflow: hidden;
+	margin-bottom: 8px;
 }
 
 /* @end */
@@ -663,6 +659,16 @@ form span{
         	width: 100%;
         }
         
+        #newsfeed #img-news {
+        	background: url('../content/images/urbanus-260.jpg') no-repeat center center;
+        	height: 78px;
+        }
+        
+        #newsfeed #img-news2 {
+        	background: url('../content/images/henk-260.jpg') no-repeat center center;
+        	height: 77px;
+        }
+        
         #gallery {
         	border-left-width: 0;
         }
@@ -780,11 +786,13 @@ form span{
         }
         
         #newsfeed #img-news{
-        	background: url('../content/images/urbanus-480.jpg') no-repeat center center;
+        	background: url('../content/images/urbanus-420.jpg') no-repeat center center;
+        	height: 125px;
         }
         
         #newsfeed #img-news2{
-        	background: url('../content/images/henk-480.jpg') no-repeat center center;
+        	background: url('../content/images/henk-420.jpg') no-repeat center center;
+        	height: 125px;
         }
         
         
@@ -940,16 +948,18 @@ form span{
         }
         
         #newsfeed #img-news{
-        	background: url('../content/images/urbanus-480.jpg');
+        	background: url('../content/images/urbanus-580.jpg');
         	display:  block;
         	width: 100%;
+        	height: 173px;
         	float: none;
         } 
         
         #newsfeed #img-news2 {
-        	background: url('../content/images/henk-480.jpg');
+        	background: url('../content/images/henk-580.jpg');
         	display:  block;
         	width: 100%;
+        	height: 173px;
         	float: none;
         }        
         
@@ -1203,6 +1213,11 @@ form span{
  	margin-left: 10px;
  	color: #999;
  	text-decoration: none;
+ }
+ 
+ .pull-right a {
+ 	width: 100%;
+ 	display: block;
  }
  
  #nav-inner a:hover {
