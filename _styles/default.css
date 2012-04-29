@@ -138,9 +138,9 @@ header {
 }
 
 .icon-what span {
-	border-radius: 999px;
-	-moz-border-radius: 999px;
-	-webkit-border-radius: 999px;
+	border-radius: 60px;
+	-moz-border-radius: 60px;
+	-webkit-border-radius: 60px;
 	display: block;
 	text-indent: -9999px;	
 	
