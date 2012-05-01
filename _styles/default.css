@@ -73,10 +73,10 @@ padding: 10px 20px;
 border-top: 5px solid #C00;
 }
 
-.row > [class*="col"]:first-child,
+/*.row > [class*="col"]:first-child,
 .media-block > [class*="col"]:first-of-type {
 	border-left: 0 none;
-}
+}*/
 
 .img {
 	background-color: #FFF;
@@ -555,6 +555,12 @@ form span{
  */
   
 /* Reusable column setup */
+
+.page {
+    margin: 0 auto;
+    position: relative;
+}
+
 .col {
     border:0px solid rgba(0,0,0,0);
     float:left;
@@ -594,9 +600,14 @@ form span{
 
     @media screen and (max-width: 479px) {
         
-        .row {
+        .page {
             width: 300px;
         }
+        
+        .row {
+        	margin-left: -6px;
+        }
+        
         .col {
             border-left-width:6px;
 /*        	padding:0 6px;*/
@@ -735,9 +746,14 @@ form span{
 
     @media screen and (min-width: 480px) and (max-width: 639px) {
         
-        .row {
+        .page {
             width: 460px;
         }
+        
+        .row {
+            margin-left: -6px;
+        }
+        
         .col {
             border-left-width:6px;
 /*        	padding:0 6px;*/
@@ -865,9 +881,14 @@ form span{
 
     @media screen and (min-width: 640px) and (max-width: 960px) {
         
-        .row {
+        .page {
             width: 620px;
         }
+        
+        .row {
+        	margin-left: -10px;
+        }
+        
         .col {
             border-left-width:10px;
 /*        	padding:0 8px;*/
@@ -1040,12 +1061,16 @@ form span{
 
     @media screen and (min-width: 960px) {
         
+        .page {
+        	width: 940px;
+        }
+        
         .row {
-            width: 940px;
+            margin-left: -18px;
         }
         .col {
             border-left-width:18px;
-/*        	padding:0 10px;*/
+/*        	padding:0 18px;*/
         }
         
         
