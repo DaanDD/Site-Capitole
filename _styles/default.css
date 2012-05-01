@@ -128,7 +128,7 @@ header {
 	display: block;
 	height: 30px;
 	width: 100%;
-	background: #e8e1da url('_assets/_images/headerafter.png') repeat-x top center;
+	background: url('_assets/_images/sprite.png') center -87px repeat-x;
 	margin-top: -72px;
 	margin-bottom: 16px;
 	position: relative;
@@ -546,9 +546,7 @@ form span {
 }
 
 /* @end */
-/*! * Gridpak Beta CSS * * Generator - http: //gridpak.com/
-* Created by @erskinedesign */
-/* Reusable column setup */
+
 .page {
 	margin: 0 auto;
 	position: relative;
@@ -577,7 +575,6 @@ form span {
 	float: left;
 }
 
-/* 1. 6 Column Grid 0px - 299px ----------------------------------------------------------------------------- Span 1: 16.6666666667% Span 2: 33.3333333333% Span 3: 50.0% Span 4: 66.6666666667% Span 5: 83.3333333333% Span 6: 100% ----------------------------------------------------------------------------- */
 @media screen and (max-width: 479px) {
 	.page {
 		width: 300px;
@@ -699,7 +696,6 @@ form span {
 
 }
 
-/* 2. 6 Column Grid 300px - 459px ----------------------------------------------------------------------------- Span 1: 16.6666666667% Span 2: 33.3333333333% Span 3: 50.0% Span 4: 66.6666666667% Span 5: 83.3333333333% Span 6: 100% ----------------------------------------------------------------------------- */
 @media screen and (min-width: 480px) and (max-width: 639px) {
 	.page {
 		width: 460px;
@@ -811,7 +807,6 @@ form span {
 
 }
 
-/* 3. 12 Column Grid 460px - 619px ----------------------------------------------------------------------------- Span 1: 8.33333333333% Span 2: 16.6666666667% Span 3: 25.0% Span 4: 33.3333333333% Span 5: 41.6666666667% Span 6: 50.0% Span 7: 58.3333333333% Span 8: 66.6666666667% Span 9: 75.0% Span 10: 83.3333333333% Span 11: 91.6666666667% Span 12: 100% ----------------------------------------------------------------------------- */
 @media screen and (min-width: 640px) and (max-width: 960px) {
 	.page {
 		width: 620px;
@@ -975,7 +970,6 @@ form span {
 
 }
 
-/* 4. 12 Column Grid 620px - 939px ----------------------------------------------------------------------------- Span 1: 8.33333333333% Span 2: 16.6666666667% Span 3: 25.0% Span 4: 33.3333333333% Span 5: 41.6666666667% Span 6: 50.0% Span 7: 58.3333333333% Span 8: 66.6666666667% Span 9: 75.0% Span 10: 83.3333333333% Span 11: 91.6666666667% Span 12: 100% ----------------------------------------------------------------------------- */
 @media screen and (min-width: 960px) {
 	.page {
 		width: 940px;
@@ -1049,7 +1043,7 @@ form span {
 @media screen and (min-width: 640px) {
 	/** DESKTOP NAVIGATION **/
 	#nav {
-		background: #101010 url('_assets/_images/menudark.png') repeat-x left top;
+		background: #101010 url(_assets/_images/sprite.png) 0 -119px repeat-x;
 		-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
 		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.5);
 		box-shadow: 0 1px 2px rgba(0,0,0,0.5);
@@ -1072,7 +1066,7 @@ form span {
 	#logo {
 		width: 75px;
 		height: 19px;
-		background: url('_assets/_images/logo.png') no-repeat left top;
+		background: url(_assets/_images/sprite.png) 0px -66px no-repeat;
 		text-indent: -9999px;
 		float: left;
 		margin: 10px 0 0 0;
@@ -1094,9 +1088,9 @@ form span {
 	}
 
 	#nav-inner li#active a {
-		background: url('_assets/_images/menuind.png') no-repeat left top;
+		background: url('_assets/_images/sprite.png') no-repeat left top;
 		width: 87px;
-		height: 64px;
+		height: 52px;
 		padding: 12px 0 0 0;
 		display: block;
 		text-align: center;

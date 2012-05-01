@@ -1,0 +1,20 @@
+.afspeelteken {
+  background: url(_assets/_images/homesprite.png) -123px 0px no-repeat;
+  display: block;
+  width: 46px;
+  height: 52px;
+}
+
+.kaart {
+  background: url(_assets/_images/homesprite.png) 0px 0px no-repeat;
+  display: block;
+  width: 90px;
+  height: 126px;
+}
+
+.vraagteken {
+  background: url(_assets/_images/homesprite.png) -92px 0px no-repeat;
+  display: block;
+  width: 29px;
+  height: 64px;
+}
