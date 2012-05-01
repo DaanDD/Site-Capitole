@@ -540,7 +540,7 @@ form span {
 }
 
 .col {
-	border: 0 none;
+	border: 0px solid rgba(0,0,0,0);
 	float: left;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
