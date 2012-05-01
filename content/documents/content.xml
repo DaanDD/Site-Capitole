@@ -447,11 +447,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  			<language id='nederlands'>
 	  			<content>
 	  			<![CDATA[
-	  				<input type="text" id="naam" name="naam" placeholder="Naam" /> <span id="naamSpan">*</span><br />
-	  				<input type="text" id="email" name="email" placeholder="E-mail" /> <span id="emailSpan">*</span><br />
-	  				<input type="text" id="bday" name="bday" placeholder="Geboortedatum" /> <span id="bdaySpan">*</span><br />
-	  				<input type="radio" name="sex" value="Man" checked="true" />Man
-	  				<input type="radio" name="sex" value="Vrouw" />Vrouw<br />
+	  				<input type="text" id="naam" name="naam" placeholder="Naam" /> <sup>*</sup><br />
+	  				<input type="text" id="email" name="email" placeholder="E-mail" /> <sup>*</sup><br />
+	  				<input type="text" id="bday" name="bday" placeholder="Geboortedatum" /> <sup>*</sup><br />
+	  				<input type="radio" name="sex" value="Man" id="man" checked="true" /><label for="man">Man</label>
+	  				<input type="radio" name="sex" value="Vrouw" id="vrouw" /><label for="vrouw">Vrouw</label><br />
 	  				<select id="ddl">
 	  					<option value="opmerking">Opmerking</option>
 	  					  <option value="vraag">Vraag</option>

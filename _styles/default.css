@@ -459,11 +459,11 @@ option {
 	border: none;
 }
 
-input:focus,select:focus {
+input:focus,select:focus,textarea:focus {
 	outline: none;
 	border-color: #1e6094;
 	box-shadow: 0 0 4px #2e8cd7;
-	background-color: #ece8e4;
+	background-color: #F9F9F9;
 }
 
 select:focus {
