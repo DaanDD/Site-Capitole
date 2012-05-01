@@ -72,11 +72,14 @@ em {
 	border-top: 5px solid #C00;
 }
 
-/*.row>[class*="col"]: first-child,.media-block>[class*="col"]: first-of-type {
+
+/*.row>[class*="col"]: first-child,*/
+.media-block>[class*="col"]:first-of-type {
 	border-left: 0 none;
+	background: #F00;
 }
 
-*/
+
 .img {
 	background-color: #FFF;
 	border: 1px solid #888;
@@ -236,7 +239,7 @@ header {
 	width: 100%;
 }
 
-#newsfeed>div {
+#newsfeed > div {
 	background: #FFF;
 	padding: 10px 20px;
 	border-top: 5px solid #C00;
