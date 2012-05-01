@@ -455,8 +455,8 @@ input,textarea,select,option {
 }
 
 option {
-	margin: 0 !important;
-	border: none !important;
+	margin: 0;
+	border: none;
 }
 
 input:focus,select:focus {
@@ -467,7 +467,7 @@ input:focus,select:focus {
 }
 
 select:focus {
-	border: none !important;
+	border: none;
 	background-color: #FFF;
 }
 
@@ -674,7 +674,7 @@ form span {
 		background: #FFF url('../content/images/gebouw1-320.jpg') no-repeat center center;
 		width: 252px;
 		height: 82px;
-		margin-top: 0 !important;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
@@ -682,7 +682,7 @@ form span {
 		background: #FFF url('../content/images/gebouw2-320.jpg') no-repeat center center;
 		width: 252px;
 		height: 250px;
-		margin-top: 0 !important;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
@@ -791,7 +791,7 @@ form span {
 		background: #FFF url('../content/images/gebouw1-480.jpg') no-repeat center center;
 		width: 412px;
 		height: 140px;
-		margin-top: 0 !important;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
@@ -799,7 +799,7 @@ form span {
 		background: #FFF url('../content/images/gebouw2-480.jpg') no-repeat center center;
 		width: 412px;
 		height: 300px;
-		margin-top: 0 !important;
+		margin-top: 0;
 		margin-bottom: 10px;
 	}
 
