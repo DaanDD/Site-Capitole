@@ -57,6 +57,13 @@ em {
 	color: #7F7F7F;
 }
 
+.transition, .pull-right a, #tickets {
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	transition: 0.25s;
+	-o-transition: 0.25s;
+}
+
 .row:before,.row:after,.media-block:before,.media-block:after {
 	content: "";
 	display: table;
@@ -73,11 +80,11 @@ em {
 }
 
 
-/*.row>[class*="col"]: first-child,*/
+/*.row>[class*="col"]: first-child,
 .media-block>[class*="col"]:first-of-type {
 	border-left: 0 none;
 	background: #F00;
-}
+}*/
 
 
 .img {
@@ -362,6 +369,11 @@ header {
 	color: #FFF;
 }
 
+#tickets:hover {
+	background: #999;
+	text-decoration: none;
+}
+
 .newsfeed-newsitem {
 	margin-bottom: 35px;
 }
@@ -640,10 +652,6 @@ form span {
 		height: 77px;
 	}
 
-	#gallery {
-		border-left-width: 0;
-	}
-
 	#newsitem1-img {
 		background: url('../content/images/urbanus-320.jpg') no-repeat center center;
 		width: 252px;
@@ -759,10 +767,6 @@ form span {
 
 	#newsfeed p {
 		width: 100%;
-	}
-
-	#gallery {
-		border-left-width: 0;
 	}
 
 	#newsitem1-img {
@@ -938,10 +942,6 @@ form span {
 		background: url('../content/images/henk-640.jpg') no-repeat center center;
 		width: 572px;
 		height: 187px;
-	}
-
-	#gallery {
-		border-left: none;
 	}
 
 	#building-img {
