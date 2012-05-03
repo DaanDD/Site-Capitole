@@ -1,6 +1,9 @@
+@red: #C00;
+@bgColor: #e8e1da;
+
 /* @group Standard Styles */
 body {
-	background: #e8e1da url('_assets/_images/bg.png');
+	background: @bgColor url('_assets/_images/bg.png');
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 13px;
 	line-height: 18px;
@@ -8,7 +11,7 @@ body {
 }
 
 a {
-	color: #C00;
+	color: @red;
 	text-decoration: none;
 }
 
@@ -33,18 +36,18 @@ h1 a:hover {
 }
 
 .media-block h1 {
-	color: #C00;
+	color: @red;
 	font: 300 26px/28px 'Open Sans Condensed',sans-serif;
 	margin-bottom: 10px;
 }
 
 #newsfeed h1 a {
-	color: #C00;
+	color: @red;
 }
 
 .media-block h1 a {
 	text-decoration: none;
-	color: #C00;
+	color: @red;
 }
 
 h2 {
@@ -76,7 +79,7 @@ em {
 .media-block {
 	background: #FFF;
 	padding: 10px 20px;
-	border-top: 5px solid #C00;
+	border-top: 5px solid @red;
 }
 
 
@@ -148,7 +151,6 @@ header {
 	border-radius: 60px;
 	-moz-border-radius: 60px;
 	-webkit-border-radius: 60px;
-	-ms-bor
 	display: block;
 	text-indent: -9999px;
 }
@@ -218,7 +220,7 @@ header {
 .header-row {
 	padding-top: 20px;
 	border-top: 1px solid #EEE;
-	background: #DBD3CB url('_assets/_images/bg-dark.png');
+	background: darken(@bgColor, 6%) url('_assets/_images/bg-dark.png');
 	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
 	box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
@@ -248,9 +250,9 @@ header {
 }
 
 #newsfeed > div {
-	background: #FFF;
+	background: #EDE7E2;
 	padding: 10px 20px;
-	border-top: 5px solid #C00;
+	border-top: 5px solid @red;
 }
 
 #newsfeed p {
@@ -261,7 +263,7 @@ header {
 #newsfeed #bloglink {
 	display: none;
 	padding: 2px 6px;
-	background: #C00;
+	background: @red;
 	border-radius: 4px;
 	float: right;
 	color: #FFF;
@@ -354,7 +356,7 @@ header {
 	display: block;
 	height: 55px;
 	width: 100%;
-	background: #e8e1da url('_assets/_images/headerafter.png') repeat-x top center;
+	background: @bgColor url('_assets/_images/headerafter.png') repeat-x top center;
 	margin-top: -15px;
 	margin-bottom: 16px;
 	position: relative;
@@ -1087,6 +1089,10 @@ form span {
 		margin: 11px 10px 11px 10px;
 		text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
 	}
+	
+	ul.pull-right li a:active {
+		margin: 12px 10px 10px 10px;
+	}
 
 	#nav-inner li#active a {
 		background: url('_assets/_images/sprite.png') no-repeat left top;
@@ -1205,10 +1211,8 @@ form span {
 		background-image: -o-linear-gradient(top,#333,#222);
 		background-image: linear-gradient(top,#333,#222);
 		background-repeat: repeat-x;
-		filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#333',endColorstr='#222',GradientType=0);
 		border-color: #222 #222 #000000;
 		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		filter: progid: DXImageTransform.Microsoft.gradient(enabled = false);
 		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
 		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
 		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
