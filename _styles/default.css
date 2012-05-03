@@ -114,7 +114,7 @@ em {
 }
 
 .media-block {
-	background: #FFF;
+	background: lighten(@bgColor, 10%);
 	padding: 10px 20px;
 	border-top: 5px solid @red;
 }
@@ -277,9 +277,10 @@ header {
 }
 
 #newsfeed > div {
-	background: #EDE7E2;
+	background: lighten(@bgColor, 3%);
 	padding: 10px 20px;
 	border-top: 5px solid @red;
+	.box-shadow(0 1px 2px rgba(0,0,0,0.25));
 }
 
 #newsfeed p {
@@ -376,10 +377,10 @@ header {
 /* @end */
 /* @group Other Pages */
 #pageheaderafter {
-	display: block;
-	height: 55px;
+	height: 40px;
 	width: 100%;
-	background: @bgColor url('_assets/_images/headerafter.png') repeat-x top center;
+	background: @bgColor;
+/* url('_assets/_images/sprite.png') repeat-x 0 -87px;*/
 	margin-top: -15px;
 	margin-bottom: 16px;
 	position: relative;
@@ -1076,6 +1077,7 @@ form {
 		display: block;
 		margin: 11px 10px 11px 10px;
 		text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+		.transition;
 	}
 	
 	ul.pull-right li a:active {
@@ -1140,7 +1142,6 @@ form {
 	}
 
 	.pull-right a {
-		.transition;
 		width: 100%;
 		display: block;
 	}
@@ -1189,7 +1190,7 @@ form {
 		.gradient(#252525,#222,#333);
 		border-color: #222 #222 #000000;
 		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
+		.box-shadow(e("inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075"));
 		.border-radius(3px);
 	}
 
