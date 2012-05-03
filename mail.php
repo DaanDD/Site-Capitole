@@ -1,4 +1,3 @@
-
 <?php
 $mail = $_POST['mail'];
 $naam = $_POST['naam'];
@@ -17,9 +16,8 @@ $message .=" : ".$bday;
 $message .="\r Sex: ".$sex;
 
 if(mail($to, $subject, $message)){
-echo "Mail successful send";
+echo "Mail successfully sent.";
 }
 else{
 echo "There are some errors to send the mail, verify your server options";
 }
-?>
