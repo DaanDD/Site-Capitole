@@ -23,6 +23,12 @@
             box-shadow: inset @x @y @blur @color;  
 }
 
+.border-radius (@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
 /* @group Standard Styles */
 body {
 	background: @bgColor url('_assets/_images/bg.png');
@@ -166,9 +172,7 @@ header {
 }
 
 .icon-what span {
-	border-radius: 60px;
-	-moz-border-radius: 60px;
-	-webkit-border-radius: 60px;
+	.border-radius(60px);
 	display: block;
 	text-indent: -9999px;
 }
@@ -278,7 +282,7 @@ header {
 	display: none;
 	padding: 2px 6px;
 	background: @red;
-	border-radius: 4px;
+	.border-radius(4px);
 	float: right;
 	color: #FFF;
 }
@@ -346,18 +350,14 @@ header {
 
 .blueberry .pager li a {
 	padding: 18px 8px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
+	.border-radius(6px);
 }
 
 .blueberry .pager li a span {
 	overflow: hidden;
 	background: #c0c0c0;
 	text-indent: -9999px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
+	.border-radius(2px);
 }
 
 .blueberry .pager li.active a span {
@@ -382,7 +382,7 @@ header {
 #tickets {
 	padding: 4px 8px;
 	background: #777;
-	border-radius: 4px;
+	.border-radius(4px);
 	color: #FFF;
 }
 
@@ -462,11 +462,7 @@ input,textarea,select,option {
 	margin-bottom: 10px;
 	color: #000;
 	padding: 3px 4px 4px 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
-	border-radius: 4px;
+	.border-radius(4px);
 	border: 1px solid #646464;
 	background-color: #FFF;
 }
@@ -512,11 +508,7 @@ textarea {
 	border-right: 1px solid #6c6C6C;
 	border-bottom: 1px solid #5c5C5C;
 	border-left: 1px solid #6c6C6C;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	-ms-border-radius: 6px;
-	-o-border-radius: 6px;
-	border-radius: 6px;
+	.border-radius(6px);
 	color: #fff;
 	font: bold 11px/1 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 	padding: 8px 20px;
@@ -1189,9 +1181,7 @@ form span {
 		background: #090909;
 		float: left;
 		width: 100%;
-		-moz-border-radius: 0 0 6px 6px;
-		-webkit-border-radius: 0 0 6px 6px;
-		border-radius: 0 0 6px 6px;
+		.border-radius(0 0 6px 6px);
 		.box-shadow(0,1px,2px,rgba(0,0,0,0.4));
 		display: none;
 	}
@@ -1222,12 +1212,8 @@ form span {
 		background-repeat: repeat-x;
 		border-color: #222 #222 #000000;
 		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
-		-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
 		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075);
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
-		border-radius: 3px;
+		.border-radius(3px);
 	}
 
 	.btn-navbar:hover,.btn-navbar:active,.btn-navbar#active,.btn-navbar.disabled,.btn-navbar[disabled] {
@@ -1245,7 +1231,7 @@ form span {
 		background-color: #f5f5f5;
 		-webkit-border-radius: 1px;
 		-moz-border-radius: 1px;
-		border-radius: 1px;
+		.border-radius(1px);
 		.box-shadow(0,1px,0,rgba(0,0,0,0.25));
 	}
 
