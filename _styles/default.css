@@ -2,6 +2,7 @@
 
 @red: #C00;
 @bgColor: #e8e1da;
+@fontStack: "Helvetica Neue",Helvetica,Arial,sans-serif;
 
 .box-shadow(@settings) {  
 	-webkit-box-shadow: @settings;  
@@ -32,7 +33,7 @@
 /* @group Standard Styles */
 body {
 	background: @bgColor url('_assets/_images/bg.png');
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: @fontStack;
 	font-size: 13px;
 	line-height: 18px;
 	color: #333;
@@ -234,7 +235,7 @@ header {
 	padding-top: 20px;
 	border-top: 1px solid #EEE;
 	background: darken(@bgColor, 6%) url('_assets/_images/bg-dark.png');
-	.box-shadow(0 1px 2px rgba(0,0,0,0.2));
+	.box-shadow(inset 0 1px 2px rgba(0,0,0,0.2));
 }
 
 #newsfeed #img-news,#newsfeed #img-news2 {
@@ -479,34 +480,29 @@ select:focus {
 }
 
 textarea {
-	min-width: 350px;
-	min-height: 150px;
-	max-width: 350px;
-	max-height: 150px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 350px;
+	height: 150px;
 	font-size: 13px;
 	line-height: 18px;
-	color: #333;
+	font-family: @fontStack;
 }
 
 #button {
-	background-color: #a5b8da;
+	background-color: #A5B8dA;
 	background-image: -webkit-gradient(linear,left top,left bottom,from(#a5b8da),to(#7089b3));
-	/* Saf4+,Chrome */
 	background-image: -webkit-linear-gradient(top,#C2C2C2,#A2A2A2);
 	background-image: -moz-linear-gradient(top,#C2C2C2,#A2A2A2);
 	background-image: -ms-linear-gradient(top,#C2C2C2,#A2A2A2);
 	background-image: -o-linear-gradient(top,#C2C2C2,#A2A2A2);
 	background-image: linear-gradient(top,#C2C2C2,#A2A2A2);
-	border-top: 1px solid #757575;
-	border-right: 1px solid #6c6C6C;
-	border-bottom: 1px solid #5c5C5C;
-	border-left: 1px solid #6c6C6C;
+	border: 1px solid #6C6C6C;
+	border-top-color: #757575;
+	border-bottom-color: #5C5C5C;
 	.border-radius(6px);
-	color: #fff;
-	font: bold 11px/1 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-	padding: 8px 20px;
-	text-align: center;
+	color: #FFF;
+	font-size:  12px;
+	font-weight: bold;
+	padding: 7px 20px;
 	text-shadow: 0 -1px 1px #777777;
 	text-transform: uppercase;
 }
@@ -532,16 +528,6 @@ form {
 
 form span {
 	font-size: 100%;
-}
-
-#artevelde {
-	background: #FFF url('../content/images/authors.png') no-repeat center center;
-	width: 200px;
-	height: 130px;
-	display: block;
-	float: left;
-	margin-top: 25px;
-	margin-left: 20px;
 }
 
 #about {
@@ -1047,7 +1033,7 @@ form span {
 	/** DESKTOP NAVIGATION **/
 	#nav {
 		background: #101010 url(_assets/_images/sprite.png) 0 -119px repeat-x;
-		.box-shadow(0 2px 2px rgba(0,0,0,0.7));
+		.box-shadow(0 1px 2px rgba(0,0,0,0.5));
 		height: 40px;
 		font-family: 'Open Sans Condensed',sans-serif;
 		font-size: 1.53846em;
