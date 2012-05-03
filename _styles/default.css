@@ -1,17 +1,33 @@
+/* @group Less */
+
 @red: #C00;
 @bgColor: #e8e1da;
 
 .box-shadow(@settings) {  
-    -webkit-box-shadow: @settings;  
-       -moz-box-shadow: @settings;
-            box-shadow: @settings;  
+	-webkit-box-shadow: @settings;  
+	-moz-box-shadow: @settings;
+	-ms-box-shadow: @settings;
+	-o-box-shadow: @settings;
+	box-shadow: @settings; 
 }
 
 .border-radius (@radius) {
 	border-radius: @radius;
 	-moz-border-radius: @radius;
+	-ms-border-radius: @radius;
+	-o-border-radius: @radius;
 	-webkit-border-radius: @radius;
 }
+
+.transition {
+	-moz-transition: 0.25s;
+	-webkit-transition: 0.25s;
+	-ms-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+}
+
+/* @end */
 
 /* @group Standard Styles */
 body {
@@ -70,13 +86,6 @@ em {
 	font-style: italic;
 	font-size: 11px;
 	color: #7F7F7F;
-}
-
-.transition, .pull-right a, #tickets {
-	-moz-transition: 0.25s;
-	-webkit-transition: 0.25s;
-	transition: 0.25s;
-	-o-transition: 0.25s;
 }
 
 .row:before,.row:after,.media-block:before,.media-block:after {
@@ -368,6 +377,7 @@ header {
 	background: #777;
 	.border-radius(4px);
 	color: #FFF;
+	.transition;
 }
 
 #tickets:hover {
@@ -1140,6 +1150,7 @@ form span {
 	}
 
 	.pull-right a {
+		.transition;
 		width: 100%;
 		display: block;
 	}
@@ -1212,8 +1223,6 @@ form span {
 		width: 16px;
 		height: 2px;
 		background-color: #f5f5f5;
-		-webkit-border-radius: 1px;
-		-moz-border-radius: 1px;
 		.border-radius(1px);
 		.box-shadow(0 1px 0 rgba(0,0,0,0.25));
 	}
