@@ -3,6 +3,7 @@
 @red: #C00;
 @bgColor: #e8e1da;
 @fontStack: "Helvetica Neue",Helvetica,Arial,sans-serif;
+@titleFontStack: 'Open Sans Condensed',sans-serif;
 
 .box-shadow(@settings) {  
 	-webkit-box-shadow: @settings;  
@@ -70,7 +71,7 @@ p {
 
 h1,h1 a {
 	color: #272625;
-	font: 300 26px 'Open Sans Condensed',sans-serif;
+	font: 300 26px @titleFontstack;
 	line-height: 32px;
 }
 
@@ -81,7 +82,7 @@ h1 a:hover {
 
 .media-block h1 {
 	color: @red;
-	font: 300 26px/28px 'Open Sans Condensed',sans-serif;
+	font: 300 26px/28px @titleFontstack;
 	margin-bottom: 10px;
 }
 
@@ -117,6 +118,7 @@ em {
 	background: lighten(@bgColor, 10%);
 	padding: 10px 20px;
 	border-top: 5px solid @red;
+	.box-shadow(0 1px 2px rgba(0,0,0,0.25));
 }
 
 
@@ -277,7 +279,7 @@ header {
 }
 
 #newsfeed > div {
-	background: lighten(@bgColor, 3%);
+	background: lighten(@bgColor, 5%);
 	padding: 10px 20px;
 	border-top: 5px solid @red;
 	.box-shadow(0 1px 2px rgba(0,0,0,0.25));
@@ -427,11 +429,14 @@ header {
 /* @end */
 /* @group Gebouw */
 #building-img {
-	background: #FFF url('../content/images/gebouw-header.jpg') no-repeat center center;
-	width: 892px;
-	height: 304px;
+	background: #FFF url('../content/images/gebouw-header.jpg') repeat-x center center;
+	width: 940px;
+	height: 320px;
 	display: block;
 	margin-bottom: 20px;
+	margin-top: -10px;
+	margin-left: -20px;
+	.box-shadow(inset 0 1px 0 rgba(0,0,0,0.25));
 }
 
 #gebouw-img {
@@ -1040,7 +1045,7 @@ form {
 		background: #101010 url(_assets/_images/sprite.png) 0 -119px repeat-x;
 		.box-shadow(0 1px 2px rgba(0,0,0,0.5));
 		height: 40px;
-		font-family: 'Open Sans Condensed',sans-serif;
+		font-family: @titleFontstack;
 		font-size: 1.53846em;
 		position: relative;
 		z-index: 3;
@@ -1124,7 +1129,7 @@ form {
 	#nav {
 		background: #101010 url('_assets/_images/menudark.png') repeat-x left top;
 		.box-shadow(0 1px 2px rgba(0,0,0,0.5));
-		font-family: 'Open Sans Condensed',sans-serif;
+		font-family: @titleFontstack;
 		font-size: 1.53846em;
 		position: relative;
 		z-index: 3;
