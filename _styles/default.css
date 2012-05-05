@@ -90,7 +90,7 @@
 }
 
 @font-face {
-	font-family: @subtitleFontStack;
+	font-family: 'DIN';
 	src: url('_assets/_fonts/DIN-Bold.eot');
 	src: local('☺'), url('_assets/_fonts/DIN-Bold.woff') format('woff'), url('_assets/_fonts/DIN-Bold.ttf') format('truetype'), url('_assets/_fonts/DIN-Bold.svg') format('svg');
 	font-weight: bold;
@@ -98,7 +98,7 @@
 }
 
 @font-face {
-	font-family: @subtitleFontStack;
+	font-family: 'DIN';
 	src: url('_assets/_fonts/DIN-Medium.eot');
 	src: local('☺'), url('_assets/_fonts/DIN-Medium.woff') format('woff'), url('_assets/_fonts/DIN-Medium.ttf') format('truetype'), url('_assets/_fonts/DIN-Medium.svg') format('svg');
 	font-weight: 300;
