@@ -3,7 +3,7 @@
 @red: #C00;
 @bgColor: #e8e1da;
 @fontStack: "Helvetica Neue",Helvetica,Arial,sans-serif;
-@titleFontStack: 'Open Sans Condensed',sans-serif;
+@titleFontStack: 'DIN',sans-serif;
 
 .box-shadow(@settings) {  
 	-webkit-box-shadow: @settings;  
@@ -46,6 +46,51 @@
 
 /* @end */
 
+/* @group Font Faces */
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DINCond-Light.eot');
+	src: local('☺'), url('_assets/_fonts/DINCond-Light.woff') format('woff'), url('_assets/_fonts/DINCond-Light.ttf') format('truetype'), url('_assets/_fonts/DINCond-Light.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DINCond-Black.eot');
+	src: local('☺'), url('_assets/_fonts/DINCond-Black.woff') format('woff'), url('_assets/_fonts/DINCond-Black.ttf') format('truetype'), url('_assets/_fonts/DINCond-Black.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DINCond-Bold.eot');
+	src: local('☺'), url('_assets/_fonts/DINCond-Bold.woff') format('woff'), url('_assets/_fonts/DINCond-Bold.ttf') format('truetype'), url('_assets/_fonts/DINCond-Bold.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DINCond-Medium.eot');
+	src: local('☺'), url('_assets/_fonts/DINCond-Medium.woff') format('woff'), url('_assets/_fonts/DINCond-Medium.ttf') format('truetype'), url('_assets/_fonts/DINCond-Medium.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DINCond-Regular.eot');
+	src: local('☺'), url('_assets/_fonts/DINCond-Regular.woff') format('woff'), url('_assets/_fonts/DINCond-Regular.ttf') format('truetype'), url('_assets/_fonts/DINCond-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* @end */
+
+
 /* @group Standard Styles */
 body {
 	background: @bgColor url('_assets/_images/bg.png');
@@ -71,7 +116,7 @@ p {
 
 h1,h1 a {
 	color: #272625;
-	font: 300 26px @titleFontStack;
+	font: 26px @titleFontStack;
 	line-height: 32px;
 }
 
@@ -96,7 +141,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 700 18px/17px 'Open Sans Condensed',Arial,Helvetica,sans-serif;
+	font: 500 18px/17px @titleFontStack;
 }
 
 em {
@@ -1046,6 +1091,7 @@ form {
 		.box-shadow(0 1px 2px rgba(0,0,0,0.5));
 		height: 40px;
 		font-family: @titleFontStack;
+		font-weight: 100;
 		font-size: 1.53846em;
 		position: relative;
 		z-index: 3;
@@ -1080,13 +1126,13 @@ form {
 
 	ul.pull-right li a {
 		display: block;
-		margin: 11px 10px 11px 10px;
+		margin: 11px 0 11px 20px;
 		text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
 		.transition;
 	}
 	
 	ul.pull-right li a:active {
-		margin: 12px 10px 10px 10px;
+		margin: 12px 0 10px 20px;
 	}
 
 	#nav-inner li#active a {
@@ -1096,7 +1142,7 @@ form {
 		padding: 12px 0 0 0;
 		display: block;
 		text-align: center;
-		margin: 0 5px;
+		margin: 0 -5px 0 10px;
 		color: #FFF;
 	}
 
