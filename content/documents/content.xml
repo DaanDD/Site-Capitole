@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <content>
-	<title>Inhoud site Capitol - Stenen van Gent</title>
+	<title>Inhoud site Capitole - Stenen van Gent</title>
 	<description>In deze xml file staat de gehele tekst voor de website (NL-FR-EN). Deze website was in opdracht van de Artevelde hogeschool, voor het project in samenwerking met de vormgevers.
 	</description>
 	<pubDate>22 maart 2012</pubDate>
@@ -22,7 +22,7 @@
 		<link id="foto">
 			<languages>
 				<language id="nederlands">
-					In beeld
+					In Beeld
 				</language>
 				<language id="engels">
 					Media
@@ -83,7 +83,7 @@
 					<![CDATA[<a href='nieuws.html' title="nieuwspagina">Nieuwsfeed</a>]]>
 				</title2>
 				<title3>
-					<![CDATA[<a href='media.html' title="mediapagina">In beeld</a>]]>
+					<![CDATA[<a href='media.html' title="mediapagina">In Beeld</a>]]>
 				</title3>
 		 		<description>
 			  <![CDATA[

@@ -135,7 +135,8 @@ p {
 
 h1,h1 a {
 	color: #272625;
-	font: 32px/36px @titleFontStack;
+	font: 32px @titleFontStack;
+	.transition;
 }
 
 h1 a:hover {
@@ -145,8 +146,14 @@ h1 a:hover {
 
 .media-block h1 {
 	color: @red;
-	font: 300 26px/28px @titleFontStack;
+	font: 300 26px @titleFontStack;
 	margin-bottom: 10px;
+}
+
+.media-block h1 {
+	font: 300 42px @titleFontStack;
+	margin-top: 12px;
+	margin-bottom: 8px;
 }
 
 #newsfeed h1 a {
@@ -327,7 +334,7 @@ header {
 }
 
 #newsfeed h1 {
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 }
 
 #newsfeed #img-news {
@@ -363,7 +370,7 @@ header {
 }
 
 .newsitem {
-	margin-bottom: 5px;
+	margin-bottom: 6px;
 }
 
 .newsitem:after {
@@ -1257,7 +1264,7 @@ form {
 	#active a {
 		color: #FFF;
 	}
-	
+
 	.icon-bar {
 		display: block;
 		width: 16px;
@@ -1272,7 +1279,8 @@ form {
 		float: right;
 		padding: 4px 6px 5px 6px;
 		.gradient(#252525,#222,#333);
-		border-color: #222 #222 #000000;
+		border: 1px solid #333;
+		border-color: #222 #222 #000;
 		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
 		.box-shadow(e("inset 0 1px 0 rgba(255,255,255,0.1),0 1px 0 rgba(255,255,255,0.075"));
 		.border-radius(3px);
