@@ -56,6 +56,30 @@
 				</div>
 			</div>
 		</nav>
+		<div class="page">
+		
+				<div id="langswitcher">
+					<a href="#">Language</a>
+					<ul>
+						<li>
+							<a href="#" onclick="setLanguageFromLink(this); return false;" rel="en">
+								English
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="setLanguageFromLink(this); return false;" rel="nl">
+								Nederlands
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="setLanguageFromLink(this); return false;" rel="fr">
+								Français
+							</a>
+						</li>
+					</ul>
+				</div>
+				</div>
+		
 		<div class="row">
 			<div class="col" id="capitole-header">
 			</div>
@@ -163,6 +187,12 @@
 			$("#toggle").click(function () {
 				$(".pull-right").slideToggle(300);
 			});
+			$("#langswitcher > a").click(function () {
+				$("#langswitcher ul").slideToggle(300);
+			})
+			$("#langswitcher ul li a").click(function () {
+				$("#langswitcher ul").slideToggle(300);
+			})
 		});
 		$(window).resize(function () {
 			if ($(window).width()+scrollbar_width() >= 640 && $(".pull-right").css("display") === "none") {

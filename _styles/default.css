@@ -249,6 +249,49 @@ header {
 	z-index: 1;
 }
 
+#langswitcher {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 4;
+	background: rgba(0, 0, 0, .65);
+	padding: 6px 20px 10px 20px;
+	.box-shadow(0 1px 3px rgba(0,0,0,0.25));
+	.border-radius(0 0 5px 5px);
+	border: 2px solid rgba(255, 255, 255, 0.65);
+	border-top: 0;
+}
+
+#langswitcher a {
+	color: #FFF;
+	cursor: pointer;
+}
+
+#langswitcher a:hover {
+	color: #FFF;
+}
+
+#langswitcher ul {
+	display: none;
+}
+
+#langswitcher > a {
+	font-weight: bold;
+}
+
+#langswitcher > a:hover {
+	text-decoration: none;
+}
+
+#langswitcher > a:after {
+	content: "";
+	display: inline-block;
+	width: 7px;
+	height: 5px;
+	background: url('_assets/_images/triangle.png') no-repeat;
+	margin-left: 6px;
+}
+
 .icon-what {
 	position: relative;
 	width: 120px;
@@ -511,6 +554,7 @@ header {
 }
 
 /* @end */
+
 /* @group Gebouw */
 #building-img {
 	background: #FFF url('../content/images/gebouw-header.jpg') repeat-x center center;
@@ -1137,7 +1181,7 @@ form {
 		font-weight: 100;
 		font-size: 22px;
 		position: relative;
-		z-index: 3;
+		z-index: 4;
 	}
 
 	#nav-inner a {
@@ -1222,7 +1266,7 @@ form {
 		font-family: @titleFontStack;
 		font-size: 1.53846em;
 		position: relative;
-		z-index: 3;
+		z-index: 4;
 		height: 40px;
 	}
 
