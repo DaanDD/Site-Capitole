@@ -506,9 +506,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<content>
 	  					<![CDATA[
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Urbanus zelf!</h2>
-	  						<em>13 - 19 april </em>
-	  						<div id="newsitem1-img" class="img"></div>
+	  						<div id="newsitem1-img"></div>
+	  						<div class="title-block">
+	  							<h2>Urbanus zelf!</h2>
+	  							<em>13 - 19 april </em>
+	  						</div>
 	  						<p>
 	  							Zanger en komiek URBANUS speelde eind vorig jaar 4 avonden voor een uitverkocht Sportpaleis. Dat betekende maar liefst 52.855 verkochte kaarten. De recensies waren lovend, het publiek zeer enthousiast. Dit ongelooflijke succesverhaal vroeg om een vervolg, daarom zal Urbanus nu met zijn spektakel langs enkele Vlaamse zalen touren. In april zal hij in Capitole Gent staan en in juni brengt hij zijn comedyshow in de Stadsschouwburg van Antwerpen.
 	  						</p>
@@ -523,9 +525,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					</div>
 	  					
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Henk Rijckaert - Het Experiment</h2>
-	  						<em>19 april</em>
-	  						<div id="newsitem2-img" class="img"></div>
+	  						<div id="newsitem2-img"></div>
+	  						<div class="title-block">
+	  							<h2>Henk Rijckaert - Het Experiment</h2>
+	  							<em>19 april</em>
+	  						</div>
 	  						<p>
 	  							Een echte man kent vele passies, maar vroeg of laat gaat hij terug naar de basis. In zijn 3de avondvullende voorstelling, ‘Het Experiment', keert Henk Rijckaert dan ook terug naar zijn eerste liefde: de wetenschap. Hij ontmaskert leugens, verklaart het verband tussen homeopathie en natuurrampen en bouwt zijn eigen waarheden op, geheel volgens de regels van de leugenaars. En hij experimenteert. Helemaal wetenschappelijk verantwoord -- mocht u daar nog aan twijfelen.
 	  						</p>
@@ -546,9 +550,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<content>
 	  					<![CDATA[
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Urbanus zelf!</h2>
-	  						<em>13 - 19 April </em>
-	  						<div id="newsitem1-img" class="img"></div>
+	  						<div id="newsitem1-img"></div>
+	  						<div class="title-block">
+		  						<h2>Urbanus himself!</h2>
+		  						<em>13 - 19 April </em>
+		  					</div>
 	  						<p>
 	  							Singer and comedian URBANUS performed last year four nights before a completely sold out Sportpaleis. This meant no less then 52.855 tickets. The reviews were full of praise, and the audience enthousiastic. This incredible success implied a sequel, so Urbanus now is touring with his spectacle in some Flemish venues. In April, Urbanus will perform in the Capitole, Ghent and in June in Stadsschouwburg, Antwerp.   
 	  						</p>
@@ -563,9 +569,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					</div>
 	  					
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Henk Rijckaert - The Experiment</h2>
-	  						<em>19 April</em>
-	  						<div id="newsitem2-img" class="img"></div>
+	  						<div id="newsitem2-img"></div>
+	  						<div class="title-block">
+	  							<h2>Henk Rijckaert - The Experiment</h2>
+	  							<em>19 April</em>
+	  						</div>
 	  						<p>
 	  							A real man has many passions, but eventually will go back to basics.In his 3th late-night show, 'The Experiment', Henk Rijckaert goes back in time to his first love: science. He uncovers lies, explains the connection between homeopathy and natural disasters, and builds up his own truth, completely by the rules of liars. And he experiments. Completely scientifically sound -- in case you still were in doubt. 
 	  						</p>
@@ -586,9 +594,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<content>
 	  					<![CDATA[
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Urbanus zelf!</h2>
-	  						<em>13 - 19 Avril </em>
-	  						<div id="newsitem1-img" class="img"></div>
+	  						<div id="newsitem1-img"></div>
+	  						<div class="title-block">
+	  							<h2>Urbanus soi-même!</h2>
+	  							<em>13 - 19 Avril </em>
+	  						</div>
 	  						<p>
 	  							Urbanus, chanteur et comédien, a joué l'année passée 4 nuits devant un Sportpaleis épuisé. Cela signifie pas moins de 52 855 billets vendus. Les commentaires étaient très élogieuses, le public enthousiaste. Ce succès incroyable demande une suite, et c'est pourquoi Urbanus est en tournée avec son spectacle dans quelques théâtres flamandes. En Avril, il viendra au Capitole, à Gand et en Juin, il apporte sa comédie au Stadsschouwburg, Anvers.
 	   						</p>
@@ -602,9 +612,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					</div>
 	  					
 	  					<div class="newsfeed-newsitem">
-	  						<h2>Henk Rijckaert - L'Expériment</h2>
-	  						<em>19 Avril</em>
-	  						<div id="newsitem2-img" class="img"></div>
+	  						<div id="newsitem2-img"></div>
+	  						<div class="title-block">
+	  							<h2>Henk Rijckaert - L'Expériment</h2>
+	  							<em>19 Avril</em>
+	  						</div>
 	  						<p>
 	  							Un homme vrai a beaucoup de passions, mais retournera finalement vers l'essence. Dans son troisième spectacle, 'L'Expériment',  Henk Rijckaert remonte dans le temps à son premier amour: la science. Il découvre des mensonges, explique le lien entre l'homéopathie et les catastrophes naturelles, et construit son propre vérité, complètement par les règles de menteurs. Et il expérimente. Complètement scientifiquement valable - au cas où vous étaient encore dans le doute.
 	  						</p>

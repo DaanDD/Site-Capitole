@@ -2,8 +2,9 @@
 
 @red: #C00;
 @bgColor: #e8e1da;
-@fontStack: "Helvetica Neue",Helvetica,Arial,sans-serif;
-@titleFontStack: 'DIN-Cond',sans-serif;
+@fontStack: "Helvetica Neue",Arial,Helvetica,sans-serif;
+@titleFontStack: 'DIN-Cond', Arial, Helvetica, sans-serif;
+@subtitleFontStack: 'DIN', Arial, Helvetica, sans-serif;
 
 .box-shadow(@settings) {  
 	-webkit-box-shadow: @settings;  
@@ -89,7 +90,7 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: @subtitleFontStack;
 	src: url('_assets/_fonts/DIN-Bold.eot');
 	src: local('☺'), url('_assets/_fonts/DIN-Bold.woff') format('woff'), url('_assets/_fonts/DIN-Bold.ttf') format('truetype'), url('_assets/_fonts/DIN-Bold.svg') format('svg');
 	font-weight: bold;
@@ -97,7 +98,7 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: @subtitleFontStack;
 	src: url('_assets/_fonts/DIN-Medium.eot');
 	src: local('☺'), url('_assets/_fonts/DIN-Medium.woff') format('woff'), url('_assets/_fonts/DIN-Medium.ttf') format('truetype'), url('_assets/_fonts/DIN-Medium.svg') format('svg');
 	font-weight: 300;
@@ -156,6 +157,11 @@ h1 a:hover {
 	margin-bottom: 8px;
 }
 
+.media-block h2 {
+	font: 300 26px/22px @subtitleFontStack;
+	margin-bottom: -3px;
+}
+
 #newsfeed h1 a {
 	color: @red;
 }
@@ -166,7 +172,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 300 17px/14px 'DIN';
+	font: 300 17px/14px @subtitleFontStack;
 }
 
 em {
@@ -483,21 +489,25 @@ header {
 }
 
 #newsitem1-img {
-	background: url('../content/images/urbanus1.jpg') no-repeat center center;
-	width: 892px;
-	height: 292px;
+	background: url('../content/images/news-urbanus-desktop.jpg') no-repeat center center;
+	width: 900px;
+	height: 282px;
 	display: block;
 	overflow: hidden;
-	margin-bottom: 8px;
+	margin-bottom: 14px;
 }
 
 #newsitem2-img {
-	background: url('../content/images/henk1.jpg') no-repeat center center;
-	width: 892px;
-	height: 292px;
+	background: url('../content/images/news-henk-desktop.jpg') no-repeat center center;
+	width: 900px;
+	height: 282px;
 	display: block;
 	overflow: hidden;
-	margin-bottom: 8px;
+	margin-bottom: 14px;
+}
+
+.title-block {
+	margin-bottom: 2px;
 }
 
 /* @end */
@@ -723,15 +733,17 @@ form {
 	}
 
 	#newsitem1-img {
-		background: url('../content/images/urbanus-320.jpg') no-repeat center center;
-		width: 252px;
-		height: 82px;
+		background: url('../content/images/news-urbanus-320.jpg') no-repeat center center;
+		width: 260px;
+		height: 81px;
+		margin-bottom: 8px;
 	}
 
 	#newsitem2-img {
-		background: url('../content/images/henk-320.jpg') no-repeat center center;
-		width: 252px;
-		height: 82px;
+		background: url('../content/images/news-henk-320.jpg') no-repeat center center;
+		width: 260px;
+		height: 81px;
+		margin-bottom: 8px;
 	}
 
 	#building-img {
@@ -839,15 +851,17 @@ form {
 	}
 
 	#newsitem1-img {
-		background: url('../content/images/urbanus-480.jpg') no-repeat center center;
-		width: 412px;
-		height: 135px;
+		background: url('../content/images/news-urbanus-480.jpg') no-repeat center center;
+		width: 420px;
+		height: 131px;
+		margin-bottom: 8px;
 	}
 
 	#newsitem2-img {
-		background: url('../content/images/henk-480.jpg') no-repeat center center;
-		width: 412px;
-		height: 135px;
+		background: url('../content/images/news-henk-480.jpg') no-repeat center center;
+		width: 420px;
+		height: 132px;
+		margin-bottom: 8px;
 	}
 
 	#building-img {
@@ -1001,15 +1015,15 @@ form {
 	}
 
 	#newsitem1-img {
-		background: url('../content/images/urbanus-640.jpg') no-repeat center center;
-		width: 572px;
-		height: 187px;
+		background: url('../content/images/news-urbanus-640.jpg') no-repeat center center;
+		width: 580px;
+		height: 182px;
 	}
 
 	#newsitem2-img {
-		background: url('../content/images/henk-640.jpg') no-repeat center center;
-		width: 572px;
-		height: 187px;
+		background: url('../content/images/news-henk-640.jpg') no-repeat center center;
+		width: 580px;
+		height: 182px;
 	}
 
 	#building-img {
