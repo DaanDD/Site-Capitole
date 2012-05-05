@@ -515,7 +515,7 @@ header {
 #building-img {
 	background: #FFF url('../content/images/gebouw-header.jpg') repeat-x center center;
 	width: 940px;
-	height: 320px;
+	height: 313px;
 	display: block;
 	margin-bottom: 20px;
 	margin-top: -10px;
@@ -748,8 +748,8 @@ form {
 
 	#building-img {
 		background: #FFF url('../content/images/gebouw-header-320.jpg') no-repeat center center;
-		width: 252px;
-		height: 86px;
+		width: 300px;
+		height: 100px;
 	}
 
 	#gebouw-img {
@@ -866,8 +866,8 @@ form {
 
 	#building-img {
 		background: #FFF url('../content/images/gebouw-header-480.jpg') no-repeat center center;
-		width: 412px;
-		height: 140px;
+		width: 460px;
+		height: 153px;
 	}
 
 	#gebouw-img {
@@ -1028,8 +1028,8 @@ form {
 
 	#building-img {
 		background: #FFF url('../content/images/gebouw-header-640.jpg') no-repeat center center;
-		width: 572px;
-		height: 195px;
+		width: 620px;
+		height: 206px;
 	}
 
 	#gebouw-img {
