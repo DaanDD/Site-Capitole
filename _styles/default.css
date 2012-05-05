@@ -3,7 +3,7 @@
 @red: #C00;
 @bgColor: #e8e1da;
 @fontStack: "Helvetica Neue",Helvetica,Arial,sans-serif;
-@titleFontStack: 'DIN',sans-serif;
+@titleFontStack: 'DIN-Cond',sans-serif;
 
 .box-shadow(@settings) {  
 	-webkit-box-shadow: @settings;  
@@ -49,7 +49,7 @@
 /* @group Font Faces */
 
 @font-face {
-	font-family: 'DIN';
+	font-family: 'DIN-Cond';
 	src: url('_assets/_fonts/DINCond-Light.eot');
 	src: local('☺'), url('_assets/_fonts/DINCond-Light.woff') format('woff'), url('_assets/_fonts/DINCond-Light.ttf') format('truetype'), url('_assets/_fonts/DINCond-Light.svg') format('svg');
 	font-weight: 100;
@@ -57,7 +57,7 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: 'DIN-Cond';
 	src: url('_assets/_fonts/DINCond-Black.eot');
 	src: local('☺'), url('_assets/_fonts/DINCond-Black.woff') format('woff'), url('_assets/_fonts/DINCond-Black.ttf') format('truetype'), url('_assets/_fonts/DINCond-Black.svg') format('svg');
 	font-weight: 700;
@@ -65,7 +65,7 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: 'DIN-Cond';
 	src: url('_assets/_fonts/DINCond-Bold.eot');
 	src: local('☺'), url('_assets/_fonts/DINCond-Bold.woff') format('woff'), url('_assets/_fonts/DINCond-Bold.ttf') format('truetype'), url('_assets/_fonts/DINCond-Bold.svg') format('svg');
 	font-weight: 500;
@@ -73,7 +73,7 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: 'DIN-Cond';
 	src: url('_assets/_fonts/DINCond-Medium.eot');
 	src: local('☺'), url('_assets/_fonts/DINCond-Medium.woff') format('woff'), url('_assets/_fonts/DINCond-Medium.ttf') format('truetype'), url('_assets/_fonts/DINCond-Medium.svg') format('svg');
 	font-weight: 300;
@@ -81,12 +81,31 @@
 }
 
 @font-face {
-	font-family: 'DIN';
+	font-family: 'DIN-Cond';
 	src: url('_assets/_fonts/DINCond-Regular.eot');
 	src: local('☺'), url('_assets/_fonts/DINCond-Regular.woff') format('woff'), url('_assets/_fonts/DINCond-Regular.ttf') format('truetype'), url('_assets/_fonts/DINCond-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DIN-Bold.eot');
+	src: local('☺'), url('_assets/_fonts/DIN-Bold.woff') format('woff'), url('_assets/_fonts/DIN-Bold.ttf') format('truetype'), url('_assets/_fonts/DIN-Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DIN';
+	src: url('_assets/_fonts/DIN-Medium.eot');
+	src: local('☺'), url('_assets/_fonts/DIN-Medium.woff') format('woff'), url('_assets/_fonts/DIN-Medium.ttf') format('truetype'), url('_assets/_fonts/DIN-Medium.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+
 
 /* @end */
 
@@ -116,8 +135,7 @@ p {
 
 h1,h1 a {
 	color: #272625;
-	font: 26px @titleFontStack;
-	line-height: 32px;
+	font: 32px/36px @titleFontStack;
 }
 
 h1 a:hover {
@@ -141,7 +159,7 @@ h1 a:hover {
 }
 
 h2 {
-	font: 500 18px/17px @titleFontStack;
+	font: 300 17px/14px 'DIN';
 }
 
 em {
@@ -342,6 +360,10 @@ header {
 	.border-radius(4px);
 	float: right;
 	color: #FFF;
+}
+
+.newsitem {
+	margin-bottom: 5px;
 }
 
 .newsitem:after {
@@ -1092,7 +1114,7 @@ form {
 		height: 40px;
 		font-family: @titleFontStack;
 		font-weight: 100;
-		font-size: 1.53846em;
+		font-size: 22px;
 		position: relative;
 		z-index: 3;
 	}
