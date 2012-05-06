@@ -214,6 +214,7 @@
 							opacity: 0.5
 						}, 250);
 					}, function(){
+						$(this).find('.outer').clearQueue();
 						$(this).find('.outer').animate({
 							marginLeft : '-55px',
 							marginTop : '-55px',
@@ -222,6 +223,7 @@
 							opacity: 1
 						}, 250);
 			});
+			
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-1845303-7']);
 		  _gaq.push(['_trackPageview']);
