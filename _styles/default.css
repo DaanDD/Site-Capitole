@@ -265,7 +265,7 @@ header {
 
 #langswitcher a {
 	color: #FFF;
-	cursor: pointer;
+	text-shadow: 0 1px 0 #000;
 }
 
 #langswitcher a:hover {
@@ -273,6 +273,7 @@ header {
 }
 
 #langswitcher ul {
+	text-indent: 3px;
 	display: none;
 }
 

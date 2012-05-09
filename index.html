@@ -187,12 +187,11 @@
 			$("#toggle").click(function () {
 				$(".pull-right").slideToggle(300);
 			});
-			$("#langswitcher > a").click(function () {
+			
+			$("#langswitcher > a,#langswitcher ul li a").click(function () {
 				$("#langswitcher ul").slideToggle(300);
 			})
-			$("#langswitcher ul li a").click(function () {
-				$("#langswitcher ul").slideToggle(300);
-			})
+			
 		});
 		$(window).resize(function () {
 			if ($(window).width()+scrollbar_width() >= 640 && $(".pull-right").css("display") === "none") {
