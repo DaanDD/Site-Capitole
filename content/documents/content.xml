@@ -97,25 +97,25 @@
 			  <![CDATA[
 			  	<div class="newsitem">
 			  		<div class="newsfeed-subtitles">
-			  			<h2>Urbanus zelf!</h2>
+			  			<h2><a href="nieuws.html#newsitem1-img">Urbanus zelf!</a></h2>
 			  			<em>13 &mdash; 19 april </em>
 			  		</div>
 			  		<div id="img-news"></div>
 			  		<p>
 			  			Het wordt een feest van herkenning: de komiek uit Tollembeek eindelijk terug in de theaters na 11 jaar afwezigheid! ...<br />
-			  			<a href="nieuws.html">Lees verder &raquo;</a>
+			  			<a href="nieuws.html#newsitem1-img">Lees verder &raquo;</a>
 			  		</p>
 			  	</div>
 			  	
 			  	<div class="newsitem">
 			  		<div class="newsfeed-subtitles">
-			  			<h2>Henk Rijckaert - Het Experiment</h2>
+			  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - Het Experiment</a></h2>
 			  			<em>19 april</em>
 			  		</div>
 			  		<div id="img-news2"></div>
 			  		<p>
 			  			Henk sleept in "Het Experiment" zoals steeds zijn toeschouwers met zich mee in zijn hoogstpersoonlijke wereld...<br />
-			  			<a href="nieuws.html">Lees verder &raquo;</a>
+			  			<a href="nieuws.html#newsitem2-img">Lees verder &raquo;</a>
 			  		</p>	
 			  	</div>	
 			  	]]>			
@@ -144,25 +144,25 @@
 		  <![CDATA[
 		  	<div class="newsitem">
 		  		<div class="newsfeed-subtitles">
-		  			<h2>Urbanus zelf!</h2>
+		  			<h2><a href="nieuws.html#newsitem1-img">Urbanus himself!</a></h2>
 		  			<em>13 &mdash; 19 april </em>
 		  		</div>
 		  		<div id="img-news"></div>
 		  		<p>
 		  			It will be a party of recognition: the comedian from Tollembeek finally back in theaters after eleven years of absence! ...<br />
-		  			<a href="nieuws.html">Read more &raquo;</a>
+		  			<a href="nieuws.html#newsitem1-img">Read more &raquo;</a>
 		  		</p>
 		  			</div>
 		  	
 		  	<div class="newsitem">
 		  		<div class="newsfeed-subtitles">
-		  			<h2>Henk Rijckaert - The Experiment</h2>
+		  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - The Experiment</a></h2>
 		  			<em>19 april</em>
 		  		</div>
 		  		<div id="img-news2"></div>
 		  		<p>
 		  			Henk picks up his audience and carries them along the show, as usual in his own personal world...<br />
-		  			<a href="nieuws.html">Read more &raquo;</a>
+		  			<a href="nieuws.html#newsitem2-img">Read more &raquo;</a>
 		  		</p>	
 		  	</div>	
 		  	]]>			
@@ -183,32 +183,32 @@
 				  <p>Le Capitole, un ‘hotspot’ culturel très connu, est un théâtre renommé situé à Gand, Belgique. C’est un bâtiment merveilleux dans le style art déco qui ce trouve sur le Zuid. Sur notre site web vous trouvez toute l’information de l’histoire du bâtiment, les événements et comment vous pouvez y aller.</p>
 
 				<p>Dans ces jours de crise tout le monde est un peu avare, et ne peut même pas mettre quelques euros de côté pour un spectacle de haute qualité. C’est pourquoi nous voulons persuader les gens afin qu’ils ne se sentent pas coupables de jouir de notre patrimoine culturelle. Reste profiter des performances superbes et de la vie!</p>
-					<a href='gebouw.html' title="Het Capitole">Lisez plus du Capitole &raquo; </a>
+					<a href="gebouw.html" title="Het Capitole">Lisez plus du Capitole &raquo; </a>
 			  ]]>
 		  </description>
 		  <news>
 		  <![CDATA[
 		  	<div class="newsitem">
 		  		<div class="newsfeed-subtitles">
-		  			<h2>Urbanus zelf!</h2>
+		  			<h2><a href="nieuws.html#newsitem1-img">Urbanus soi-même!</a></h2>
 		  			<em>13 &mdash; 19 april </em>
 		  		</div>
 		  		<div id="img-news"></div>
 		  		<p>
 		  			C'est une fête de reconnaissance: l'humoriste de Tollembeek est enfin de retour dans les salles après 11 ans d'absence! ...<br />
-		  			<a href="nieuws.html">Lisez plus &raquo;</a>
+		  			<a href="nieuws.html#newsitem1-img">Lisez plus &raquo;</a>
 		  		</p>
 		  			</div>
 		  	
 		  	<div class="newsitem">
 		  		<div class="newsfeed-subtitles">
-		  			<h2>Henk Rijckaert - L'Expériment</h2>
+		  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - L'Expériment</a></h2>
 		  			<em>19 april</em>
 		  		</div>
 		  		<div id="img-news2"></div>
 		  		<p>
 		  			Henk tire dans "L'Expériment", comme toujours son auditoire avec lui dans son monde très personnel...<br />
-		  			<a href="nieuws.html">Lisez plus &raquo;</a>
+		  			<a href="nieuws.html#newsitem2-img">Lisez plus &raquo;</a>
 		  		</p>	
 		  	</div>	
 		  	]]>			

@@ -23,11 +23,11 @@
 }
 
 .transition {
-	-moz-transition: 0.25s;
-	-webkit-transition: 0.25s;
-	-ms-transition: 0.25s;
-	-o-transition: 0.25s;
-	transition: 0.25s;
+	-moz-transition: 0.25s ease-in-out;
+	-webkit-transition: 0.25s ease-in-out;
+	-ms-transition: 0.25s ease-in-out;
+	-o-transition: 0.25s ease-in-out;
+	transition: 0.25s ease-in-out;
 }
 
 .gradient(@color: #F5F5F5, @start: #EEE, @stop: #FFF) {
@@ -174,6 +174,17 @@ h1 a:hover {
 
 h2 {
 	font: 300 17px/14px @subtitleFontStack;
+	color: #272625;
+}
+
+h2 a {
+	color: #333;
+	.transition;
+}
+
+h2 a:hover {
+	text-decoration: none;
+	color: #454545;
 }
 
 em {
