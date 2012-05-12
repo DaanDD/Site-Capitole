@@ -703,10 +703,6 @@ form {
 	background-clip: padding-box !important;
 }
 
-.clearLeft {
-	clear: left;
-}
-
 .row {
 	margin: 0 auto;
 }
