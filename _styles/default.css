@@ -515,14 +515,9 @@ header {
 /* @end */
 /* @group Other Pages */
 #pageheaderafter {
-	height: 40px;
+	height: 56px;
 	width: 100%;
 	background: @bgColor;
-/* url('_assets/_images/sprite.png') repeat-x 0 -87px;*/
-	margin-top: -15px;
-	margin-bottom: 16px;
-	position: relative;
-	z-index: 1;
 }
 
 /* @end */
