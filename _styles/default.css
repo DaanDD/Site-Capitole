@@ -146,6 +146,47 @@ h1 a:hover {
 	color: #61605f;
 }
 
+a#totop {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	opacity: 0;
+	.transition;
+	z-index: 100;
+	width: 60px;
+	height: 60px;
+	display: block;
+}
+
+a#totop span {
+	.border-radius(35px);
+	display: block;
+	text-indent: -9999px;
+}
+
+a#totop .inner {
+	background: #FFF url('_assets/_images/arrow-up.png') center center no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -20px;
+	margin-left: -20px;
+	.box-shadow(0 1px 2px rgba(0,0,0,0.3));
+}
+
+a#totop .outer {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	background: rgba(145, 138, 126, 0.5);
+}
+
 .media-block h1 {
 	color: @red;
 	font: 300 26px @titleFontStack;
@@ -516,7 +557,6 @@ header {
 /* @group Other Pages */
 #pageheaderafter {
 	height: 56px;
-	width: 100%;
 	background: @bgColor;
 }
 
@@ -1252,6 +1292,10 @@ form {
 	/** MOBILE NAVIGATION **/
 	#capitole-header {
 		margin-top: 0;
+	}
+	
+	a#totop {
+		opacity: 1;
 	}
 
 	#logo {
