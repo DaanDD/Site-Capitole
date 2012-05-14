@@ -177,6 +177,7 @@ function loadSuccess(data,status){
 					break;
 		case 'contact.html' : parseContact(data);
 					break;
+		case ''				: parseHome(data);
 		
 	}
 }
