@@ -163,7 +163,7 @@ function loadSuccess(data,status){
 	parseNavigation(data);
 	
 	switch(returnDocument()){
-		case 'index.html': parseHome(data);
+		case 'index.html': parseHome(data);fk
 					break;
 		case 'media.html': parseFoto();
 					break;
@@ -178,6 +178,7 @@ function loadSuccess(data,status){
 		case 'contact.html' : parseContact(data);
 					break;
 		case ''				: parseHome(data);
+					break;
 		
 	}
 }
