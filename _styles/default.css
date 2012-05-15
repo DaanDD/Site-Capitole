@@ -277,6 +277,10 @@ em {
 	color: #CCC;
 }
 
+.footerLink{
+	color: #777 !important;
+}
+
 /* @end */
 /* @group Home Page */
 header {
