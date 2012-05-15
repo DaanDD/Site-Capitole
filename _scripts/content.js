@@ -9,7 +9,7 @@ var cookiesEnabled = false;
 
 function setLanguageFromLink(languageLink){
 	/* GET LANGUAGE FROM REL */
-	var language = $(languageLink).attr('rel');
+	var language = $(languageLink).attr('class');
 	/* SET LANGUAGE FROM REL --> LINK */
 	if(Modernizr.localstorage)
 	{
@@ -163,7 +163,7 @@ function loadSuccess(data,status){
 	parseNavigation(data);
 	
 	switch(returnDocument()){
-		case 'index.html': parseHome(data);fk
+		case 'index.html': parseHome(data);
 					break;
 		case 'media.html': parseFoto();
 					break;
