@@ -1,4 +1,10 @@
 //DOCUMENT READY
+//ACTIVATE THE IMAGE GALLERY
+$(window).load(function() {
+	$('.blueberry').blueberry();
+});
+
+//DOCUMENT READY
 $(document).ready(function () {
 	$("#toggle").click(function () {
 		$(".pull-right").slideToggle(300);
@@ -33,10 +39,7 @@ function scrollbar_width() {
     return false;
 }
 
-//ACTIVATE THE IMAGE GALLERY
-$(window).load(function() {
-	$('.blueberry').blueberry();
-});
+
 
 //Homepage ICONS ANIMATIONS
 $(".icon-what").hover(function(){
@@ -64,6 +67,7 @@ $(".icon-what").hover(function(){
 		return false;
 	}
 	
+
 	
 	// GOOGLE ANALITICS
   var _gaq = _gaq || [];
