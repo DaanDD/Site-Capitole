@@ -17,6 +17,29 @@ var directionsService = new google.maps.DirectionsService();
 
 var routeDisplay = false;
 
+function display(){
+		 var myOptions = {
+	    	zoom: 13,
+	    	center: locationCapitole,
+	   	 	mapTypeId: google.maps.MapTypeId.ROADMAP,
+			mapTypeControl: false,
+			zoomControl: true,
+			navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+	  	}
+		Googlemap = new google.maps.Map(document.getElementById("map"), myOptions);	
+		
+		capitolMarker = new google.maps.Marker({
+			position: locationCapitole, 
+			map: Googlemap, 
+			title:"De Capitole"
+		});
+		google.maps.event.addListener(capitolMarker, 'click', function() {
+	//			displayRoute();
+				Googlemap.panTo(locationCapitole);
+			});
+	
+}
+
 //GET LOCATION OF USER THROUGH WIFI OR 3G
 //FALLBACK FROM HTML5 GEOLOCATION GOOGLE AJAX API THROUGH MAXMIND'S GEOLOCATION API
 function getGeolocation(){
@@ -48,51 +71,8 @@ function geoLocationSuccess(position){
 }
 
 function geoLocationError(err){
-	if(err.code==1)
-		{
-			console.log('geolocation denied');
-			locationCurrent = locationCapitole;
-			displayMap();
-		}
-		else if(err.code==2)
-		{
-			console.log("Position unavailable.");
-			var geocoder = new google.maps.Geocoder()
-			if(google.loader.ClientLocation != null)
-			{
-				console.log('google loader');
-				locationCurrent = new google.maps.LatLng(google.loader.ClientLocation.latitude,google.loader.ClientLocation.longitude);
-				displayMap();	
-			}
-			else{
-				console.log('geoip');
-				locationCurrent = new google.maps.LatLng(geoip_latitude(),geoip_longitude());
-				displayMap();
-			}
-			
-		}
-		else if(err.code==3)
-		{
-			console.log("Timeout expired.");
-			var geocoder = new google.maps.Geocoder()
-			if(google.loader.ClientLocation != null)
-			{
-				console.log('google loader');
-				locationCurrent = new google.maps.LatLng(google.loader.ClientLocation.latitude,google.loader.ClientLocation.longitude);
-				displayMap();	
-			}
-			else{
-				console.log('geoip');
-				locationCurrent = new google.maps.LatLng(geoip_latitude(),geoip_longitude());
-				displayMap();
-			}
-			
-		}
-		else
-		{
-			console.log("ERROR:"+ err.message);
-			locationCurrent = locationCapitole;
-		}
+	locationCurrent = locationCapitole;
+	displayMap();
 }
 
 //DISPLAY GOOGLE MAP
@@ -122,31 +102,16 @@ function displayMap(){
 		}
 	}
 	else{
-		zoomin = 9;
+		zoomin = 8;
 	}
 	
 	getCenter();
 	console.log(locationCenter);
+	Googlemap.panTo(locationCenter);
+	Googlemap.setZoom(zoomin);
 	
-	 var myOptions = {
-    	zoom: zoomin,
-    	center: locationCenter,
-   	 	mapTypeId: google.maps.MapTypeId.ROADMAP,
-		mapTypeControl: false,
-		zoomControl: true,
-		navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-  	}
-	Googlemap = new google.maps.Map(document.getElementById("map"), myOptions);	
 	
-	capitolMarker = new google.maps.Marker({
-		position: locationCapitole, 
-		map: Googlemap, 
-		title:"De Capitole"
-	});
-	google.maps.event.addListener(capitolMarker, 'click', function() {
-//			displayRoute();
-			Googlemap.panTo(locationCapitole);
-		});
+
 	if(locationCurrent != locationCapitole)
 	{
 		currentMarker = new google.maps.Marker({
@@ -232,7 +197,7 @@ function getCenter()
 
 //DOCUMENT READY
 $(document).ready(function(){
-
+	display();
 	getGeolocation();
 	
 	});
