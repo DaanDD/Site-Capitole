@@ -28,11 +28,13 @@ function setLanguage(language){
 	first argument: the language*/
 	setLanguageToStorage(language);
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
-	$("#language-indicator").html('<h1>' + language + '</h1>');
+	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').parent().removeClass("selected");
+	$('a[class="' + selectedLanguage + '"]').css("color","#CCC");
+	console.log(selectedLanguage);
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').parent().addClass("selected");
+	$('a[class="' + language + '"]').css("color","#777");
+	console.log(language);
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
@@ -100,11 +102,11 @@ function setLanguageCookies(language){
 	first argument: the language*/
 	setLanguageToStorageCookies(language);
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
-	$("#language-indicator").html('<h1>' + language + '</h1>');
+	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').parent().removeClass("selected");
+	$('a[rel="' + selectedLanguage + '"]').removeClass("selected");
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').parent().addClass("selected");
+	$('a[rel="' + language + '"]').addClass("selected");
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
