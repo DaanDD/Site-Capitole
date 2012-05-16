@@ -149,8 +149,10 @@ function displayMap(){
 function displayRoute(){
 	if(!routeDisplay)
 	{
+	
 	directionsDisplay = new google.maps.DirectionsRenderer();
 	directionsDisplay.setMap(Googlemap);
+	directionsDisplay.setOptions( { suppressMarkers: true } );
     var request = {
       origin:locationCurrent, 
       destination:locationCapitole,
