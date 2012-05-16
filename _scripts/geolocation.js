@@ -34,7 +34,7 @@ function display(){
 			title:"De Capitole"
 		});
 		google.maps.event.addListener(capitolMarker, 'click', function() {
-	//			displayRoute();
+				displayRoute();
 				Googlemap.panTo(locationCapitole);
 			});
 	
@@ -146,29 +146,29 @@ function displayMap(){
 //			}
 //}
 
-//function displayRoute(){
-//	if(!routeDisplay)
-//	{
-//	directionsDisplay = new google.maps.DirectionsRenderer();
-//	directionsDisplay.setMap(Googlemap);
-//    var request = {
-//      origin:locationCurrent, 
-//      destination:locationCapitole,
-//      travelMode: google.maps.DirectionsTravelMode.DRIVING
-//    };
-//    directionsService.route(request, function(response, status) {
-//      if (status == google.maps.DirectionsStatus.OK) {
-//        directionsDisplay.setDirections(response);
-//        var myRoute = response.routes[0];
-//        var htmlContent = '';
-//        for (var i=0; i<myRoute.legs[0].steps.length; i++) {
-//          htmlContent += myRoute.legs[0].steps[i].instructions+"<br />";
-//        }
-//        document.getElementById('directions').innerHTML = htmlContent;
-//      }
-//    });
-//	}
-//}
+function displayRoute(){
+	if(!routeDisplay)
+	{
+	directionsDisplay = new google.maps.DirectionsRenderer();
+	directionsDisplay.setMap(Googlemap);
+    var request = {
+      origin:locationCurrent, 
+      destination:locationCapitole,
+      travelMode: google.maps.DirectionsTravelMode.DRIVING
+    };
+    directionsService.route(request, function(response, status) {
+      if (status == google.maps.DirectionsStatus.OK) {
+        directionsDisplay.setDirections(response);
+        var myRoute = response.routes[0];
+        var htmlContent = '';
+        for (var i=0; i<myRoute.legs[0].steps.length; i++) {
+          htmlContent += myRoute.legs[0].steps[i].instructions+"<br />";
+        }
+        //document.getElementById('directions').innerHTML = htmlContent;
+      }
+    });
+	}
+}
 //
 //CALCULATE THE DISTANCE BETWEEN YOU AND AND THE CAPITOLE
 function getDistanceToCapitole(){
