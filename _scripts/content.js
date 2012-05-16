@@ -344,6 +344,7 @@ function parseNavigation(data){
 }
 
 function parseHome(data){
+		var taal;
 		var news;
 		var title_news;
 		var title_media;
@@ -363,6 +364,7 @@ function parseHome(data){
 					case "nl": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "nederlands")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -381,6 +383,7 @@ function parseHome(data){
 					case "fr": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "frans")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -399,6 +402,7 @@ function parseHome(data){
 					case "en": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "engels")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -416,6 +420,7 @@ function parseHome(data){
 				}
 			}
         });
+        $("#lang").html(taal);
 		$("#intro h1").html(descr_title);
 		$("#col-text-intro").html(descr);
 		$("#titleNews").html(title_news);
