@@ -280,49 +280,6 @@ em {
 .footerLink{
 	color: #777 !important;
 }
-#social{
-	
-}
-#twitter{
-	width: 25px;
-	height: 17px;
-	background: url('../content/images/twitter_gray.png') no-repeat center center;
-	position: relative;
-	left: 50%;
-}
-#twitter a{
-	display: block;
-	width: 25px;
-	height: 17px;
-	text-indent: -9999px;
-}
-#twitter:hover{
-	background: url('../content/images/twitter_blue.png') no-repeat center center;
-}
-#twitter:active{
-	background: url('../content/images/twitter_gray.png') no-repeat center center;
-}
-
-#facebook{
-	width: 25px;
-	height: 17px;
-	background: url('../content/images/twitter_gray.png') no-repeat center center;
-	position: relative;
-	left: 50%;
-}
-#facebook a{
-	display: block;
-	width: 25px;
-	height: 17px;
-	text-indent: -9999px;
-}
-#facebook{
-	background: url('../content/images/twitter_blue.png') no-repeat center center;
-}
-#facebook{
-	background: url('../content/images/twitter_gray.png') no-repeat center center;
-}
-
 
 /* @end */
 /* @group Home Page */
