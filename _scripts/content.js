@@ -104,9 +104,9 @@ function setLanguageCookies(language){
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
 	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').removeClass("selected");
+	$('a[rel="' + selectedLanguage + '"]').css("color","#CCC");
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').addClass("selected");
+	$('a[rel="' + language + '"]').css("color","#777");
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
