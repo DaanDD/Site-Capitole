@@ -33,8 +33,8 @@ function display(){
 			map: Googlemap, 
 			title:"De Capitole"
 		});
+		displayRoute();
 		google.maps.event.addListener(capitolMarker, 'click', function() {
-				displayRoute();
 				Googlemap.panTo(locationCapitole);
 			});
 	
