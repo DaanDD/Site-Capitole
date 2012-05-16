@@ -349,6 +349,12 @@ function parseHome(data){
 		var title_media;
 		var descr_title;
 		var descr;
+		var wat;
+		var wat_title;
+		var media;
+		var media_title;
+		var praktisch;
+		var praktisch_title;
 		$(data).find('pages').find('page').each(function() {
             if($(this).attr('id') == 'beschrijving')
 			{
@@ -362,6 +368,12 @@ function parseHome(data){
 												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
+												wat = $(this).find('intro').find('wat').find('content').text();
+												wat_title = $(this).find('intro').find('wat').find('title').text();
+												media = $(this).find('intro').find('inBeeld').find('content').text();
+												media_title = $(this).find('intro').find('inBeeld').find('title').text();
+												praktisch = $(this).find('intro').find('praktisch').find('content').text();
+												praktisch_title = $(this).find('intro').find('praktisch').find('title').text();
 											}
                     					});
 										break;
@@ -374,6 +386,12 @@ function parseHome(data){
 												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
+												wat = $(this).find('intro').find('wat').find('content').text();
+												wat_title = $(this).find('intro').find('wat').find('title').text();
+												media = $(this).find('intro').find('inBeeld').find('content').text();
+												media_title = $(this).find('intro').find('inBeeld').find('title').text();
+												praktisch = $(this).find('intro').find('praktisch').find('content').text();
+												praktisch_title = $(this).find('intro').find('praktisch').find('title').text();
 											}
                     					});
 										break;
@@ -386,6 +404,12 @@ function parseHome(data){
 												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
+												wat = $(this).find('intro').find('wat').find('content').text();
+												wat_title = $(this).find('intro').find('wat').find('title').text();
+												media = $(this).find('intro').find('inBeeld').find('content').text();
+												media_title = $(this).find('intro').find('inBeeld').find('title').text();
+												praktisch = $(this).find('intro').find('praktisch').find('content').text();
+												praktisch_title = $(this).find('intro').find('praktisch').find('title').text();
 											}
                     					});
 										break;
@@ -397,6 +421,12 @@ function parseHome(data){
 		$("#titleNews").html(title_news);
 		$("#titleMedia").html(title_media);
 		$("#news").html(news);
+		$("#intro_wat_title").html(wat_title);
+		$("#intro_wat_text").html(wat);
+		$("#intro_beeld_title").html(media_title);
+		$("#intro_beeld_text").html(media);
+		$("#intro_praktisch_title").html(praktisch_title);
+		$("#intro_praktisch_text").html(praktisch);
 }
 
 function parseFoto(){
@@ -504,52 +534,53 @@ function parseContact(data){
 		
 }
 
-function parseHistoriek(data){
-		var descr;
-		var content;
-		var descr_title
-		$(data).find('pages').find('page').each(function() {
-            if($(this).attr('id') == 'historiek')
-			{
-				switch(selectedLanguage)
-				{
-					case "nl": $(this).find("language").each(function() {
-                        					if($(this).attr('id') == "nederlands")
-											{
-												descr = $(this).find('description').text();
-												content = $(this).find('content').text();
-												descr_title = $(this).find('title').text();
-											}
-                    					});
-										break;
-										
-					case "fr": $(this).find("language").each(function() {
-                        					if($(this).attr('id') == "frans")
-											{
-												descr = $(this).find('description').text();
-												content = $(this).find('content').text();
-												descr_title = $(this).find('title').text();
-											}
-                    					});
-										break;
-										
-					case "en": $(this).find("language").each(function() {
-                        					if($(this).attr('id') == "engels")
-											{
-												descr = $(this).find('description').text();
-												content = $(this).find('content').text();
-												descr_title = $(this).find('title').text();
-											}
-                    					});
-										break;
-				}
-			}
-        });
-		$("#beschrijving").html(descr);
-		$("#title").html(descr_title);
-		$("#content").html(content);
-		
-}
+//function parseHistoriek(data){
+//		var descr;
+//		var content;
+//		var descr_title
+//		var
+//		$(data).find('pages').find('page').each(function() {
+//            if($(this).attr('id') == 'historiek')
+//			{
+//				switch(selectedLanguage)
+//				{
+//					case "nl": $(this).find("language").each(function() {
+//                        					if($(this).attr('id') == "nederlands")
+//											{
+//												descr = $(this).find('description').text();
+//												content = $(this).find('content').text();
+//												descr_title = $(this).find('title').text();
+//											}
+//                    					});
+//										break;
+//										
+//					case "fr": $(this).find("language").each(function() {
+//                        					if($(this).attr('id') == "frans")
+//											{
+//												descr = $(this).find('description').text();
+//												content = $(this).find('content').text();
+//												descr_title = $(this).find('title').text();
+//											}
+//                    					});
+//										break;
+//										
+//					case "en": $(this).find("language").each(function() {
+//                        					if($(this).attr('id') == "engels")
+//											{
+//												descr = $(this).find('description').text();
+//												content = $(this).find('content').text();
+//												descr_title = $(this).find('title').text();
+//											}
+//                    					});
+//										break;
+//				}
+//			}
+//        });
+//		$("#beschrijving").html(descr);
+//		$("#title").html(descr_title);
+//		$("#content").html(content);
+//		
+//}
 
 function parsePraktisch(data){
 	var descr;
@@ -557,6 +588,7 @@ function parsePraktisch(data){
 	var title1;
 	var title2;
 	var title3;
+
 		$(data).find('pages').find('page').each(function() {
             if($(this).attr('id') == 'praktisch')
 			{
@@ -614,6 +646,7 @@ function parseGebouw(data){
 	var content_2;
 	var content_3;
 	var descr_title;
+	var title;
 		$(data).find('pages').find('page').each(function() {
             if($(this).attr('id') == 'gebouw')
 			{
@@ -625,6 +658,7 @@ function parseGebouw(data){
 												descr = $(this).find('description').text();
 												parseContentGebouw($(this).find('content'));
 												descr_title = $(this).find('title').text();
+												title = $(this).find('titleHead').text();
 											}
                     					});
 										break;
@@ -635,6 +669,7 @@ function parseGebouw(data){
 												descr = $(this).find('description').text();
 												parseContentGebouw($(this).find('content'));
 												descr_title = $(this).find('title').text();
+												title = $(this).find('titleHead').text();
 											}
                     					});
 										break;
@@ -645,6 +680,7 @@ function parseGebouw(data){
 												descr = $(this).find('description').text();
 												parseContentGebouw($(this).find('content'));
 												descr_title = $(this).find('title').text();
+												title = $(this).find('titleHead').text();
 											}
                     					});
 										break;
@@ -652,7 +688,7 @@ function parseGebouw(data){
 			}
         });
 		$("#beschrijving").html(descr);
-		$("#title").html(descr_title);
+		$("#title").html(title);
 }
 
 function parseContentGebouw(data)

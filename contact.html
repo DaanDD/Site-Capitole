@@ -71,6 +71,17 @@
 						<form method="post" action="" name="frm" class="col span_6">
 							<h1>Contact</h1>
 							<div id="formPlace">
+								<input type="text" id="naam" name="naam" placeholder="Naam" /> <sup>*</sup><br />
+								<input type="text" id="email" name="email" placeholder="E-mail" /> <sup>*</sup><br />
+								<input type="text" id="bday" name="bday" placeholder="Geboortedatum" /> <sup>*</sup><br />
+								<input type="radio" name="sex" value="Man" id="man" checked="true" /><label for="man">Man</label>
+								<input type="radio" name="sex" value="Vrouw" id="vrouw" /><label for="vrouw">Vrouw</label><br />
+								<select id="ddl">
+									<option value="opmerking">Opmerking</option>
+									 <option value="vraag">Vraag</option>
+								</select><br />
+								<textarea placeholder="Bericht" id="bericht"></textarea><br />
+								<input type="submit" id="button" onClick="send()" value="Verstuur" />
 							</div>
 							<div id="response">
 							</div>

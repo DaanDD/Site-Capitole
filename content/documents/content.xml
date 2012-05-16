@@ -76,6 +76,26 @@
 	  <page id="beschrijving">
 	  	<languages>
 			<language id='nederlands'>
+				<intro>
+					<wat>
+						<title>Wat is het Capitole?</title>
+						<content>
+							De Capitole, één van de meest gekende cultuurspots, is een gerenommeerd theater in Gent, België. Het is een prachtig gebouw in de art deco stijl dat zich bevindt op het Zuid. Op deze site kan je alles terugvinden over de geschiedenis van het gebouw, de evenementen en kan je zoeken hoe je er geraakt.
+						</content>
+					</wat>
+					<inBeeld>
+						<title>In Beeld</title>
+						<content>
+							In deze dagen van crisis let iedereen op zijn uitgaven en kan er zelfs geen enkele euro apart gezet worden voor een spektakel van de hoogste plank. Daarom willen we met deze site mensen aanmoedigen zich niet schuldig te voelen om te genieten van onze rijke cultuur. Blijf genieten van de prachtige voorstellingen en van het leven!
+						</content>
+					</inBeeld>
+					<praktisch>
+						<title>Hoe kom ik er?</title>
+						<content>
+							Het Capitole ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan de auto dus gerust wat verder parkeren en met het openbaar vervoer komen. Als je liever niet met de auto komt kan je ook gerust met de trein komen.
+						</content>
+					</praktisch>
+				</intro>
 				<title>
 					Welkom!
 				</title>
@@ -131,6 +151,26 @@
 				<title3>
 					<![CDATA[<a href='media.html' title="mediapage">Media</a>]]>
 				</title3>
+				<intro>
+					<wat>
+						<title>What is the Capitole?</title>
+						<content>
+							The Capitole, one of the best-known cultural destinations, is a renowned theatre in Ghent, Belgium. It’s a beautiful building in the Art Deco style, located in Ghent South. On this site you can find everything about the history of the building, the events and how to get there.
+						</content>
+					</wat>
+					<inBeeld>
+						<title>Media</title>
+						<content>
+							In these days of crisis everyone watches its expenses and every cent is hard to put aside for a spectacle of the highest shelf. That’s why we want to encourage people to enjoy our rich culture. Keep experiencing our wonderful performances and enjoy life!
+						</content>
+					</inBeeld>
+					<praktisch>
+						<title>How do I get there?</title>
+						<content>
+							The Capitole in Ghent is situated at the South, where many buses and trams stop. You can certainly park the car a little further and travel with the public transport. If you rather not want to come by car, there’s also the possibility to come by train.
+						</content>
+					</praktisch>
+				</intro>
 				<description>
 			  <![CDATA[
 				  <p>The Capitole, one of the best-known cultural destinations, is a renowned theatre in Ghent, Belgium. It’s a beautiful building in the Art Deco style, located in Ghent South. On this site you can find everything about the history of the building, the events and how to get there.</p>
@@ -178,6 +218,26 @@
 				<title3>
 					<![CDATA[<a href='media.html' title="médiapage">Média</a>]]>
 				</title3>
+				<intro>
+					<wat>
+						<title>C'est quoi le Capitole?</title>
+						<content>
+							Le Capitole, un ‘hotspot’ culturel très connu, est un théâtre renommé situé à Gand, Belgique. C’est un bâtiment merveilleux dans le style art déco qui ce trouve sur le Zuid. Sur notre site web vous trouvez toute l’information de l’histoire du bâtiment, les événements et comment vous pouvez y aller.
+						</content>
+					</wat>
+					<inBeeld>
+						<title>Média</title>
+						<content>
+							Dans ces jours de crise tout le monde est un peu avare, et ne peut même pas mettre quelques euros de côté pour un spectacle de haute qualité. C’est pourquoi nous voulons persuader les gens afin qu’ils ne se sentent pas coupables de jouir de notre patrimoine culturelle. Reste profiter des performances superbes et de la vie!
+						</content>
+					</inBeeld>
+					<praktisch>
+						<title>Comment j'y puis arriver?</title>
+						<content>
+							Le Capitole est situé dan le quartier du Sud où beaucoup de busses et trams arrêtent. Alors, vous pouvez facilement venir en voiture, stationner un peu plus loin et venir en transport public. Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de venir en train.
+						</content>
+					</praktisch>
+				</intro>
 				<description>
 			  <![CDATA[
 				  <p>Le Capitole, un ‘hotspot’ culturel très connu, est un théâtre renommé situé à Gand, Belgique. C’est un bâtiment merveilleux dans le style art déco qui ce trouve sur le Zuid. Sur notre site web vous trouvez toute l’information de l’histoire du bâtiment, les événements et comment vous pouvez y aller.</p>
@@ -219,9 +279,9 @@
 	  <page id="gebouw">
 	  	<languages>
 			<language id='nederlands'>
-				<title>
-					Capitole
-				</title>
+				<titleHead>
+					Het Capitole
+				</titleHead>
 		 		<description>
 			  <![CDATA[
 				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van het Capitole. De mooie neoklassieke gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord CAPITOLE erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in het Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op.  het Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen, … .</p>
@@ -265,11 +325,11 @@
 				
 			</historiek>
 		  </content>
-		   		  	</language>
+		   	</language>
 			<language id='engels'>
-				<title>
+				<titleHead>
 					The Capitole
-				</title>
+				</titleHead>
 				<description>
 			  <![CDATA[
 				  <p>If you walk along the ‘South’ in Ghent, you might immediately notice the beautiful façade of the Capitole. Its beautiful neoclassical façade with its pediment and colonnade catch the eye straightaway. Because of the pillars with the info of the performances along the entrance and the word CAPITOLE above, it creates the feeling of an old cinema at the time of Marilyn Monroe. <br />Once inside the Capitole you immediately notice the glamorous style of the building with some classical details. The Capitole stands for culture, talent, glamour, ambiance, entertainment, bringing people together, …</p>
@@ -311,9 +371,9 @@
 		  </content>
 		   			</language>
 			<language id='frans'>
-				<title>
+				<titleHead>
 					Le Capitole
-				</title>
+				</titleHead>
 				<description>
 			  <![CDATA[
 				  <p>Quand vous promenez dans le Zuid à Gand, la belle façade du Capitole saute directement aux yeux. Cette façade néo-classique et sa colonnade sont très connues parmi les Belges. Les colonnes aves les affiches des performances au travers de l’entrée et le mot CAPITOLE au-dessus nous donnent l’air d’un cinéma vieux au moment de Marilyn Monroe. <br />Quand nous sommes entrés dans le Capitole on remarque directement le style glamour du bâtiment et des détails classiques. Le Capitole représente culture, talent, glamour, ambiance, détente, réunissant des personnes, …</p>
@@ -369,8 +429,8 @@
 		 		<description>
 			  <![CDATA[
 				  <p>Het adres van Capitole Gent is:<br />
-  Graaf Van Vlaanderenplein 5<br />
-  9000 Gent<br />
+  <strong>Graaf Van Vlaanderenplein 5</strong><br />
+  <strong>9000 Gent</strong><br />
   het Capitole in Gent ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan dus zeker de auto wat verder parkeren en met het openbaar vervoer komen. Bekijk de site van DeLijn om de exacte informatie te raadplegen. Als je liever niet met de auto wilt komen is er ook de mogelijkheid om met de trein te komen. Je kan dan afstappen in Gent Dampoort en daar de bus naar het Zuid nemen. <br />Meer informatie over de trein kan je vinden op de site van NMBS.</p>
   
 				  
@@ -384,7 +444,7 @@
 		   	</language>
 			<language id='engels'>
 				<title1>
-					The Capitole, how do i get there?
+					The Capitole, how do I get there?
 				</title1>
 				<title2>
 					Map
@@ -395,8 +455,8 @@
 				<description>
 			  <![CDATA[
 				  <p>The address of Capitole Ghent:<br />
-Graaf van Vlaanderenplein 5<br />
-9000 Ghent<br />
+<strong>Graaf van Vlaanderenplein 5</strong><br />
+<strong>9000 Ghent</strong><br />
 The Capitole in Ghent is situated at the South, where many buses and trams stop. You can certainly park the car a little further and travel with the public transport.
 View the site of DeLijn to consult the exact information.
 If you rather not want to come by car, there’s also the possibility to come by train. You can get out at Ghent Dampoort and take the bus to the South there.<br />
@@ -426,8 +486,8 @@ You can also park in the Interparking underneath the Kouter (open until 2 am, Sa
 				<description>
 			  <![CDATA[
 				  <p>L’adresse du Capitole:<br />
-Graaf van Vlaanderenplein 5<br />
-9000 Gand<br />
+<strong>Graaf van Vlaanderenplein 5</strong><br />
+<strong>9000 Gand</strong><br />
 
 Le Capitole est situé dan le quartier du Zuid où beaucoup de busses et trams arrêtent. Alors, vous pouvez facilement venir en voiture, stationner un peu plus loin et venir en transport public. Visitez le site de DeLijn pour l’information exact.<br />
 Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de venir en train. Vous descendez à la gare de Gand Dampoort en prenez le bus vers le Zuid. <br />Plus d’information trouverez-vous sur le site de NMBS.</p>
