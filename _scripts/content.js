@@ -30,10 +30,10 @@ function setLanguage(language){
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
 	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[class="' + selectedLanguage + '"]').css("color","#CCC");
+	//$('a[class="' + selectedLanguage + '"]').css("color","#CCC");
 	console.log(selectedLanguage);
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[class="' + language + '"]').css("color","#777");
+	//$('a[class="' + language + '"]').css("color","#777");
 	console.log(language);
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
@@ -104,9 +104,9 @@ function setLanguageCookies(language){
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
 	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').css("color","#CCC");
+	//$('a[rel="' + selectedLanguage + '"]').css("color","#CCC");
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').css("color","#777");
+	//$('a[rel="' + language + '"]').css("color","#777");
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
