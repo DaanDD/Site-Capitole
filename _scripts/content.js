@@ -28,11 +28,13 @@ function setLanguage(language){
 	first argument: the language*/
 	setLanguageToStorage(language);
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
-	$("#language-indicator").html('<h1>' + language + '</h1>');
+	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').parent().removeClass("selected");
+	$('a[class="' + selectedLanguage + '"]').css("color","#CCC");
+	console.log(selectedLanguage);
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').parent().addClass("selected");
+	$('a[class="' + language + '"]').css("color","#777");
+	console.log(language);
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
@@ -100,11 +102,11 @@ function setLanguageCookies(language){
 	first argument: the language*/
 	setLanguageToStorageCookies(language);
 	/* LOAD SPECIFIED CONTENT IN LANGUAGE */
-	$("#language-indicator").html('<h1>' + language + '</h1>');
+	//$("#language-indicator").html('<h1>' + language + '</h1>');
 	/* REMOVE ACCENT FROM PREVIOUS LANGUAGE */	
-	$('a[rel="' + selectedLanguage + '"]').parent().removeClass("selected");
+	$('a[rel="' + selectedLanguage + '"]').css("color","#CCC");
 	/* GIVE ACCENT TO LANGUAGE */
-	$('a[rel="' + language + '"]').parent().addClass("selected");
+	$('a[rel="' + language + '"]').css("color","#777");
 	/* SET THE NEW LANGUAGE TO THE GLOBAL VARIABLE */
 	selectedLanguage = language;
 	/* UPDATE PAGE */
@@ -344,6 +346,7 @@ function parseNavigation(data){
 }
 
 function parseHome(data){
+		var taal;
 		var news;
 		var title_news;
 		var title_media;
@@ -363,6 +366,7 @@ function parseHome(data){
 					case "nl": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "nederlands")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -381,6 +385,7 @@ function parseHome(data){
 					case "fr": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "frans")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -399,6 +404,7 @@ function parseHome(data){
 					case "en": $(this).find("language").each(function() {
                         					if($(this).attr('id') == "engels")
 											{
+												taal = $(this).find('taal').text();
 												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
 												descr_title = $(this).find('title').text();
@@ -416,6 +422,7 @@ function parseHome(data){
 				}
 			}
         });
+        $("#lang").html(taal);
 		$("#intro h1").html(descr_title);
 		$("#col-text-intro").html(descr);
 		$("#titleNews").html(title_news);

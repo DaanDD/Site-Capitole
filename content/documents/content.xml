@@ -76,6 +76,7 @@
 	  <page id="beschrijving">
 	  	<languages>
 			<language id='nederlands'>
+				<taal>Taalkeuze</taal>
 				<intro>
 					<wat>
 						<title>Wat is het Capitole?</title>
@@ -142,6 +143,7 @@
 		  		</news>
 		   	</language>
 			<language id='engels'>
+				<taal>Language</taal>
 				<title>
 					Welcome!
 				</title>
@@ -209,6 +211,7 @@
 		  	</news>
 		   </language>
 			<language id='frans'>
+				<taal>Langage</taal>
 				<title>
 					Bienvenue!
 				</title>
