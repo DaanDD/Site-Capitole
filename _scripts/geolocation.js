@@ -12,10 +12,10 @@ var locationCapitole = new google.maps.LatLng(51.047974,3.732148);
 
 var locationCenter;
 
-var directionDisplay;
+var directionsDisplay;
 var directionsService = new google.maps.DirectionsService();
 
-var routeDisplay = false;
+var routeDisplay = true;
 
 function display(){
 		 var myOptions = {
@@ -33,7 +33,7 @@ function display(){
 			map: Googlemap, 
 			title:"De Capitole"
 		});
-		displayRoute();
+		
 		google.maps.event.addListener(capitolMarker, 'click', function() {
 				Googlemap.panTo(locationCapitole);
 			});
@@ -68,6 +68,7 @@ function getGeolocation(){
 function geoLocationSuccess(position){
 	locationCurrent = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
 	displayMap();
+	displayRoute();
 }
 
 function geoLocationError(err){
@@ -147,14 +148,14 @@ function displayMap(){
 //}
 
 function displayRoute(){
-	if(!routeDisplay)
+	if(routeDisplay)
 	{
 	
 	directionsDisplay = new google.maps.DirectionsRenderer();
 	directionsDisplay.setMap(Googlemap);
 	directionsDisplay.setOptions( { suppressMarkers: true } );
     var request = {
-      origin:locationCurrent, 
+      origin: locationCurrent, 
       destination:locationCapitole,
       travelMode: google.maps.DirectionsTravelMode.DRIVING
     };
