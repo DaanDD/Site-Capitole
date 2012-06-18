@@ -17,6 +17,11 @@ var directionsService = new google.maps.DirectionsService();
 
 var routeDisplay = true;
 
+var positionName = ["Huidige locatie","Current location","Localisation actuelle"];
+var posName;
+var capNameArray = ["Het Capitole","The Capitole","Le Capitole"];
+var capName;
+
 function display(){
 		 var myOptions = {
 	    	zoom: 13,
@@ -31,7 +36,7 @@ function display(){
 		capitolMarker = new google.maps.Marker({
 			position: locationCapitole, 
 			map: Googlemap, 
-			title:"De Capitole"
+			title:capName
 		});
 		
 		google.maps.event.addListener(capitolMarker, 'click', function() {
@@ -118,7 +123,7 @@ function displayMap(){
 		currentMarker = new google.maps.Marker({
 			position: locationCurrent, 
 			map: Googlemap, 
-			title:"Uw Positie"
+			title:posName
 		});
 		currentMarker.setAnimation(google.maps.Animation.DROP);
 		google.maps.event.addListener(currentMarker, 'click', function() {
@@ -198,10 +203,41 @@ function getCenter()
 	locationCenter = new google.maps.LatLng(center_lat,center_lng);
 }
 
+function checkLanguage(){
+	var language = window.selectedLanguage;
+	
+		switch(language){
+		case 'nl': 	posName = positionName[0];
+					capName = capNameArray[0];
+					break;
+		case 'en': 	posName = positionName[1];
+					capName = capNameArray[1];
+					break;
+		case 'fr': 	posName = positionName[2];
+					capName = capNameArray[2];
+					break;
+	}
+}
+
+
+
 //DOCUMENT READY
 $(document).ready(function(){
+	checkLanguage();
 	display();
 	getGeolocation();
 	
+	$("#footer a").click(function()
+	{
+		checkLanguage();
+		if(currentMarker)
+		{
+			currentMarker.setTitle(posName);
+		}
+		
+		capitolMarker.setTitle(capName);
+		
 	});
+	
+});
 	
