@@ -185,6 +185,14 @@ em {
   font-size: 11px;
   color: #7F7F7F;
 }
+.em-text{
+	font-style: italic;
+	font-size: 13px;
+	color: #7F7F7F;
+}
+strong{
+	font-weight:  bold;
+}
 .row:before,
 .row:after,
 .media-block:before,
@@ -760,7 +768,7 @@ form {
     height: 142px;
   }
   #headerafter {
-    margin-top: -38px;
+    margin-top: 34px;
   }
   #img-intro {
     width: 252px;
@@ -777,6 +785,9 @@ form {
   #newsfeed #img-news2 {
     background: url('../content/images/henk-260.jpg') no-repeat center center;
     height: 77px;
+  }
+  #newsfeed{
+  	display: none;
   }
   #newsitem1-img {
     background: url('../content/images/news-urbanus-320.jpg') no-repeat center center;
@@ -862,7 +873,7 @@ form {
     height: 216px;
   }
   #headerafter {
-    margin-top: -42px;
+    margin-top: 30px;
   }
   #img-intro {
     width: 412px;
@@ -981,7 +992,7 @@ form {
     margin-top: -36px;
   }
   #headerafter {
-    margin-top: -44px;
+    margin-top: 28px;
   }
   #img-intro {
     width: 572px;
