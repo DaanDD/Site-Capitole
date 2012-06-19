@@ -177,8 +177,14 @@ h2 a:hover {
 }
 em {
   font-style: italic;
+}
+em.info {
+  font-style: italic;
   font-size: 11px;
   color: #7F7F7F;
+}
+em.em-text {
+  color: #5F5F5F;
 }
 strong {
   font-weight: bold;
