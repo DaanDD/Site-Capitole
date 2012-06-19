@@ -185,13 +185,13 @@ em {
   font-size: 11px;
   color: #7F7F7F;
 }
-.em-text{
-	font-style: italic;
-	font-size: 13px;
-	color: #7F7F7F;
+em.em-text {
+  font-style: italic;
+  font-size: 13px;
+  color: #7F7F7F;
 }
-strong{
-	font-weight:  bold;
+strong {
+  font-weight: bold;
 }
 .row:before,
 .row:after,
@@ -606,9 +606,6 @@ header {
   height: 285px;
   display: block;
 }
-.woodrow,.kortemeer,.kouter{
-	cursor: pointer;
-}
 #map {
   height: 270px;
 }
@@ -788,9 +785,6 @@ form {
   #newsfeed #img-news2 {
     background: url('../content/images/henk-260.jpg') no-repeat center center;
     height: 77px;
-  }
-  #gallery{
-  	display: none;
   }
   #newsitem1-img {
     background: url('../content/images/news-urbanus-320.jpg') no-repeat center center;
