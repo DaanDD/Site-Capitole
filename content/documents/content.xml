@@ -482,11 +482,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  				<input type="text" id="bday" name="bday" placeholder="Geboortedatum" /> <sup>*</sup><br />
 	  				<input type="radio" name="sex" value="Man" id="man" checked="true" /><label for="man">Man</label>
 	  				<input type="radio" name="sex" value="Vrouw" id="vrouw" /><label for="vrouw">Vrouw</label><br />
-	  				<select id="ddl">
+	  				<select id="ddl" name="ddl">
 	  					<option value="opmerking">Opmerking</option>
 	  					  <option value="vraag">Vraag</option>
 	  				</select><br />
-	  				<textarea placeholder="Bericht" id="bericht"></textarea><br />
+	  				<textarea placeholder="Bericht" id="bericht" name="bericht"></textarea><br />
 	  				<!-- Begin of captcha -->	
 	  				<div class="ajax-fc-container"></div>
 	  				<!-- End of captcha -->
@@ -502,11 +502,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<input type="text" id="bday" name="bday" placeholder="Date of birth" /> <span id="bdaySpan">*</span><br />
 	  					<input type="radio" name="sex" value="Man" checked="true" />Man
 	  					<input type="radio" name="sex" value="Vrouw" />Woman<br />
-	  					<select id="ddl">
-	  						<option value="opmerking">Remark</option>
+	  					<select id="ddl" name="ddl">
+	  						<option value="opmerking"$>Remark</option>
 	  						  <option value="vraag">Question</option>
 	  					</select><br />
-	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<textarea placeholder="Message" id="bericht" name="bericht"></textarea><br />
 	  					<!-- Begin of captcha -->	
 	  					<div class="ajax-fc-container"></div>
 	  					<!-- End of captcha -->
@@ -522,11 +522,11 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<input type="text" id="bday" name="bday" placeholder="Date de naissance" /> <span id="bdaySpan">*</span><br />
 	  					<input type="radio" name="sex" value="Man" checked="true" />Homme
 	  					<input type="radio" name="sex" value="Vrouw" />Femme<br />
-	  					<select id="ddl">
+	  					<select id="ddl" name="ddl">
 	  						<option value="opmerking">Remarque</option>
 	  						  <option value="vraag">Question</option>
 	  					</select><br />
-	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<textarea placeholder="Message" id="bericht" name="bericht"></textarea><br />
 	  					<!-- Begin of captcha -->	
 	  					<div class="ajax-fc-container"></div>
 	  					<!-- End of captcha -->

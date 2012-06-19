@@ -50,9 +50,9 @@ $(function(){
 			}
 			
 		},
-		submitHandler:function()
+		submitHandler:function(form)
 		{
-			$.post('mail.php', $('#frm').serialize());
+			$.post('mail.php', $(form).serialize());
 		}
 		
 	});
