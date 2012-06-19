@@ -367,9 +367,7 @@ function parseHome(data){
                         					if($(this).attr('id') == "nederlands")
 											{
 												taal = $(this).find('taal').text();
-												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
-												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
 												wat = $(this).find('intro').find('wat').find('content').text();
@@ -386,9 +384,7 @@ function parseHome(data){
                         					if($(this).attr('id') == "frans")
 											{
 												taal = $(this).find('taal').text();
-												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
-												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
 												wat = $(this).find('intro').find('wat').find('content').text();
@@ -405,9 +401,7 @@ function parseHome(data){
                         					if($(this).attr('id') == "engels")
 											{
 												taal = $(this).find('taal').text();
-												descr = $(this).find('description').text();
 												news = $(this).find('news').text();
-												descr_title = $(this).find('title').text();
 												title_news = $(this).find('title2').text();
 												title_media = $(this).find('title3').text();
 												wat = $(this).find('intro').find('wat').find('content').text();
@@ -423,8 +417,6 @@ function parseHome(data){
 			}
         });
         $("#lang").html(taal);
-		$("#intro h1").html(descr_title);
-		$("#col-text-intro").html(descr);
 		$("#titleNews").html(title_news);
 		$("#titleMedia").html(title_media);
 		$("#news").html(news);

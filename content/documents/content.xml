@@ -98,56 +98,42 @@
 						</content>
 					</praktisch>
 				</intro>
-				<title>
-					Welkom!
-				</title>
 				<title2>
 					<![CDATA[<a href='nieuws.html' title="nieuwspagina">Nieuwsfeed</a>]]>
 				</title2>
 				<title3>
 					<![CDATA[<a href='media.html' title="mediapagina">In Beeld</a>]]>
 				</title3>
-		 		<description>
-			  <![CDATA[
-				  <p>het Capitole, één van de meest gekende cultuurspots, is een gerenommeerd theater in Gent, België. Het is een prachtig gebouw in de art deco stijl dat zich bevindt op het Zuid. Op deze site kan je alles terugvinden over de geschiedenis van het gebouw, de evenementen en kan je zoeken hoe je er geraakt.</p>
-  
-				  <p>In deze dagen van crisis let iedereen op zijn uitgaven en kan er zelfs geen enkele euro apart gezet worden voor een spektakel van de hoogste plank. Daarom willen we met deze site mensen aanmoedigen zich niet schuldig te voelen om te genieten van onze rijke cultuur. Blijf genieten van de prachtige voorstellingen en van het leven!</p>
-				  <a href='gebouw.html' title="het Capitole">Meer over het Capitole &raquo; </a>
-			  ]]>
-			  </description>
-			  <news>
-			  <![CDATA[
-			  	<div class="newsitem">
-			  		<div class="newsfeed-subtitles">
-			  			<h2><a href="nieuws.html#newsitem1-img">Urbanus zelf!</a></h2>
-			  			<em class="info">13 - 19 april </em>
-			  		</div>
-			  		<div id="img-news"></div>
-			  		<p>
-			  			Het wordt een feest van herkenning: de komiek uit Tollembeek eindelijk terug in de theaters na 11 jaar afwezigheid! ...<br />
-			  			<a href="nieuws.html#newsitem1-img">Lees verder &raquo;</a>
-			  		</p>
-			  	</div>
-			  	
-			  	<div class="newsitem">
-			  		<div class="newsfeed-subtitles">
-			  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - Het Experiment</a></h2>
-			  			<em class="info">19 april</em>
-			  		</div>
-			  		<div id="img-news2"></div>
-			  		<p>
-			  			Henk sleept in "Het Experiment" zoals steeds zijn toeschouwers met zich mee in zijn hoogstpersoonlijke wereld...<br />
-			  			<a href="nieuws.html#newsitem2-img">Lees verder &raquo;</a>
-			  		</p>	
-			  	</div>	
-			  	]]>			
+		 		<news>
+				  <![CDATA[
+				  	<div class="newsitem">
+				  		<div class="newsfeed-subtitles">
+				  			<h2><a href="nieuws.html#newsitem1-img">Urbanus zelf!</a></h2>
+				  			<em class="info">13 - 19 april </em>
+				  		</div>
+				  		<div id="img-news"></div>
+				  		<p>
+				  			Het wordt een feest van herkenning: de komiek uit Tollembeek eindelijk terug in de theaters na 11 jaar afwezigheid! ...<br />
+				  			<a href="nieuws.html#newsitem1-img">Lees verder &raquo;</a>
+				  		</p>
+				  	</div>
+				  	
+				  	<div class="newsitem">
+				  		<div class="newsfeed-subtitles">
+				  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - Het Experiment</a></h2>
+				  			<em class="info">19 april</em>
+				  		</div>
+				  		<div id="img-news2"></div>
+				  		<p>
+				  			Henk sleept in "Het Experiment" zoals steeds zijn toeschouwers met zich mee in zijn hoogstpersoonlijke wereld...<br />
+				  			<a href="nieuws.html#newsitem2-img">Lees verder &raquo;</a>
+				  		</p>	
+				  	</div>	
+				  	]]>			
 		  		</news>
 		   	</language>
 			<language id='engels'>
 				<taal>Language</taal>
-				<title>
-					Welcome!
-				</title>
 				<title2>
 					<![CDATA[<a href='nieuws.html' title="newspage">Newsfeed</a>]]>
 				</title2>
@@ -174,48 +160,36 @@
 						</content>
 					</praktisch>
 				</intro>
-				<description>
-			  <![CDATA[
-				  <p>The Capitole, one of the best-known cultural destinations, is a renowned theatre in Ghent, Belgium. It’s a beautiful building in the Art Deco style, located in Ghent South. On this site you can find everything about the history of the building, the events and how to get there.</p>
-
-					<p>In these days of crisis everyone watches its expenses and every cent is hard to put aside for a spectacle of the highest shelf. That’s why we want to encourage people to enjoy our rich culture. Keep experiencing our wonderful performances and enjoy life!</p>
-					<a href='gebouw.html' title="Het Capitole">More about the Capitole &raquo;</a>
-
-			  ]]>
-		  </description>
 		  <news>
-		  <![CDATA[
-		  	<div class="newsitem">
-		  		<div class="newsfeed-subtitles">
-		  			<h2><a href="nieuws.html#newsitem1-img">Urbanus himself!</a></h2>
-		  			<em class="info">13 - 19 april </em>
-		  		</div>
-		  		<div id="img-news"></div>
-		  		<p>
-		  			It will be a party of recognition: the comedian from Tollembeek finally back in theaters after eleven years of absence! ...<br />
-		  			<a href="nieuws.html#newsitem1-img">Read more &raquo;</a>
-		  		</p>
-		  			</div>
-		  	
-		  	<div class="newsitem">
-		  		<div class="newsfeed-subtitles">
-		  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - The Experiment</a></h2>
-		  			<em class="info">19 april</em>
-		  		</div>
-		  		<div id="img-news2"></div>
-		  		<p>
-		  			Henk picks up his audience and carries them along the show, as usual in his own personal world...<br />
-		  			<a href="nieuws.html#newsitem2-img">Read more &raquo;</a>
-		  		</p>	
-		  	</div>	
-		  	]]>			
+			  <![CDATA[
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2><a href="nieuws.html#newsitem1-img">Urbanus himself!</a></h2>
+			  			<em class="info">13 - 19 april </em>
+			  		</div>
+			  		<div id="img-news"></div>
+			  		<p>
+			  			It will be a party of recognition: the comedian from Tollembeek finally back in theaters after eleven years of absence! ...<br />
+			  			<a href="nieuws.html#newsitem1-img">Read more &raquo;</a>
+			  		</p>
+			  			</div>
+			  	
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - The Experiment</a></h2>
+			  			<em class="info">19 april</em>
+			  		</div>
+			  		<div id="img-news2"></div>
+			  		<p>
+			  			Henk picks up his audience and carries them along the show, as usual in his own personal world...<br />
+			  			<a href="nieuws.html#newsitem2-img">Read more &raquo;</a>
+			  		</p>	
+			  	</div>	
+			  	]]>			
 		  	</news>
 		   </language>
 			<language id='frans'>
 				<taal>Langage</taal>
-				<title>
-					Bienvenue!
-				</title>
 				<title2>
 					<![CDATA[<a href='nieuws.html' title="Page Nouvelles">Nouvelles</a>]]>
 				</title2>
@@ -242,40 +216,32 @@
 						</content>
 					</praktisch>
 				</intro>
-				<description>
-			  <![CDATA[
-				  <p>Le Capitole, un ‘hotspot’ culturel très connu, est un théâtre renommé situé à Gand, Belgique. C’est un bâtiment merveilleux dans le style art déco qui ce trouve sur le Zuid. Sur notre site web vous trouvez toute l’information de l’histoire du bâtiment, les événements et comment vous pouvez y aller.</p>
-
-				<p>Dans ces jours de crise tout le monde est un peu avare, et ne peut même pas mettre quelques euros de côté pour un spectacle de haute qualité. C’est pourquoi nous voulons persuader les gens afin qu’ils ne se sentent pas coupables de jouir de notre patrimoine culturelle. Reste profiter des performances superbes et de la vie!</p>
-					<a href="gebouw.html" title="Het Capitole">Lisez plus du Capitole &raquo; </a>
-			  ]]>
-		  </description>
 		  <news>
-		  <![CDATA[
-		  	<div class="newsitem">
-		  		<div class="newsfeed-subtitles">
-		  			<h2><a href="nieuws.html#newsitem1-img">Urbanus soi-même!</a></h2>
-		  			<em class="info">13 - 19 april </em>
-		  		</div>
-		  		<div id="img-news"></div>
-		  		<p>
-		  			C'est une fête de reconnaissance: l'humoriste de Tollembeek est enfin de retour dans les salles après 11 ans d'absence! ...<br />
-		  			<a href="nieuws.html#newsitem1-img">Lisez plus &raquo;</a>
-		  		</p>
-		  			</div>
-		  	
-		  	<div class="newsitem">
-		  		<div class="newsfeed-subtitles">
-		  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - L'Expériment</a></h2>
-		  			<em class="info">19 april</em>
-		  		</div>
-		  		<div id="img-news2"></div>
-		  		<p>
-		  			Henk tire dans "L'Expériment", comme toujours son auditoire avec lui dans son monde très personnel...<br />
-		  			<a href="nieuws.html#newsitem2-img">Lisez plus &raquo;</a>
-		  		</p>	
-		  	</div>	
-		  	]]>			
+			  <![CDATA[
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2><a href="nieuws.html#newsitem1-img">Urbanus soi-même!</a></h2>
+			  			<em class="info">13 - 19 april </em>
+			  		</div>
+			  		<div id="img-news"></div>
+			  		<p>
+			  			C'est une fête de reconnaissance: l'humoriste de Tollembeek est enfin de retour dans les salles après 11 ans d'absence! ...<br />
+			  			<a href="nieuws.html#newsitem1-img">Lisez plus &raquo;</a>
+			  		</p>
+			  			</div>
+			  	
+			  	<div class="newsitem">
+			  		<div class="newsfeed-subtitles">
+			  			<h2><a href="nieuws.html#newsitem2-img">Henk Rijckaert - L'Expériment</a></h2>
+			  			<em class="info">19 april</em>
+			  		</div>
+			  		<div id="img-news2"></div>
+			  		<p>
+			  			Henk tire dans "L'Expériment", comme toujours son auditoire avec lui dans son monde très personnel...<br />
+			  			<a href="nieuws.html#newsitem2-img">Lisez plus &raquo;</a>
+			  		</p>	
+			  	</div>	
+			  	]]>			
 		  	</news>
 		  </language>
 		</languages>
@@ -288,7 +254,7 @@
 				</titleHead>
 		 		<description>
 			  <![CDATA[
-				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van het Capitole. De mooie neoklassieke gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord CAPITOLE erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in het Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op.  het Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen,…</p>
+				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van het Capitole. De mooie <strong>neoklassieke</strong> gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord <strong>CAPITOLE</strong> erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in het Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op. Het Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen,…</p>
 				  
 			  ]]>
 		  </description>
@@ -296,20 +262,20 @@
 		  	<titel id="gebouw">Het gebouw</titel>
 		  	<gebouw>
 		  	<![CDATA[
-				<p>het Capitole heeft nu een groot podium met daaronder een backstage, VIP ruimtes, verschillende bars, een theatertoren en een akoestische orkestbak onder het podium voor 64 personen. <br />Maar het Capitole is niet enkel en alleen voor voorstellingen en theaterstukken, het gebouw herbergt ook een auditorium met 1600 stoelen, een groot podium, een paar grote break out kamers, bars en een volledig afgewerkte zolderruimte die ideaal is voor bijeenkomsten of seminaries.</p>
+				<p>het Capitole heeft nu een groot podium met daaronder een backstage, VIP ruimtes, verschillende bars, een theatertoren en een akoestische orkestbak onder het podium voor <strong>64 personen</strong>. <br />Maar het Capitole is niet enkel en alleen voor voorstellingen en theaterstukken, het gebouw herbergt ook een <strong>auditorium</strong> met 1600 stoelen, een groot podium, een paar grote break out kamers, bars en een volledig afgewerkte zolderruimte die ideaal is voor <strong>bijeenkomsten</strong> of <strong>seminaries</strong>.</p>
 				]]>
 			</gebouw>
 			<titel id="history1">Metamorfose</titel>
 			<historiek id="1">
 				<![CDATA[
-					  <p>Doorheen de jaren is het Capitole te Gent een heuse metamorfose ondergaan. Het begon allemaal in 1850, wanneer het pand voor de eerste keer gebouwd werd. Na de Belgische onafhankelijkheid werd de wijk 'Het Zuid' opgetrokken rond het eerste treinstation met later de zoo en het park. <br />Daarna, in 1932 werd de gevel met zijn driehoekig fronton en de neoklassieke zuilengalerij behouden en bouwde Geo Hendrickx een bioscoopzaal achter deze oude façade. Deze cinema ‘Le Capitole’ was een architecturaal hoogtepunt van Hendrickx door de perfecte akoestiek en een optimaal zicht voor de toeschouwers. </p>
+					  <p>Doorheen de jaren is het Capitole te Gent een heuse metamorfose ondergaan. Het begon allemaal in <em clas="em-text">1850</em>, wanneer het pand voor de eerste keer gebouwd werd. Na de <strong>Belgische onafhankelijkheid</strong> werd de wijk 'Het Zuid' opgetrokken rond het eerste treinstation met later de zoo en het park. <br />Daarna, in <em clas="em-text">1932</em> werd de gevel met zijn driehoekig fronton en de neoklassieke zuilengalerij behouden en bouwde <strong>Geo Hendrickx</strong> een <em class="em-text">bioscoopzaal</em> achter deze oude façade. Deze cinema ‘Le Capitole’ was een architecturaal hoogtepunt van Hendrickx door de <strong>perfecte akoestiek</strong> en een <strong>optimaal zicht</strong> voor de toeschouwers. </p>
 					  
 				]]>
 			</historiek>
 			<titel id="history2">Polyvalent</titel>
 			<historiek id="2">
 				<![CDATA[
-							<p>Lang was deze bioscoopzaal de grootste en meest prestigieuze van België want naast de filmvertoningen konden er ook voorstellingen en optredens worden gehouden. De zaal werd gebouwd met een groot podium, een goede verlichting en een elf meter hoge toneeltoren. Er was zelfs genoeg plaats voor een honderdkoppig orkest op het podium.<br />
+							<p>Lang was deze bioscoopzaal de grootste en meest prestigieuze van België want naast de filmvertoningen konden er ook <strong>voorstellingen en optredens</strong> worden gehouden. De zaal werd gebouwd met een groot podium, een goede verlichting en een elf meter hoge toneeltoren. Er was zelfs genoeg plaats voor een <strong>honderdkoppig orkest</strong> op het podium.<br />
 				Het voorprogramma was meestal voor beginners en kleine attracties. Na de pauze was het tijd voor de grote sterren, zoals Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Maar ook The Ramblers, Leo Martin en zijn orkest, Les Compagnons de la Chanson, Anton Karas, de organiste Ethel Smith en vele anderen waren te bewonderen in het Capitole.</p>
 				
 					]]>
@@ -318,13 +284,13 @@
 			<titel id="history3">Heropleving</titel>
 			<historiek id="3">
 			<![CDATA[
-				<p>Rond 1980 begon de crisis in de bioscoopsector, wat zorgde voor een verlies voor het Capitole. Hierdoor waren ze genoodzaakt om het cinemalicht definitief te doven in 1986. De zaal bleef veertien jaar lang leeg staan tot Music Hall Group de zaal kocht. De gevels en bedaking werd, net als de andere oostelijke gevels van het plein, in 1988 als monument beschermd.<br />
-				De prestigieuze bioscoopzaal heropende op 28 oktober 2001 met de première van de musical Camelot en herwon zijn vergane glorie door zijn nog steeds unieke theaterzaal en charme.  De bedoeling van het Capitole was toen om de eigen musicals en voorstellingen van de Music Hall Group te vertonen, maar ook andere voorstellingen bands en evenementen passeerden de revue. </p>
+				<p>Rond <em clas="em-text">1980</em> begon de <strong>crisis</strong> in de bioscoopsector, wat zorgde voor een verlies voor het Capitole. Hierdoor waren ze genoodzaakt om het cinemalicht definitief te doven in <em clas="em-text">1986</em>. De zaal bleef <strong>veertien jaar lang leeg</strong> staan tot <em clas="em-text">Music Hall Group</em> de zaal kocht. De gevels en bedaking werd, net als de andere oostelijke gevels van het plein, in <em clas="em-text">1988</em> als monument beschermd.<br />
+				De prestigieuze bioscoopzaal heropende op <em clas="em-text">28 oktober 2001</em> met de première van de <strong>musical Camelot</strong> en herwon zijn vergane glorie door zijn nog steeds unieke theaterzaal en charme.  De bedoeling van het Capitole was toen om de eigen musicals en voorstellingen van de Music Hall Group te vertonen, maar ook andere voorstellingen bands en evenementen passeerden de revue. </p>
 				
-				<p>Onder leiding van de nieuwe eigenaar kwam er een groter podium en een backstage onder het podium. De jaren nadien kwamen er extra VIP ruimtes en bars bij. In 2008 werd er een theatertoren gebouwd met 48 computergestuurde trekken en kwamen er extra repetitielokalen bij. In 2009 werd het podium vernieuwd en werd er een akoestische orkestbak onder het podium geïnstalleerd voor een orkest tot 64 personen.<br />
-				het Capitole is een zeer groot succes gebleven dankzij Music Hall Group, die ook nog Vorst Nationaal in Brussel, de Stadsschouwburg in Antwerpen en producties in Nederland beheert.</p>
+				<p>Onder leiding van de nieuwe eigenaar kwam er een groter podium en een backstage onder het podium. De jaren nadien kwamen er extra VIP ruimtes en bars bij. In <em clas="em-text">2008</em> werd er een theatertoren gebouwd met 48 computergestuurde trekken en kwamen er extra repetitielokalen bij. In <em clas="em-text">2009</em> werd het podium vernieuwd en werd er een akoestische orkestbak onder het podium geïnstalleerd voor een orkest tot 64 personen.<br />
+				het Capitole is een zeer groot succes gebleven dankzij <strong>Music Hall Group</strong>, die ook nog Vorst Nationaal in Brussel, de Stadsschouwburg in Antwerpen en producties in Nederland beheert.</p>
 				
-							<p>Ook dit jaar wordt er weer een rijk gevuld programma aangeboden van klassiek tot pop en rock, theater, cabaret, dans en film. Voor elk wat wils!</p>
+							<p>Ook dit jaar wordt er weer een rijk gevuld programma aangeboden van klassiek tot pop en rock, theater, cabaret, dans en film. <em clas="em-text">Voor elk wat wils!</em></p>
 				]]>
 				
 			</historiek>
@@ -336,27 +302,27 @@
 				</titleHead>
 				<description>
 			  <![CDATA[
-				  <p>If you walk along the ‘South’ in Ghent, you might immediately notice the beautiful façade of the Capitole. Its beautiful neoclassical façade with its pediment and colonnade catch the eye straightaway. Because of the pillars with the info of the performances along the entrance and the word CAPITOLE above, it creates the feeling of an old cinema at the time of Marilyn Monroe. <br />Once inside the Capitole you immediately notice the glamorous style of the building with some classical details. The Capitole stands for culture, talent, glamour, ambiance, entertainment, bringing people together,…</p>
+				  <p>If you walk along the ‘South’ in Ghent, you might immediately notice the beautiful façade of the Capitole. Its beautiful <strong>neoclassical</strong> façade with its pediment and colonnade catch the eye straightaway. Because of the pillars with the info of the performances along the entrance and the word <strong>CAPITOLE</strong> above, it creates the feeling of an old cinema at the time of Marilyn Monroe. <br />Once inside the Capitole you immediately notice the glamorous style of the building with some classical details. The Capitole stands for culture, talent, glamour, ambiance, entertainment, bringing people together,…</p>
 				 ]]>
 		  </description>
 		  <content>
 		  	<titel id="gebouw">The building</titel>
 		  	<gebouw>
 		  	<![CDATA[
-				<p>The Capitole now has a large stage with a backstage underneath, VIP rooms, several bars, a theatre tower and an acoustic orchestra pit for 64 people. <br />But the Capitole is not only for the shows and plays, the building also hosts an auditorium with 1600 seats, a large stage, a few large breakout rooms, bars and a fully finished attic space that is ideal for meetings or seminars.</p>
+				<p>The Capitole now has a large stage with a backstage underneath, VIP rooms, several bars, a theatre tower and an <strong>acoustic orchestra pit for 64 people</strong>. <br />But the Capitole is not only for the shows and plays, the building also hosts an <strong>auditorium</strong> with 1600 seats, a large stage, a few large breakout rooms, bars and a fully finished attic space that is ideal for <strong>meetings</strong> or <strong>seminars</strong>.</p>
 			]]>
 			</gebouw>
 			<titel id="history1">Metamorphosis</titel>
 			<historiek id="1">
 				<![CDATA[
-					<p>Throughout the years, the Capitole has undergone a complete metamorphosis. It all started in 1850, when the building was built. After the Belgian independence, district ‘South’ was created around the first train station in Ghent with later the zoo and the park. <br />After that, in 1932, the façade with the triangular fronton and its neoclassical colonnade were kept and Geo Hendrickx built a cinema behind this old façade. This cinema, ‘Le Capitole’, was an architectural peak for Hendrickx because of the perfect acoustics and the optimal view for the spectators.</p>
+					<p>Throughout the years, the Capitole has undergone a complete metamorphosis. It all started in <em clas="em-text">1850</em>, when the building was built. After the <strong>Belgian independence</strong>, district ‘South’ was created around the first train station in Ghent with later the zoo and the park. <br />After that, in <em clas="em-text">1932</em>, the façade with the triangular fronton and its neoclassical colonnade were kept and <strong>Geo Hendrickx</strong> built a <em clas="em-text">cinema</em> behind this old façade. This cinema, ‘Le Capitole’, was an architectural peak for Hendrickx because of the <strong>perfect acoustics</strong> and the <strong>optimal view</strong> for the spectators.</p>
 						
 				]]>
 			</historiek>
 			<titel id="history2">Multipurpose</titel>
 			<historiek id="2">
 				<![CDATA[
-					<p>This cinema was the biggest and most prestigious for a long time, because next to film screenings, recitals and performances were held. The room consisted of a big stage, great lighting and a fly tower of at least eleven meters high. There was enough room for a hundred-piece orchestra.<br />
+					<p>This cinema was the biggest and most prestigious for a long time, because next to film screenings, <strong>recitals</strong> and <strong>performances</strong> were held. The room consisted of a big stage, great lighting and a fly tower of at least eleven meters high. There was enough room for a <strong>hundred-piece orchestra</strong>.<br />
 					The opening programme was mostly for beginners and small attractions. After the break it was time for the big stars, like Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. But The Ramblers, Leo Martin and his orchestra, Les Compagnons de la Chanson, Anton Karas, Ethel Smith and many others could also be admired in the Capitole.</p>
 				
 				]]>
@@ -364,12 +330,12 @@
 			<titel id="history3">Revival</titel>
 			<historiek id="3">
 				<![CDATA[
-					<p>Around 1980, the crisis hit the cinema sector, which meant a loss for the Capitole. Because of this, they were forced to close their doors in 1986. The building stayed closed for 14 years until the Music Hall Group bought it. The facades and roofing became a protected monument in 1988.<br />
-					The prestigious cinema hall reopened on the 28th of October 2001 with the premiere of the musical Camelot. The Capitole regained its faded glory because of its unique theatre hall and charm. The intention of the Capitole was to screen the musicals and performances of the Music Hall Group, but other events passed the revue as well.<br />
+					<p>Around <em clas="em-text">1980</em>, the <strong>crisis</strong> hit the cinema sector, which meant a loss for the Capitole. Because of this, they were forced to close their doors in <em clas="em-text">1986</em>. The building stayed <strong>closed for 14 years</strong> until the <em clas="em-text">Music Hall Group</em> bought it. The facades and roofing became a protected monument in <em clas="em-text">1988</em>.<br />
+					The prestigious cinema hall reopened on the <em clas="em-text">28th of October 2001</em> with the premiere of the <strong>musical Camelot</strong>. The Capitole regained its faded glory because of its unique theatre hall and charm. The intention of the Capitole was to screen the musicals and performances of the Music Hall Group, but other events passed the revue as well.<br />
 					Under the leadership of the new owner came a bigger stage with a backstage underneath it. In the years that followed, VIP rooms and bars were added.<br />
-					The Capitole remained a big success thanks to the Music Hall Group, which also manages Vorst Nationaal in Brussels, the Stadsschouwburg in Antwerp and many productions in Holland.</p>
+					The Capitole remained a big success thanks to the <em clas="em-text">Music Hall Group</em>, which also manages Vorst Nationaal in Brussels, the Stadsschouwburg in Antwerp and many productions in Holland.</p>
 					
-					<p>Up until this year a rich program is being offered, from classical to pop and rock, theatre, cabaret, dance and film. Something for everyone!</p>
+					<p>Up until this year a rich program is being offered, from classical to pop and rock, theatre, cabaret, dance and film. <em clas="em-text">Something for everyone!</em></p>
 				]]>
 			</historiek>
 		  </content>
@@ -380,37 +346,37 @@
 				</titleHead>
 				<description>
 			  <![CDATA[
-				  <p>Quand vous promenez dans le Zuid à Gand, la belle façade du Capitole saute directement aux yeux. Cette façade néo-classique et sa colonnade sont très connues parmi les Belges. Les colonnes aves les affiches des performances au travers de l’entrée et le mot CAPITOLE au-dessus nous donnent l’air d’un cinéma vieux au moment de Marilyn Monroe. <br />Quand nous sommes entrés dans le Capitole on remarque directement le style glamour du bâtiment et des détails classiques. Le Capitole représente culture, talent, glamour, ambiance, détente, réunissant des personnes,…</p>
+				  <p>Quand vous promenez dans le Zuid à Gand, la belle façade du Capitole saute directement aux yeux. Cette façade <strong>néo-classique</strong> et sa colonnade sont très connues parmi les Belges. Les colonnes aves les affiches des performances au travers de l’entrée et le mot <strong>CAPITOLE</strong> au-dessus nous donnent l’air d’un cinéma vieux au moment de Marilyn Monroe. <br />Quand nous sommes entrés dans le Capitole on remarque directement le style glamour du bâtiment et des détails classiques. Le Capitole représente culture, talent, glamour, ambiance, détente, réunissant des personnes,…</p>
 			  ]]>
 		  </description>
 		  <content>
 		  	<titel id="gebouw">Le bâtiment</titel>
 		  	<gebouw>
 		  	<![CDATA[
-				<p>Le Capitole a maintenant une scène très grande et au-dessous des coulisses, des chambres VIP, plusieurs bars, un tour de théâtre et une fosse d'orchestre acoustique au-dessous de la scène pour environs 64 personnes. <br />Mais le Capitole n’est pas seulement pour des performances et des théâtres. Le bâtiment abrite également un auditorium pour 1600 personnes, quelques grandes chambres pour se relaxer, des bars et un grenier entièrement aménagé idéal pour des réunions ou séminaires.</p>
+				<p>Le Capitole a maintenant une scène très grande et au-dessous des coulisses, des chambres VIP, plusieurs bars, un tour de théâtre et une fosse d'orchestre acoustique au-dessous de la scène pour environs <strong>64 personnes</strong>. <br />Mais le Capitole n’est pas seulement pour des performances et des théâtres. Le bâtiment abrite également un <strong>auditorium</strong> pour 1600 personnes, quelques grandes chambres pour se relaxer, des bars et un grenier entièrement aménagé idéal pour des <strong>réunions</strong> ou <strong>séminaires</strong>.</p>
 			]]>
 			</gebouw>
 			<titel id="history1">Métamorphose</titel>
 			<historiek id="1">
 				<![CDATA[
-					<p>Au cours des années le Capitole à Gand a subi une vraie métamorphose. Tout a commencé en 1850, quand le bâtiment était construit. Après l’indépendance de la Belgique on a bâti le quartier ‘Zuid’ autour de la gare. <br />Après, en 1932 la façade avec le fronton triangulaire et la colonnade néo-classique était réservée par Geo Hendrickx. Il a construit un cinéma derrière cette façade. Ce cinéma ‘Le Capitole’ était un joyau architectural de Hendrickx grâce à son acoustique parfaite et la vue optimale pour les spectateurs. </p>
+					<p>Au cours des années le Capitole à Gand a subi une vraie métamorphose. Tout a commencé en <em clas="em-text">1850</em>, quand le bâtiment était construit. Après <strong>l’indépendance de la Belgique</strong> on a bâti le quartier ‘Zuid’ autour de la gare. <br />Après, en <em clas="em-text">1932</em> la façade avec le fronton triangulaire et la colonnade néo-classique était réservée par <strong>Geo Hendrickx</strong>. Il a construit <em clas="em-text">un cinéma</em> derrière cette façade. Ce cinéma ‘Le Capitole’ était un joyau architectural de Hendrickx grâce à son <strong>acoustique parfaite</strong> et la <strong>vue optimale</strong> pour les spectateurs. </p>
 				]]>
 			</historiek>
 			<titel id="history2">Polyvalent</titel>
 			<historiek id="2">
 				<![CDATA[
-					<p>Pendant une longue période ce cinéma était le meilleur et le plus prestigieux en Belgique parce que c‘était aussi possible d’y garder des théâtres et spectacles. La salle était construite avec une grande scène, un bon éclairage et une tour de théâtre qui mesurait onze mètres. Il y avait même assez de place pour un orchestre de cent personnes sur la scène. Avant la pause on avaient les débutants et les petites performances, et après la pause les célébrités comme Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Aussi The Ramblers, Leo Martin et son orchestre, Les Compagnons de la Chanson, Anton Karas, l’organiste Ethel Smith et encore beaucoup des autres ont performés dan le Capitol.</p>
+					<p>Pendant une longue période ce cinéma était le meilleur et le plus prestigieux en Belgique parce que c‘était aussi possible d’y garder des <strong>théâtres</strong> et <strong>spectacles</strong>. La salle était construite avec une grande scène, un bon éclairage et une tour de théâtre qui mesurait onze mètres. Il y avait même assez de place pour un <strong>orchestre de cent personnes</strong> sur la scène. Avant la pause on avaient les débutants et les petites performances, et après la pause les célébrités comme Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Aussi The Ramblers, Leo Martin et son orchestre, Les Compagnons de la Chanson, Anton Karas, l’organiste Ethel Smith et encore beaucoup des autres ont performés dan le Capitol.</p>
 				
 				]]>
 			</historiek>
 			<titel id="history3">Renaissance</titel>
 			<historiek id="3">
 				<![CDATA[
-					<p>En environ 1980 la crise dans le secteur cinéma a commencé, ce qui a causé une perte pour le Capitole. C’est ainsi qu’ils ont été forcés de fermer le Capitole en 1986. Le bâtiment restait vide pour quatorze années jusqu’à Music Hall Group l’a acheté. En 1988, les façades et le toit, comme tout les autres façades dans le quartier ont été protégées comme monuments. <br />
-					Le 28 octobre 2001, le cinéma prestigieux est rouvert avec la première du musical Camelot et regagnerait son charme avec son théâtre et charme unique. L’intention du Capitole était de performer les pièces de Music Hall Group, mais aussi des bandes et performances indépendant y passaient la revue.<br />
-					Dirigé par le nouveau propriétaire, le Capitole a reçu une scène plus grande qu’en avant et des coulisses sous la scène. Les années après on a construit des chambres VIP extras, des bars, une tour de théâtre et des salles de répétitions extras. En 2009 la scène a été renouvelée et en dessous on a installé une fosse d'orchestre acoustique pour un orchestre de 64 personnes.<br />
-					Le Capitole a resté un énorme succès grâce à Music Hall Group, qui dirige aussi des productions en Bruxelles (Forest National), en Anvers (Stadsschouwburg) et en Pays-Bas. <br />
-					Aussi cet année nous vous offrons un programme très complet de classique au pop et rock, théâtre, cabaret, dance et filme. Donc quelque chose pour tout le monde!</p>
+					<p>En environ <em clas="em-text">1980</em> la <strong>crise</strong> dans le secteur cinéma a commencé, ce qui a causé une perte pour le Capitole. C’est ainsi qu’ils ont été forcés de fermer le Capitole en <em clas="em-text">1986</em>. Le bâtiment restait <strong>vide pour quatorze années</strong> jusqu’à <em clas="em-text">Music Hall Group</em> l’a acheté. En 1988, les façades et le toit, comme tout les autres façades dans le quartier ont été protégées comme monuments. <br />
+					Le <em clas="em-text">28 octobre 2001</em>, le cinéma prestigieux est rouvert avec la première du <strong>musical Camelot</strong> et regagnerait son charme avec son théâtre et charme unique. L’intention du Capitole était de performer les pièces de Music Hall Group, mais aussi des bandes et performances indépendant y passaient la revue.<br />
+					Dirigé par le nouveau propriétaire, le Capitole a reçu une scène plus grande qu’en avant et des coulisses sous la scène. Les années après on a construit des chambres VIP extras, des bars, une tour de théâtre et des salles de répétitions extras. En <em clas="em-text">2008</em> la scène a été renouvelée et en dessous on a installé une fosse d'orchestre acoustique pour un orchestre de 64 personnes.<br />
+					Le Capitole a resté un énorme succès <strong>grâce à Music Hall Group</strong>, qui dirige aussi des productions en Bruxelles (Forest National), en Anvers (Stadsschouwburg) et en Pays-Bas. <br />
+					Aussi cet année nous vous offrons un programme très complet de classique au pop et rock, théâtre, cabaret, dance et filme. <em clas="em-text">Donc quelque chose pour tout le monde!</em></p>
 				
 				]]>
 			</historiek>
