@@ -7,11 +7,8 @@ $(document).ready(function () {
 	$("#langswitcher > a,#langswitcher ul li a").click(function () {
 		$("#langswitcher ul").slideToggle(300);
 	})
-	var doc = returnDocument();
-	if(doc == "contact.html")
-	{
-		$(".ajax-fc-container").captcha({formId: "frm"});
-	}
+	
+	
 });
 
 //WINDOW RESIZE

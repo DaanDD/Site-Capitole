@@ -1,11 +1,11 @@
 ;(function( $ ){
 	$.fn.captcha = function(options){
 			
-		
+	
 	var defaults = {  
 	   borderColor: "",  
-	   captchaDir: "/",  
-	   url: "captcha.php",  
+	   captchaDir: "/capitole/content/captcha",  
+	   url: "/capitole/captcha.php",  
 	   formId: "frm",  
 	   text: "Verify that you are a human,<br />drag <span>scissors</span> into the circle.",
 	   items: Array("pencil", "scissors", "clock", "heart", "note") 
