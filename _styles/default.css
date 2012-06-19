@@ -180,11 +180,6 @@ em {
   font-size: 11px;
   color: #7F7F7F;
 }
-em.em-text {
-  font-style: italic;
-  font-size: 13px;
-  color: #7F7F7F;
-}
 strong {
   font-weight: bold;
 }
