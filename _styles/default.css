@@ -707,7 +707,9 @@ form {
 #contact-col {
   padding-bottom: 60px;
 }
-.ajax-fc-container {
+.ajax-fc-container,
+.ajax-fc-rtop *,
+.ajax-fc-rbottom * {
   background-color: #646464 !important;
 }
 #about {
