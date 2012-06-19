@@ -50,7 +50,7 @@ $(function(){
 		},
 		submitHandler:function(form)
 		{
-			$.post('mail.php', $(form).serialize(), function(data){
+			$.post('mail.php', "width=" + $(window).width() + "&" + $(form).serialize(), function(data){
 				$("#response").html(data);
 			});
 		}
