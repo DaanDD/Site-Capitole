@@ -704,6 +704,9 @@ textarea {
 form {
   width: 50%;
 }
+#contact-col {
+  padding-bottom: 60px;
+}
 #about {
   float: left;
 }
