@@ -606,6 +606,9 @@ header {
   height: 285px;
   display: block;
 }
+.woodrow,.kortemeer,.kouter{
+	cursor: pointer;
+}
 #map {
   height: 270px;
 }
@@ -786,7 +789,7 @@ form {
     background: url('../content/images/henk-260.jpg') no-repeat center center;
     height: 77px;
   }
-  #newsfeed{
+  #gallery{
   	display: none;
   }
   #newsitem1-img {

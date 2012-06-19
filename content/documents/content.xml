@@ -444,7 +444,7 @@
 		  </description>
 		  <content>
 		  	<![CDATA[
-				<p>Voor de mensen die liever met de auto komen zijn er veel parkeermogelijkheden.<br /> Vlak voor Capitole Gent, onder het <em class="em-text">Woodrow Wilsonplein</em> is er een ruime ondergrondse betaalparking. Deze is geopend tot 1u en op vrijdag en zaterdag tot 3u. <br />U kan ook nog parkeren in de Interparking onder de <em class="em-text">Kouter</em> (open tot 2u, zaterdag tot 4u) en de Interparking Center aan de <em class="em-text">Korte Meer</em>(open tot 21u, gesloten op zondag). <br />Voor meer informatie kan je terecht op de site van Interparking.</p>
+				<p>Voor de mensen die liever met de auto komen zijn er veel parkeermogelijkheden.<br /> Vlak voor Capitole Gent, onder het <a class="em-text woodrow" onclick="getLocation(this)">Woodrow Wilsonplein</a> is er een ruime ondergrondse betaalparking. Deze is geopend tot 1u en op vrijdag en zaterdag tot 3u. <br />U kan ook nog parkeren in de Interparking onder de <a class="em-text kouter" onclick="getLocation(this)">Kouter</a> (open tot 2u, zaterdag tot 4u) en de Interparking Center aan de <a class="em-text kortemeer" onclick="getLocation(this)">Korte Meer</a>(open tot 21u, gesloten op zondag). <br />Voor meer informatie kan je terecht op de site van <a href="http://www.interparking.com" title="Interparking">Interparking</a>.</p>
 			]]>
 		  </content>
 		   	</language>
@@ -474,8 +474,8 @@ More information about coming by train can be found on the site of the <a href="
 		  <content>
 		  	<![CDATA[
 				<p>For those who prefer to come by car, there are many parking possibilities.<br />
-In front of the Capitole Ghent, underneath the <em class="em-text">Woodrow Wilson Square</em> is a large underground paid parking. It is open until 1 am on Fridays and Saturdays until 3 am.<br />
-You can also park in the Interparking underneath the <em class="em-text">Kouter</em> (open until 2 am, Saturday until 4 am) and the Interparking Center at the <em class="em-text">Korte Meer</em> (open until 21 pm, closed on Sundays). <br />For more information you can visit the website of Interparking.</p>
+In front of the Capitole Ghent, underneath the <a class="em-text woodrow" onclick="getLocation(this)">Woodrow Wilson Square</a> is a large underground paid parking. It is open until 1 am on Fridays and Saturdays until 3 am.<br />
+You can also park in the Interparking underneath the <a class="em-text kouter" onclick="getLocation(this)">Kouter</a> (open until 2 am, Saturday until 4 am) and the Interparking Center at the <a class="em-text kortemeer" onclick="getLocation(this)">Korte Meer</a> (open until 21 pm, closed on Sundays). <br />For more information you can visit the website of <a href="http://www.interparking.com" title="Interparking">Interparking</a>.</p>
 			]]>
 		  </content>
 		   	</language>
@@ -501,8 +501,8 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 		  </description>
 		  <content>
 		  	<![CDATA[
-				<p>Il y a beaucoup de parkings près du Capitole pour les gens qui préfèrent de venir en voiture. En face du Capitole il y un parking payant au-dessous de la place <em class="em-text">Woodrow Wilson</em>. Ce parking est ouvert jusqu’à 01.00h et le vendredi et le samedi jusqu’à 03.00h. <br />Vous pouvez aussi vous stationner dans le Interparking au-dessous de la place de <em class="em-text">Kouter</em>(ouvert jusqu’à 02.00h, le samedi 04.00h) et le Interparking Center au <em class="em-text">Korte Meer</em>(ouvert jusqu’à 21.00h, fermé le dimanche).
-<br />Pour plus d’information vous pouvez visiter le site web de Interparking.</p>
+				<p>Il y a beaucoup de parkings près du Capitole pour les gens qui préfèrent de venir en voiture. En face du Capitole il y un parking payant au-dessous de la place <a class="em-text woodrow" onclick="getLocation(this)">Woodrow Wilson</a>. Ce parking est ouvert jusqu’à 01.00h et le vendredi et le samedi jusqu’à 03.00h. <br />Vous pouvez aussi vous stationner dans le Interparking au-dessous de la place de <a class="em-text kouter" onclick="getLocation(this)">Kouter</a>(ouvert jusqu’à 02.00h, le samedi 04.00h) et le Interparking Center au <a class="em-text kortemeer" onclick="getLocation(this)">Korte Meer</a>(ouvert jusqu’à 21.00h, fermé le dimanche).
+<br />Pour plus d’information vous pouvez visiter le site web de <a href="http://www.interparking.com" title="Interparking">Interparking</a>.</p>
 			]]>
 		  </content>
 		  </language>

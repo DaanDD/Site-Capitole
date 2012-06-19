@@ -1,6 +1,6 @@
 // User's location and location of the CAPITOLE 
 // WRITTEN BY STEFAAN CHRISTIAENS
-//LAST MODIFIED DATE 27/03/12
+//LAST MODIFIED DATE 19/06/12
 //*************************************************
 var Googlemap;
 var capitolMarker;
@@ -21,6 +21,9 @@ var positionName = ["Huidige locatie","Current location","Localisation actuelle"
 var posName;
 var capNameArray = ["Het Capitole","The Capitole","Le Capitole"];
 var capName;
+
+var parkArray = [new google.maps.LatLng(51.047551,3.730076),new google.maps.LatLng(51.050414,3.723558),new google.maps.LatLng(51.050945,3.722606),0,0,0];
+
 
 function display(){
 		 var myOptions = {
@@ -131,12 +134,7 @@ function displayMap(){
 			});
 		
 	}
-	
-//	$("#markers").append('<a onclick=showMarker("current")>' + currentMarker.getTitle() + '</a><br />');
-//	$("#markers").append('<a onclick=showMarker("capitole")>' + capitolMarker.getTitle() + '</a><br />');
-//	$("#markers").append('<a onclick=displayRoute()>Wegbeschrijving naar het Capitol</a>');
-//	
-	
+		
 }
 
 //function showMarker(marker){
@@ -239,5 +237,57 @@ $(document).ready(function(){
 		
 	});
 	
+		
 });
+function getLocation(parking) {	
+	
+	
+	var parkLoc;
+	var parking = $(parking).attr('class');
+	parking = (parking.split(" "))[1];
+	parking = capitaliseFirstLetter(parking); 
+	switch(parking)
+	{
+		case "Woodrow":   parkLoc = parkArray[0];
+						  break;
+		case "Kouter":    parkLoc = parkArray[1];
+						  break;
+		case "Kortemeer": parkLoc = parkArray[2];
+						  break;
+	}
+	
+	
+	
+	/***** TODO  *****/
+	//CHECK IF MARKER IS ALREADY ON MAP BY TITLE??
+	//THEN IF OR NOT TOGGLE HIDE/SHOW
+	/***** END TODO *****/
+	
+	
+	var image = new google.maps.MarkerImage(
+	  'content/images/markerInterparking.png',
+	  new google.maps.Size(30,30),
+	  new google.maps.Point(0,0),
+	  new google.maps.Point(15,30)
+	);
+	
+	var shape = {
+	  coord: [18,3,20,4,21,5,22,6,23,7,24,8,24,9,25,10,25,11,25,12,26,13,26,14,26,15,26,16,25,17,25,18,25,19,24,20,24,21,23,22,22,23,22,24,22,25,22,26,17,27,16,28,16,29,13,29,12,28,11,27,7,26,7,25,7,24,6,23,5,22,4,21,4,20,3,19,3,18,3,17,3,16,3,15,3,14,3,13,3,12,3,11,3,10,4,9,4,8,5,7,6,6,7,5,9,4,11,3,18,3],
+	  type: 'poly'
+	};	
+	
+	var parkingMarker = new google.maps.Marker({
+	  icon: image,
+	  shape: shape,
+	  map: Googlemap,
+	  position: parkLoc,
+	  title: parking
+	});
+}
+
+function capitaliseFirstLetter(string)
+{
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 	
