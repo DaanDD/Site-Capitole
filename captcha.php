@@ -7,6 +7,9 @@
   Created by Web Design Beach.
   Copyright 2009 Web Design Beach. All rights reserved.
 */
+
+
+$check =  false;
 session_start(); /* starts session to save generated random number */
 
 /* this compare captcha's number from POST and SESSION */
@@ -14,23 +17,27 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST['captcha']) && $_POST['c
 	{
 		//echo "Passed!"; /* YOUR CODE GOES HERE */ 
 		unset($_SESSION['captcha']); /* this line makes session free, we recommend you to keep it */
-		header ('Location: http://www.themissingh.be/capitole/contact.html');
+		$check = true;
+		
 	} 
 elseif($_SERVER['REQUEST_METHOD'] == "POST" && !isset($_POST['captcha']))
 	{
-		//echo "Failed!";
+		$check = false;
 		
-		header ('Location: http://www.themissingh.be/capitole/contact.html');
+		
 	}
 /* in case that form isn't submitted this file will create a random number and save it in session */
 else
 	{
 		$rand = rand(0,4);
+		$check = false;
 		$_SESSION['captcha'] = $rand;
 		//echo $rand;
 		
-		header ('Location: http://www.themissingh.be/capitole/contact.html');
+		
 	}
+	
+
 ?>
 
 

@@ -35,7 +35,6 @@ $(function(){
 		},
 		errorPlacement:function(error, element)
 		{
-			console.log(element.attr('id'));
 			if(element.attr('id') == "naam")
 			{
 				error.appendTo("#naamSpan");
@@ -48,11 +47,12 @@ $(function(){
 			{
 				error.appendTo("#bdaySpan");
 			}
-			
 		},
 		submitHandler:function(form)
 		{
-			$.post('mail.php', $(form).serialize());
+			$.post('mail.php', $(form).serialize(), function(data){
+				$("#response").html(data);
+			});
 		}
 		
 	});

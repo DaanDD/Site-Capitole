@@ -15,9 +15,12 @@ $message .="Bday of " .$naam;
 $message .=" : ".$bday;
 $message .="\r Sex: ".$sex;
 
-if(mail($to, $subject, $message)){
+require_once("captcha.php");
+
+
+if($check && mail($to, $subject, $message)){
 echo "Mail successfully sent.";
 }
 else{
-echo "There are some errors to send the mail, verify your server options";
+echo "There are some errors to send the mail, fill in the captcha.";
 }
