@@ -145,13 +145,8 @@ a#totop .outer {
 }
 .media-block h1 {
   color: #cc0000;
-  font: 300 26px 'DIN-Cond', Arial, Helvetica, sans-serif;
-  margin-bottom: 10px;
-}
-.media-block h1 {
   font: 300 42px 'DIN-Cond', Arial, Helvetica, sans-serif;
-  margin-top: 12px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 .media-block h2 {
   font: 300 26px/22px 'DIN', Arial, Helvetica, sans-serif;
@@ -182,13 +177,14 @@ h2 a:hover {
 }
 em {
   font-style: italic;
+}
+em.info {
+  font-style: italic;
   font-size: 11px;
   color: #7F7F7F;
 }
 em.em-text {
-  font-style: italic;
-  font-size: 13px;
-  color: #7F7F7F;
+  color: #5F5F5F;
 }
 strong {
   font-weight: bold;
@@ -605,6 +601,7 @@ header {
   width: 438px;
   height: 285px;
   display: block;
+  margin-top: 8px;
 }
 #map {
   height: 270px;
@@ -713,6 +710,9 @@ form {
   -moz-background-clip: padding-box !important;
   -webkit-background-clip: padding-box !important;
   background-clip: padding-box !important;
+}
+.media-block .row {
+  margin-bottom: 10px;
 }
 .row {
   margin: 0 auto;
