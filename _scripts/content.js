@@ -529,7 +529,12 @@ function parseContact(data){
 	});
 	$("#formPlace").html(content);
 	
+	var doc = returnDocument();
 	
+	if(doc == "contact.html" && window.innerWidth>479)
+	{
+		$(".ajax-fc-container").captcha();
+	}
 		
 }
 

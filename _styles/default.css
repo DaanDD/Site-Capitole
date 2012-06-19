@@ -843,6 +843,9 @@ form {
     min-width: 90%;
     max-width: 90%;
   }
+  .ajax-fc-container {
+    display: none;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 639px) {
   .page {
