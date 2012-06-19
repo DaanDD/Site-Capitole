@@ -606,6 +606,9 @@ header {
 #map {
   height: 270px;
 }
+.woodrow,.kortemeer,.kouter{
+	cursor: pointer;
+}
 /* @end */
 /* @group Contact */
 input,
