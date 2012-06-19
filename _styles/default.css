@@ -595,6 +595,12 @@ header {
   margin-top: 30px;
 }
 /* @end */
+/* @group Media */
+#interview {
+  width: 100%;
+  height: 535px;
+}
+/* @end */
 /* @group Praktisch */
 #praktisch-img {
   background: #ffffff url('../content/images/praktisch.jpg') no-repeat center center;
@@ -830,6 +836,9 @@ form {
   #gallery {
     display: none;
   }
+  #interview {
+    height: 145px;
+  }
   textarea {
     min-width: 90%;
     max-width: 90%;
@@ -931,6 +940,9 @@ form {
     background: #ffffff url('../content/images/praktisch-480.jpg') no-repeat center center;
     width: 412px;
     height: 140px;
+  }
+  #interview {
+    height: 265px;
   }
 }
 @media screen and (min-width: 640px) and (max-width: 960px) {
@@ -1067,6 +1079,9 @@ form {
   textarea {
     max-width: 250px;
     min-width: 250px;
+  }
+  #interview {
+    height: 355px;
   }
 }
 @media screen and (min-width: 960px) {
