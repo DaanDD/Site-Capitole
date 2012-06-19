@@ -1,9 +1,9 @@
 <?php
-$mail = $_POST['mail'];
+$mail = $_POST['email'];
 $naam = $_POST['naam'];
 $bericht = $_POST['bericht'];
 $bday = $_POST['bday'];
-$subject = $_POST['subject'];
+$subject = $_POST['ddl']." - Sent from www.themissingh.be/capitole/contact.html";
 $sex = $_POST['sex'];
 $to = "stef_christiaens@hotmail.com";
 

@@ -72,7 +72,7 @@ $(function(){
 			$("#response").html("Sending message …. ");
 			$("#response").fadeIn("slow");
 			setTimeout(function(){
-				if($("form").valid())
+				if($("#frm").valid())
 				{
 					send(datastr);
 				}
@@ -84,10 +84,7 @@ $(function(){
 			return false;
 		
 	}
-	$("form").submit(function(){
-			//send();
-			return false;
-	});
+	
 	
 });
 
@@ -134,17 +131,8 @@ $.validator.addMethod(
 	errorDate);
 
 function send(datastr){
-	console.log("sending");
-	$.ajax({
-	type: "POST",
-	dataType: 'html',
-	url: "mail.php",
-	data: datastr,
-	cache: false,
-	success: function(html){
-		$("#response").html(html);
-		}
-	})
+	$.post('mail.php', $('#frm').serialize());
+	
 }
 
 
