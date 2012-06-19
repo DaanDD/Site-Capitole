@@ -487,6 +487,9 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					  <option value="vraag">Vraag</option>
 	  				</select><br />
 	  				<textarea placeholder="Bericht" id="bericht"></textarea><br />
+	  				<!-- Begin of captcha -->	
+	  				<div class="ajax-fc-container">Javascript moet aanstaan voor de captcha!</div>
+	  				<!-- End of captcha -->
 	  				<input type="submit" id="button" onClick="send()" value="Verstuur" />
 	  				]]>
 	  				</content>
@@ -504,6 +507,9 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  						  <option value="vraag">Question</option>
 	  					</select><br />
 	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<!-- Begin of captcha -->	
+	  					<div class="ajax-fc-container">You must enable javascript to see captcha here!</div>
+	  					<!-- End of captcha -->
 	  					<input type="submit" id="button" onClick="send()" value="Send" />
 	  					]]>
 	  					</content>
@@ -521,6 +527,9 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  						  <option value="vraag">Question</option>
 	  					</select><br />
 	  					<textarea placeholder="Message" id="bericht"></textarea><br />
+	  					<!-- Begin of captcha -->	
+	  					<div class="ajax-fc-container">If faut que JavaScript est actif pour le captcha!</div>
+	  					<!-- End of captcha -->
 	  					<input type="submit" id="button" onClick="send()" value="Envoyer" />
 	  					]]>
 	  					</content>

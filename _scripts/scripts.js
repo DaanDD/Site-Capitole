@@ -7,6 +7,11 @@ $(document).ready(function () {
 	$("#langswitcher > a,#langswitcher ul li a").click(function () {
 		$("#langswitcher ul").slideToggle(300);
 	})
+	var doc = returnDocument();
+	if(doc == "contact.html")
+	{
+		$(".ajax-fc-container").captcha({formId: "frm"});
+	}
 });
 
 //WINDOW RESIZE
@@ -75,4 +80,9 @@ $(".icon-what").hover(function(){
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
   
+ function returnDocument() {
+     var file_name = document.location.href;
+     var end = (file_name.indexOf("#") == -1) ? file_name.length : file_name.indexOf("#");
+     return file_name.substring(file_name.lastIndexOf("/")+1, end);
+ }
   
