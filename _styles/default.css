@@ -183,7 +183,7 @@ em.info {
   font-size: 11px;
   color: #7F7F7F;
 }
-em.em-text {
+a.em-text, em.em-text {
   color: #5F5F5F;
 }
 strong {
