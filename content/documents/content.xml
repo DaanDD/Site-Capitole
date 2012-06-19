@@ -490,7 +490,7 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  				<!-- Begin of captcha -->	
 	  				<div class="ajax-fc-container"></div>
 	  				<!-- End of captcha -->
-	  				<input type="submit" id="button" onClick="send()" value="Verstuur" />
+	  				<input type="submit" id="button" value="Verstuur" />
 	  				]]>
 	  				</content>
 	  		  	</language>
@@ -510,7 +510,7 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<!-- Begin of captcha -->	
 	  					<div class="ajax-fc-container"></div>
 	  					<!-- End of captcha -->
-	  					<input type="submit" id="button" onClick="send()" value="Send" />
+	  					<input type="submit" id="button" value="Send" />
 	  					]]>
 	  					</content>
 	  			</language>
@@ -530,7 +530,7 @@ Pour ceux qui ne veulent pas venir en voiture il y a aussi la possibilité de ve
 	  					<!-- Begin of captcha -->	
 	  					<div class="ajax-fc-container"></div>
 	  					<!-- End of captcha -->
-	  					<input type="submit" id="button" onClick="send()" value="Envoyer" />
+	  					<input type="submit" id="button" value="Envoyer" />
 	  					]]>
 	  					</content>
 	  			</language>

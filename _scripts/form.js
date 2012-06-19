@@ -49,43 +49,13 @@ $(function(){
 				error.appendTo("#bdaySpan");
 			}
 			
+		},
+		submitHandler:function()
+		{
+			$.post('mail.php', $('#frm').serialize());
 		}
 		
 	});
-	function send(){
-				
-			var naam = $("#naam").val();
-			var mail = $("#email").val();
-			var bday = $("#bday").val();
-			var bericht = $("#bericht").val();
-			var ddl = document.getElementById("ddl");
-			var strUser = ddl.options[ddl.selectedIndex].text;
-			var sex;
-			for (var i = 0; i < document.frm.sex.length; i++){
-			      if (document.frm.sex[i].checked){
-			         sex = document.frm.sex[i].value;
-			         break;
-					}
-			}
-			var datastr ='&naam=' + naam + '&subject=' + strUser + '&mail=' + mail + '&bericht=' + bericht + '&bday=' + bday + '&sex=' + sex ;
-			$("#response").css("display", "block");
-			$("#response").html("Sending message …. ");
-			$("#response").fadeIn("slow");
-			setTimeout(function(){
-				if($("#frm").valid())
-				{
-					send(datastr);
-				}
-				else{
-					$("#response").html("Not valid form …. ");
-				}
-			}, 2000);
-			console.log("sent?");
-			return false;
-		
-	}
-	
-	
 });
 
 
@@ -130,10 +100,6 @@ $.validator.addMethod(
 	}, 
 	errorDate);
 
-function send(datastr){
-	$.post('mail.php', $('#frm').serialize());
-	
-}
 
 
 
