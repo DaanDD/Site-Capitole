@@ -183,7 +183,7 @@ em.info {
   font-size: 11px;
   color: #7F7F7F;
 }
-a.em-text, em.em-text {
+em-text {
   color: #5F5F5F;
 }
 strong {
@@ -606,8 +606,10 @@ header {
 #map {
   height: 270px;
 }
-.woodrow,.kortemeer,.kouter{
-	cursor: pointer;
+.woodrow,
+.kortemeer,
+.kouter {
+  cursor: pointer;
 }
 /* @end */
 /* @group Contact */
