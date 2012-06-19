@@ -1,12 +1,12 @@
 ;(function( $ ){
 	$.fn.captcha = function(options){
 			
-	
+		
 	var defaults = {  
 	   borderColor: "",  
 	   captchaDir: "/capitole/content/captcha",  
 	   url: "/capitole/captcha.php",  
-	   formId: "frm",  
+	   formId: "frm",
 	   text: "Verify that you are a human,<br />drag <span>scissors</span> into the circle.",
 	   items: Array("pencil", "scissors", "clock", "heart", "note") 
 	  };	
@@ -15,7 +15,7 @@
 
 		
 	$(this).html("<b class='ajax-fc-rtop'><b class='ajax-fc-r1'></b> <b class='ajax-fc-r2'></b> <b class='ajax-fc-r3'></b> <b class='ajax-fc-r4'></b></b><img class='ajax-fc-border' id='ajax-fc-left' src='" + options.captchaDir + "/imgs/border-left.png' /><img class='ajax-fc-border' id='ajax-fc-right' src='" + options.captchaDir + "/imgs/border-right.png' /><div id='ajax-fc-content'><div id='ajax-fc-left'><p id='ajax-fc-task'>" + options.text + "</p><ul id='ajax-fc-task'><li class='ajax-fc-0'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-1'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-2'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-3'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li><li class='ajax-fc-4'><img src='" + options.captchaDir + "/imgs/item-none.png' alt='' /></li></ul></div><div id='ajax-fc-right'><a target='_blank' href='http://www.webdesignbeach.com'><img id='ajax-fc-backlink' src='" + options.captchaDir + "/imgs/wdb.png' alt='Web Design Beach' /></a><p id='ajax-fc-circle'></p></div></div><div id='ajax-fc-corner-spacer'></div><b class='ajax-fc-rbottom'><b class='ajax-fc-r4'></b> <b class='ajax-fc-r3'></b> <b class='ajax-fc-r2'></b> <b class='ajax-fc-r1'></b></b>");
-	var rand = $.ajax({ url: options.url,async: true }).responseText;
+	var rand = $.ajax({ url: options.url,async: false }).responseText;
 
 	var pic = randomNumber();
 	$(".ajax-fc-" + rand).html( "<img src=\"" + options.captchaDir +"/imgs/item-" + options.items[pic] + ".png\" alt=\"\" />");

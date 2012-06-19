@@ -32,7 +32,7 @@ else
 		$rand = rand(0,4);
 		$check = false;
 		$_SESSION['captcha'] = $rand;
-		//echo $rand;
+		echo $rand;
 		
 		
 	}
