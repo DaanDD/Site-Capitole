@@ -80,7 +80,7 @@
 				<taal>Taalkeuze</taal>
 				<intro>
 					<wat>
-						<title>Wat is het Capitole?</title>
+						<title>Wat is de Capitole?</title>
 						<content>
 								De Capitole, één van de meest gekende cultuurspots, is een gerenommeerd theater in Gent, België. Het is een prachtig gebouw in de art deco stijl dat zich bevindt op het Zuid. Op deze site kan je alles terugvinden over de geschiedenis van het gebouw, de evenementen en kan je zoeken hoe je er geraakt.
 						</content>
@@ -94,7 +94,7 @@
 					<praktisch>
 						<title>Hoe kom ik er?</title>
 						<content>
-							Het Capitole ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan de auto dus gerust wat verder parkeren en met het openbaar vervoer komen. Als je liever niet met de auto komt kan je ook gerust met de trein komen.
+							De Capitole ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan de auto dus gerust wat verder parkeren en met het openbaar vervoer komen. Als je liever niet met de auto komt kan je ook gerust met de trein komen.
 						</content>
 					</praktisch>
 				</intro>
@@ -250,11 +250,11 @@
 	  	<languages>
 			<language id='nederlands'>
 				<titleHead>
-					Het Capitole
+					De Capitole
 				</titleHead>
 		 		<description>
 			  <![CDATA[
-				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van het Capitole. De mooie <strong>neoklassieke</strong> gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord <strong>CAPITOLE</strong> erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in het Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op. Het Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen,…</p>
+				  <p>Als je langs het Zuid in Gent wandelt merk je direct de mooie gevel op van de Capitole. De mooie <strong>neoklassieke</strong> gevel met zijn fronton en zijn zuilengalerij springen direct in het oog. Door de zuilen met de info van de voorstellingen langs de inkom en het woord <strong>CAPITOLE</strong> erboven wordt het gevoel van een oude cinema opgewekt ten tijde van Marilyn Monroe. <br />Eenmaal binnen in de Capitole merkt men meteen de glamourstijl van het gebouw met enkele klassieke details op. De Capitole staat voor cultuur, talent, glamour, ambiance, ontspanning, het samenbrengen van mensen,…</p>
 				  
 			  ]]>
 		  </description>
@@ -262,13 +262,13 @@
 		  	<titel id="gebouw">Het gebouw</titel>
 		  	<gebouw>
 		  	<![CDATA[
-				<p>het Capitole heeft nu een groot podium met daaronder een backstage, VIP ruimtes, verschillende bars, een theatertoren en een akoestische orkestbak onder het podium voor <strong>64 personen</strong>. <br />Maar het Capitole is niet enkel en alleen voor voorstellingen en theaterstukken, het gebouw herbergt ook een <strong>auditorium</strong> met 1600 stoelen, een groot podium, een paar grote break out kamers, bars en een volledig afgewerkte zolderruimte die ideaal is voor <strong>bijeenkomsten</strong> of <strong>seminaries</strong>.</p>
+				<p>de Capitole heeft nu een groot podium met daaronder een backstage, VIP ruimtes, verschillende bars, een theatertoren en een akoestische orkestbak onder het podium voor <strong>64 personen</strong>. <br />Maar de Capitole is niet enkel en alleen voor voorstellingen en theaterstukken, het gebouw herbergt ook een <strong>auditorium</strong> met 1600 stoelen, een groot podium, een paar grote break out kamers, bars en een volledig afgewerkte zolderruimte die ideaal is voor <strong>bijeenkomsten</strong> of <strong>seminaries</strong>.</p>
 				]]>
 			</gebouw>
 			<titel id="history1">Metamorfose</titel>
 			<historiek id="1">
 				<![CDATA[
-					  <p>Doorheen de jaren is het Capitole te Gent een heuse metamorfose ondergaan. Het begon allemaal in <em clas="em-text">1850</em>, wanneer het pand voor de eerste keer gebouwd werd. Na de <strong>Belgische onafhankelijkheid</strong> werd de wijk 'Het Zuid' opgetrokken rond het eerste treinstation met later de zoo en het park. <br />Daarna, in <em clas="em-text">1932</em> werd de gevel met zijn driehoekig fronton en de neoklassieke zuilengalerij behouden en bouwde <strong>Geo Hendrickx</strong> een <em class="em-text">bioscoopzaal</em> achter deze oude façade. Deze cinema ‘Le Capitole’ was een architecturaal hoogtepunt van Hendrickx door de <strong>perfecte akoestiek</strong> en een <strong>optimaal zicht</strong> voor de toeschouwers. </p>
+					  <p>Doorheen de jaren is de Capitole te Gent een heuse metamorfose ondergaan. Het begon allemaal in <em clas="em-text">1850</em>, wanneer het pand voor de eerste keer gebouwd werd. Na de <strong>Belgische onafhankelijkheid</strong> werd de wijk 'Het Zuid' opgetrokken rond het eerste treinstation met later de zoo en het park. <br />Daarna, in <em clas="em-text">1932</em> werd de gevel met zijn driehoekig fronton en de neoklassieke zuilengalerij behouden en bouwde <strong>Geo Hendrickx</strong> een <em class="em-text">bioscoopzaal</em> achter deze oude façade. Deze cinema ‘Le Capitole’ was een architecturaal hoogtepunt van Hendrickx door de <strong>perfecte akoestiek</strong> en een <strong>optimaal zicht</strong> voor de toeschouwers. </p>
 					  
 				]]>
 			</historiek>
@@ -276,7 +276,7 @@
 			<historiek id="2">
 				<![CDATA[
 							<p>Lang was deze bioscoopzaal de grootste en meest prestigieuze van België want naast de filmvertoningen konden er ook <strong>voorstellingen en optredens</strong> worden gehouden. De zaal werd gebouwd met een groot podium, een goede verlichting en een elf meter hoge toneeltoren. Er was zelfs genoeg plaats voor een <strong>honderdkoppig orkest</strong> op het podium.<br />
-				Het voorprogramma was meestal voor beginners en kleine attracties. Na de pauze was het tijd voor de grote sterren, zoals Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Maar ook The Ramblers, Leo Martin en zijn orkest, Les Compagnons de la Chanson, Anton Karas, de organiste Ethel Smith en vele anderen waren te bewonderen in het Capitole.</p>
+				Het voorprogramma was meestal voor beginners en kleine attracties. Na de pauze was het tijd voor de grote sterren, zoals Johnny Hallyday, Sylvie Vartan, Claude François, Richard Anthony, The Platters, Dalida, Jan Kiepura, Martha Eggerth, Tino Rossi, Joséphine Baker, Luis Mariano. Maar ook The Ramblers, Leo Martin en zijn orkest, Les Compagnons de la Chanson, Anton Karas, de organiste Ethel Smith en vele anderen waren te bewonderen in de Capitole.</p>
 				
 					]]>
 				
@@ -284,11 +284,11 @@
 			<titel id="history3">Heropleving</titel>
 			<historiek id="3">
 			<![CDATA[
-				<p>Rond <em clas="em-text">1980</em> begon de <strong>crisis</strong> in de bioscoopsector, wat zorgde voor een verlies voor het Capitole. Hierdoor waren ze genoodzaakt om het cinemalicht definitief te doven in <em clas="em-text">1986</em>. De zaal bleef <strong>veertien jaar lang leeg</strong> staan tot <em clas="em-text">Music Hall Group</em> de zaal kocht. De gevels en bedaking werd, net als de andere oostelijke gevels van het plein, in <em clas="em-text">1988</em> als monument beschermd.<br />
-				De prestigieuze bioscoopzaal heropende op <em clas="em-text">28 oktober 2001</em> met de première van de <strong>musical Camelot</strong> en herwon zijn vergane glorie door zijn nog steeds unieke theaterzaal en charme.  De bedoeling van het Capitole was toen om de eigen musicals en voorstellingen van de Music Hall Group te vertonen, maar ook andere voorstellingen bands en evenementen passeerden de revue. </p>
+				<p>Rond <em clas="em-text">1980</em> begon de <strong>crisis</strong> in de bioscoopsector, wat zorgde voor een verlies voor de Capitole. Hierdoor waren ze genoodzaakt om het cinemalicht definitief te doven in <em clas="em-text">1986</em>. De zaal bleef <strong>veertien jaar lang leeg</strong> staan tot <em clas="em-text">Music Hall Group</em> de zaal kocht. De gevels en bedaking werd, net als de andere oostelijke gevels van het plein, in <em clas="em-text">1988</em> als monument beschermd.<br />
+				De prestigieuze bioscoopzaal heropende op <em clas="em-text">28 oktober 2001</em> met de première van de <strong>musical Camelot</strong> en herwon zijn vergane glorie door zijn nog steeds unieke theaterzaal en charme.  De bedoeling van de Capitole was toen om de eigen musicals en voorstellingen van de Music Hall Group te vertonen, maar ook andere voorstellingen bands en evenementen passeerden de revue. </p>
 				
 				<p>Onder leiding van de nieuwe eigenaar kwam er een groter podium en een backstage onder het podium. De jaren nadien kwamen er extra VIP ruimtes en bars bij. In <em clas="em-text">2008</em> werd er een theatertoren gebouwd met 48 computergestuurde trekken en kwamen er extra repetitielokalen bij. In <em clas="em-text">2009</em> werd het podium vernieuwd en werd er een akoestische orkestbak onder het podium geïnstalleerd voor een orkest tot 64 personen.<br />
-				het Capitole is een zeer groot succes gebleven dankzij <strong>Music Hall Group</strong>, die ook nog Vorst Nationaal in Brussel, de Stadsschouwburg in Antwerpen en producties in Nederland beheert.</p>
+				de Capitole is een zeer groot succes gebleven dankzij <strong>Music Hall Group</strong>, die ook nog Vorst Nationaal in Brussel, de Stadsschouwburg in Antwerpen en producties in Nederland beheert.</p>
 				
 							<p>Ook dit jaar wordt er weer een rijk gevuld programma aangeboden van klassiek tot pop en rock, theater, cabaret, dans en film. <em clas="em-text">Voor elk wat wils!</em></p>
 				]]>
@@ -388,7 +388,7 @@
 	  	<languages>
 			<language id='nederlands'>
 				<title1>
-					Het Capitole, hoe geraak ik er?
+					De Capitole, hoe geraak ik er?
 				</title1>
 				<title2>
 					Kaart
@@ -401,7 +401,7 @@
 				  <p>Het adres van Capitole Gent is:<br />
   <strong>Graaf Van Vlaanderenplein 5</strong><br />
   <strong>9000 Gent</strong><br />
-  het Capitole in Gent ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan dus zeker de auto wat verder parkeren en met het openbaar vervoer komen. Bekijk de site van <a href="http://www.delijn.be" title="De Lijn">De Lijn</a> om de exacte informatie te raadplegen. Als je liever niet met de auto wilt komen is er ook de mogelijkheid om met de trein te komen. Je kan dan afstappen in <strong>Gent Dampoort</strong> en daar de bus naar het Zuid nemen. <br />Meer informatie over de trein kan je vinden op de site van <a href="http://www.nmbs.be" title="NMBS">NMBS</a>.</p>
+  de Capitole in Gent ligt aan het Zuid, waar zeer veel bussen en trams stoppen. Je kan dus zeker de auto wat verder parkeren en met het openbaar vervoer komen. Bekijk de site van <a href="http://www.delijn.be" title="De Lijn">De Lijn</a> om de exacte informatie te raadplegen. Als je liever niet met de auto wilt komen is er ook de mogelijkheid om met de trein te komen. Je kan dan afstappen in <strong>Gent Dampoort</strong> en daar de bus naar het Zuid nemen. <br />Meer informatie over de trein kan je vinden op de site van <a href="http://www.nmbs.be" title="NMBS">NMBS</a>.</p>
   
 				  
 			  ]]>
